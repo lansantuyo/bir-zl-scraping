@@ -1,0 +1,7 @@
+1.(TODO)read the value of prov, city, barangay
+2.(TODO) once headers are read, read the following rows as dataframe until both classifiation and value are null
+3. verify if its correct
+
+
+
+Check different formats for regex
