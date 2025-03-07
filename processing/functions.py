@@ -89,7 +89,7 @@ def extract_value(pattern, text):
         return None
 
 
-def find_column_headers(df, index, proximity_window=6, debug=False):
+def find_column_headers(df, index, proximity_window=3, debug=False):
     import re
 
     headers = {
@@ -106,6 +106,7 @@ def find_column_headers(df, index, proximity_window=6, debug=False):
         'zv_sq_m_index': -1
     }
 
+    original_index = index
     column_texts = {}
     extend_search = False
     offset = 0
@@ -141,14 +142,14 @@ def find_column_headers(df, index, proximity_window=6, debug=False):
                         r"C\s*O\s*N\s*D\s*O\s*M\s*I\s*N\s*I\s*U\s*M)",
                         combined_text, re.IGNORECASE):
                     headers['street_name_index'] = col_index
-                    headers_max_offset['street_name_index'] = offset
+                    headers_max_offset['street_name_index'] = current_index - original_index
                     if debug:
                         print(f"max offset updated: {current_index}")
 
             if headers['vicinity_index'] is None:
                 if re.search(r"V\s*I\s*C\s*I\s*N\s*I\s*T\s*Y", combined_text, re.IGNORECASE):
                     headers['vicinity_index'] = col_index
-                    headers_max_offset['vicinity_index'] = offset
+                    headers_max_offset['vicinity_index'] = current_index - original_index
                     if debug:
                         print(f"max offset updated: {current_index}")
 
@@ -158,7 +159,7 @@ def find_column_headers(df, index, proximity_window=6, debug=False):
                         r"C\s*L\s*A\s*S\s*S\s*I\s*F\s*I\s*C\s*A\s*T\s*I\s*O\s*N",
                         combined_text, re.IGNORECASE | re.DOTALL):
                     headers['classification_index'] = col_index
-                    headers_max_offset['classification_index'] = offset
+                    headers_max_offset['classification_index'] = current_index - original_index
                     if debug:
                         print(f"max offset updated: {current_index}")
                     extend_search = True  # Flag to extend the search
@@ -172,7 +173,7 @@ def find_column_headers(df, index, proximity_window=6, debug=False):
                 match = re.search(zv_pattern, combined_text, re.IGNORECASE)
                 if match:
                     headers['zv_sq_m_index'] = col_index
-                    headers_max_offset['zv_sq_m_index'] = offset
+                    headers_max_offset['zv_sq_m_index'] = current_index - original_index
                     if debug:
                         print(f"max offset updated: {current_index}")
 
@@ -184,8 +185,6 @@ def find_column_headers(df, index, proximity_window=6, debug=False):
                     elif zv_pattern_holder == match:  # if new pattern is the same, get previous values
                         headers_max_offset['zv_sq_m_index'] = zv_offset_holder
 
-                    # if the new match is different
-
         if extend_search:
             if debug:
                 print("Extending search")
@@ -195,17 +194,32 @@ def find_column_headers(df, index, proximity_window=6, debug=False):
 
         offset += 1
 
+    # for the classification in 3 diff
+    if headers['zv_sq_m_index'] and headers['vicinity_index']:
+        if headers['zv_sq_m_index'] - headers['vicinity_index'] == 4:
+            if headers['classification_index'] - headers['vicinity_index'] == 4:
+                headers['classification_index'] += 1
+
     # If all headers were found, determine the maximum offset used
     if all(value is not None for value in headers.values()):
+        # if we have a dupe
+        header_values = list(headers.values())
+        if debug:
+            print(f"Header values: {headers_max_offset.values()}")
+        if len(header_values) != len(set(header_values)):
+            if debug:
+                print(f"Duplicate header index at index {index}")
+            return False, None, original_index
+
         max_offset_used = max(headers_max_offset.values())
         if debug:
-            print(f"Headers found within proximity window up to row {index + max_offset_used}")
+            print(f"Headers found within proximity window up to row {original_index + max_offset_used}")
             print(f"Header indices: {headers}")
-        return True, headers, index + max_offset_used
+        return True, headers, original_index + max_offset_used
     else:
         if debug:
-            print(f"Headers not found within proximity window starting at index {index}")
-        return False, None, index
+            print(f"Headers not found within proximity window starting at index {original_index}")
+        return False, None, original_index
 
 
 def find_location_components(df, index, proximity_window=3, current_province=None, current_city=None,
