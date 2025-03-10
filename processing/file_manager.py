@@ -16,6 +16,9 @@ class MusicFileManager:
         self.path_display = None
         self._setup_widgets()
 
+        # display the box on initialization
+        self.display_selector()
+
     def _extract_rdo_number(self, filename):
         """Extract the RDO number from the filename for sorting"""
         try:
