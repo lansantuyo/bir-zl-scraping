@@ -74,8 +74,9 @@ def clean_value(value, feature=False):
                                flags=re.IGNORECASE).strip()
             value = re.sub(r'^no\.\s*\d+\s*-\s*', '', value, flags=re.IGNORECASE).strip()
             value = re.sub(
-                r"\s*-*\s*(\s*\(cont\s*\.\)|(?:\()?\s*continued\s*(?:\)?)|(?:\()?\s*continuation\s*(?:\))?|(?:\()?\s*continaution\s*(?:\))?|\s*revised).*",
+                r"\s*-*\s*(\s*\(cont\s*\.\)|(?:\()?\s*continued\s*(?:\)?)|(?:\()?\s*continuation\s*(?:\))?|(?:\()?\s*continaution\s*(?:\))?)",
                 "", value, flags=re.IGNORECASE).strip()
+            value = re.sub(r"\s*-+\s*revised.*", "", value, flags=re.IGNORECASE).strip()
             value = re.sub(r'[\s_]+$', '', value)
             return value
         return value
@@ -442,7 +443,6 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
         if debug:
             print(f"Column headers found: {header_indices_new}")
 
-        # if we (kinda) confident we have a table
         if found_headers and found_components:
             if current_province_new == current_province:
                 continuation = True
