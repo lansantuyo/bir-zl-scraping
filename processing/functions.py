@@ -467,6 +467,7 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
             vicinity_holder = None
 
             all_other_vicinity = None
+            prev_col1_is_all_other = None
 
             while index < final_index and age < MAX_AGE:
                 # TODO: Check the types of all variables because some NaN stuff and floats and inconsistent and yeah
@@ -575,6 +576,14 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
                     index += 1
                     continue
 
+                # Just testing this out
+                # make sure to reset all otehr if col1 updates
+                if not (pd.isna(col1) or not str(col1).strip()):
+                    all_other_vicinity = None
+                    if debug:
+                        print(f"New col1 value '{col1}' detected. Resetting all_other_vicinity.")
+
+
                 # Checking for empty col1
                 null_col1 = pd.isna(col1) or not str(col1).strip()
                 if null_col1:
@@ -587,7 +596,7 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
 
                 if isinstance(col1, str):
                     col1_stripped_upper = col1.strip().upper()
-                    is_all_other = col1_stripped_upper.startswith("ALL OTHER")
+                    is_all_other = col1_stripped_upper.startswith("ALL OTHER") or col1_stripped_upper.startswith("ALL LOTS")
                 else:
                     col1_stripped_upper = ''
                     is_all_other = False
@@ -609,11 +618,19 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
                 else:
                     vicinity_holder = vicinity
 
-                    # 'ALL OTHER' logic
+
+                # just testing this out
+                if isinstance(prev_col1, str) and null_col1:
+                    prev_col1_stripped_upper = prev_col1.strip().upper()
+                    prev_col1_is_all_other = prev_col1_stripped_upper.startswith("ALL OTHER") or prev_col1_stripped_upper.startswith(
+                        "ALL LOTS")
+
+
+                # 'ALL OTHER' logic
                 if is_all_other:
                     if not null_vicinity:
                         all_other_vicinity = vicinity
-                    if all_other_vicinity:
+                    if all_other_vicinity or prev_col1_is_all_other:
                         vicinity = all_other_vicinity
                     else:
                         vicinity = ''
@@ -621,6 +638,10 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
                             print(f"'col1' starts with 'ALL OTHER'. Setting 'vicinity' to blank.")
                 else:
                     all_other_vicinity = None
+
+                # TODO: dont hardcode this
+                if vicinity == "ALL LOTS":
+                    vicinity = None
 
                 def is_dash_string(var):
                     return isinstance(var, str) and re.fullmatch(r"\-+", var) is not None
