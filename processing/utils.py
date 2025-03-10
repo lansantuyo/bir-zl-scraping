@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import argparse
 
-from processing.functions import xls_to_df, main
+from processing.functions import xls_to_df, main, clean_value
 from processing.test_functions import main_recursive
 
 
@@ -90,7 +90,7 @@ def excel_to_df(filename, path, use_recursive=False):
 
     return df
 
-def compare_excel_files(file1_path, file2_path, output_path=None):
+def compare_excel_files(file1_path, file2_path, num_rows=3, verbose=False, output_path=None):
 	"""
 	Compare two Excel files and identify rows that are different.
 	When a difference is found, print the row index and the next 7 rows from each file.
@@ -106,6 +106,9 @@ def compare_excel_files(file1_path, file2_path, output_path=None):
 	try:
 		df1 = pd.read_excel(file1_path)
 		df2 = pd.read_excel(file2_path)
+  
+		# hardcoding this for now
+		df2["ZV/SQM"] = df2["ZV/SQM"].map(clean_value)
 	except Exception as e:
 		print(f"Error reading Excel files: {e}")
 		return
@@ -135,7 +138,7 @@ def compare_excel_files(file1_path, file2_path, output_path=None):
 			print(f"\n===== Difference found at row {idx} =====")
 			
 			# Get the next 7 rows or remaining rows if less than 7
-			rows_to_display = min(7, len(df1) - idx)
+			rows_to_display = min(num_rows, len(df1) - idx)
 			
 			# Create comparison for this difference
 			diff_info = {
@@ -145,13 +148,14 @@ def compare_excel_files(file1_path, file2_path, output_path=None):
 			}
 			comparison_results.append(diff_info)
 			
-			# Print the difference
-			print(f"\nFile 1 ({file1_path}) rows {idx} to {idx+rows_to_display-1}:")
-			print(df1.iloc[idx:idx+rows_to_display].to_string())
-			
-			print(f"\nFile 2 ({file2_path}) rows {idx} to {idx+rows_to_display-1}:")
-			print(df2.iloc[idx:idx+rows_to_display].to_string())
-			
+			if verbose:
+				# Print the difference
+				print(f"\nFile 1 ({file1_path}) rows {idx} to {idx+rows_to_display-1}:")
+				print(df1.iloc[idx:idx+rows_to_display].to_string())
+				
+				print(f"\nFile 2 ({file2_path}) rows {idx} to {idx+rows_to_display-1}:")
+				print(df2.iloc[idx:idx+rows_to_display].to_string())
+				
 			# Highlight specific differences in the first different row
 			different_columns = []
 			for col in df1.columns:
