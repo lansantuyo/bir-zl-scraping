@@ -5,7 +5,7 @@ from processing.functions import xls_to_df, main
 from processing.test_functions import main_recursive
 
 
-def process_excel_files(input_dir="data/", initial_version=1, use_recursive=False):
+def process_excel_files(input_dir="data/", base_output_dir="output_files", initial_version=1, use_recursive=False):
     """
     Process all Excel files in a directory and save results with auto-incrementing version and date.
     Include the sheet name in the output filename.
@@ -14,6 +14,7 @@ def process_excel_files(input_dir="data/", initial_version=1, use_recursive=Fals
         input_dir (str): Input directory containing Excel files
         initial_version (int): Initial version number to start checking from
         use_recursive (bool): Whether to use the recursive version of main
+        base_output_dir (str): directory for all output dirs
 
     Returns:
         str: Path to the output directory where files were saved
@@ -27,7 +28,7 @@ def process_excel_files(input_dir="data/", initial_version=1, use_recursive=Fals
     # Auto-increment version number if directory exists
     version = initial_version
     while True:
-        output_dir = f"output_v{version}_{date_str}"
+        output_dir = f"{base_output_dir}\\output_v{version}_{date_str}"
         if not os.path.exists(output_dir):
             break
         version += 1
