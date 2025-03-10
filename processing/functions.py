@@ -74,7 +74,7 @@ def clean_value(value, feature=False):
                                flags=re.IGNORECASE).strip()
             value = re.sub(r'^no\.\s*\d+\s*-\s*', '', value, flags=re.IGNORECASE).strip()
             value = re.sub(
-                r"\s*-*\s*(\s*\(cont\s*\.\)|(?:\()?\s*continued\s*(?:\)?)|(?:\()?\s*continuation\s*(?:\))?|(?:\()?\s*continaution\s*(?:\))?)",
+                r"\s*-*\s*(\s*\(cont\s*\.\)|(?:\()?\s*continued\s*(?:\)?)|(?:\()?\s*continuation\s*(?:\))?|(?:\()?\s*continaution\s*(?:\))?|\s*revised).*",
                 "", value, flags=re.IGNORECASE).strip()
             value = re.sub(r'[\s_]+$', '', value)
             return value
@@ -197,7 +197,7 @@ def find_column_headers(df, index, proximity_window=3, debug=False):
     # for the classification in 3 diff
     if headers['zv_sq_m_index'] and headers['vicinity_index']:
         if headers['zv_sq_m_index'] - headers['vicinity_index'] == 4:
-            if headers['classification_index'] - headers['vicinity_index'] == 4:
+            if headers['classification_index'] - headers['vicinity_index'] == 1:
                 headers['classification_index'] += 1
 
     # If all headers were found, determine the maximum offset used
@@ -205,7 +205,7 @@ def find_column_headers(df, index, proximity_window=3, debug=False):
         # if we have a dupe
         header_values = list(headers.values())
         if debug:
-            print(f"Header values: {headers_max_offset.values()}")
+            print(f"Offset values: {headers_max_offset.values()}")
         if len(header_values) != len(set(header_values)):
             if debug:
                 print(f"Duplicate header index at index {index}")
@@ -295,7 +295,7 @@ def find_location_components(df, index, proximity_window=3, current_province=Non
             # If all components have values (either found now or already had values), we can return
             # if (current_province and current_city and current_barangay) or offset == proximity_window - 1:
             if all([current_province and current_city and current_barangay]):
-                return current_province, current_city, current_barangay, last_matched_index
+                return current_province, current_city, current_barangay, last_matched_index + 1
             if offset == proximity_window - 1:
                 return current_province, current_city, current_barangay, initial_index
 
@@ -376,17 +376,17 @@ def find_location_components(df, index, proximity_window=3, current_province=Non
                     continue
                 if debug:
                     print(f"Found all location components! Last matched index: {last_matched_index}")
-                return current_province, current_city, current_barangay, last_matched_index
+                return current_province, current_city, current_barangay, last_matched_index + 1
 
             if offset == proximity_window - 1:
                 if found_any:
-                    return current_province, current_city, current_barangay, last_matched_index
+                    return current_province, current_city, current_barangay, last_matched_index + 1
                 if barangay_holder:
                     current_barangay = barangay_holder
-                    return current_province, current_city, current_barangay, last_matched_index
+                    return current_province, current_city, current_barangay, last_matched_index + 1
                 if city_holder:
                     current_city = city_holder
-                    return current_province, current_city, current_barangay, last_matched_index
+                    return current_province, current_city, current_barangay, last_matched_index + 1
                 return current_province, current_city, current_barangay, initial_index
 
             # if extend_search:
@@ -412,7 +412,7 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
     new_df = pd.DataFrame(columns=['Province', 'City/Municipality', 'Barangay',
                                    'Street/Subdivision', 'Vicinity', 'Classification', 'ZV/SQM'])
 
-    PROXIMITY_WINDOW = 2  # Increased to accommodate different formats
+    PROXIMITY_WINDOW = 3  # Increased to accommodate different formats
 
     #
     current_province = None
