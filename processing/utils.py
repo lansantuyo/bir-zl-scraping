@@ -61,14 +61,14 @@ def process_excel_files(input_dir="data/", base_output_dir="output_files", initi
             if extension.lower() in ['.xls', '.xlsx']:
                 # Clean sheet name for filename (remove spaces, special chars)
                 clean_sheet_name = re.sub(r'[^a-zA-Z0-9]', '_', sheet_name) if sheet_name else "Unknown"
-                normalized_filename = f"{filename}.xlsx"
+                normalized_filename = f"{filename}"
             else:
                 print(f"Unsupported file format for {excel}. Skipping...")
                 skipped_count += 1
                 continue
 
             # Include sheet name in output filename
-            output_path = os.path.join(output_dir, f"{clean_sheet_name}_{normalized_filename}")
+            output_path = os.path.join(output_dir, f"{normalized_filename}_{clean_sheet_name}.xlsx")
             processed.to_excel(output_path, index=False)
 
             print(f'Processed file saved as: {output_path}')
@@ -91,102 +91,135 @@ def excel_to_df(filename, path, use_recursive=False):
 
     return df
 
-def compare_excel_files(file1_path, file2_path, num_rows=3, verbose=False, output_path=None):
-	"""
-	Compare two Excel files and identify rows that are different.
-	When a difference is found, print the row index and the next 7 rows from each file.
-	
-	Args:
-		file1_path (str): Path to the first Excel file
-		file2_path (str): Path to the second Excel file
-		output_path (str, optional): Path to save the comparison results
-	"""
-	print(f"Comparing {file1_path} and {file2_path}...")
-	
-	# Read the Excel files
-	try:
-		df1 = pd.read_excel(file1_path)
-		df2 = pd.read_excel(file2_path)
-  
-		# hardcoding this for now
-		df2["ZV/SQM"] = df2["ZV/SQM"].map(clean_value)
-	except Exception as e:
-		print(f"Error reading Excel files: {e}")
-		return
-	
-	# Check if DataFrames have the same shape
-	if df1.shape != df2.shape:
-		print(f"Files have different dimensions:")
-		print(f"File 1: {df1.shape[0]} rows, {df1.shape[1]} columns")
-		print(f"File 2: {df2.shape[0]} rows, {df2.shape[1]} columns")
-		
-		# Continue with comparison of overlapping rows
-		min_rows = min(df1.shape[0], df2.shape[0])
-		print(f"Comparing only the first {min_rows} rows...")
-		df1 = df1.iloc[:min_rows, :]
-		df2 = df2.iloc[:min_rows, :]
-	
-	# Initialize list to store comparison results
-	comparison_results = []
-	
-	# Compare the DataFrames row by row
-	differences_found = False
-	for idx in range(len(df1)):
-		if not df1.iloc[idx].equals(df2.iloc[idx]):
-			differences_found = True
-			
-			# Print the row index where difference was found
-			print(f"\n===== Difference found at row {idx} =====")
-			
-			# Get the next 7 rows or remaining rows if less than 7
-			rows_to_display = min(num_rows, len(df1) - idx)
-			
-			# Create comparison for this difference
-			diff_info = {
-				"row_index": idx,
-				"file1_rows": df1.iloc[idx:idx+rows_to_display].to_dict('records'),
-				"file2_rows": df2.iloc[idx:idx+rows_to_display].to_dict('records')
-			}
-			comparison_results.append(diff_info)
-			
-			if verbose:
-				# Print the difference
-				print(f"\nFile 1 ({file1_path}) rows {idx} to {idx+rows_to_display-1}:")
-				print(df1.iloc[idx:idx+rows_to_display].to_string())
-				
-				print(f"\nFile 2 ({file2_path}) rows {idx} to {idx+rows_to_display-1}:")
-				print(df2.iloc[idx:idx+rows_to_display].to_string())
-				
-			# Highlight specific differences in the first different row
-			different_columns = []
-			for col in df1.columns:
-				if df1.iloc[idx][col] != df2.iloc[idx][col]:
-					different_columns.append(col)
-			
-			if different_columns:
-				print("\nSpecific differences in row", idx, ":")
-				for col in different_columns:
-					print(f"Column '{col}':")
-					print(f"  File 1: {df1.iloc[idx][col]}")
-					print(f"  File 2: {df2.iloc[idx][col]}")
-	
-	if not differences_found:
-		print("No differences found. The files are identical.")
-	
-	# Save results to output file if specified
-	if output_path and comparison_results:
-		with open(output_path, 'w') as f:
-			f.write(f"Comparison between {file1_path} and {file2_path}\n\n")
-			for diff in comparison_results:
-				idx = diff["row_index"]
-				f.write(f"Difference at row {idx}:\n")
-				
-				f.write(f"\nFile 1 rows {idx} to {idx+len(diff['file1_rows'])-1}:\n")
-				f.write(pd.DataFrame(diff["file1_rows"]).to_string())
-				
-				f.write(f"\nFile 2 rows {idx} to {idx+len(diff['file2_rows'])-1}:\n")
-				f.write(pd.DataFrame(diff["file2_rows"]).to_string())
-				
-				f.write("\n" + "="*50 + "\n")
-		
-		print(f"\nComparison results saved to {output_path}")
+
+def compare_excel_files(file1_path, file2_path, num_rows=3, verbose=False, full_diff=False, output_path=None):
+    """
+    Compare two Excel files and identify rows that are different.
+    When a difference is found, print the row index and the next 7 rows from each file.
+
+    Args:
+        file1_path (str): Path to the first Excel file
+        file2_path (str): Path to the second Excel file
+        output_path (str, optional): Path to save the comparison results
+    """
+    print(f"Comparing {file1_path} and {file2_path}...")
+
+    # Read the Excel files
+    try:
+        df1 = pd.read_excel(file1_path)
+        df2 = pd.read_excel(file2_path)
+
+        # hardcoding this for now
+        df2["ZV/SQM"] = df2["ZV/SQM"].map(clean_value)
+    except Exception as e:
+        print(f"Error reading Excel files: {e}")
+        return
+
+    # Check if DataFrames have the same shape
+    if df1.shape != df2.shape:
+        print(f"Files have different dimensions:")
+        print(f"File 1: {df1.shape[0]} rows, {df1.shape[1]} columns")
+        print(f"File 2: {df2.shape[0]} rows, {df2.shape[1]} columns")
+
+        # Continue with comparison of overlapping rows
+        min_rows = min(df1.shape[0], df2.shape[0])
+        print(f"Comparing only the first {min_rows} rows...")
+        df1 = df1.iloc[:min_rows, :]
+        df2 = df2.iloc[:min_rows, :]
+
+    # Initialize list to store comparison results
+    comparison_results = []
+
+    # Compare the DataFrames row by row
+    differences_found = False
+    for idx in range(len(df1)):
+        if not df1.iloc[idx].equals(df2.iloc[idx]):
+            differences_found = True
+
+            # Print the row index where difference was found
+            print(f"\n===== Difference found at row {idx} =====")
+
+            # Get the next 7 rows or remaining rows if less than 7
+            rows_to_display = min(num_rows, len(df1) - idx)
+
+            # Create comparison for this difference
+            diff_info = {
+                "row_index": idx,
+                "file1_rows": df1.iloc[idx:idx + rows_to_display].to_dict('records'),
+                "file2_rows": df2.iloc[idx:idx + rows_to_display].to_dict('records')
+            }
+            comparison_results.append(diff_info)
+
+            if verbose and False:
+                # Print the difference
+                print(f"\nFile 1 ({file1_path}) rows {idx} to {idx + rows_to_display - 1}:")
+                print(df1.iloc[idx:idx + rows_to_display].to_string())
+
+                print(f"\nFile 2 ({file2_path}) rows {idx} to {idx + rows_to_display - 1}:")
+                print(df2.iloc[idx:idx + rows_to_display].to_string())
+
+            # Highlight specific differences in the first different row
+            different_columns = []
+            for col in df1.columns:
+                if df1.iloc[idx][col] != df2.iloc[idx][col]:
+                    different_columns.append(col)
+
+            # Add this code after the different_columns list is created but before printing specific differences
+            real_differences = []
+
+            # Check each column with differences
+            for col in different_columns:
+                # Check for case differences in string columns
+                if isinstance(df1.iloc[idx][col], str) and isinstance(df2.iloc[idx][col], str):
+                    if df1.iloc[idx][col].lower() == df2.iloc[idx][col].lower():
+                        if verbose:
+                            print(f"Column '{col}': Only case difference")
+                        continue  # This column has only case difference
+
+                # Check for NaN/None differences
+                elif pd.isna(df1.iloc[idx][col]) and pd.isna(df2.iloc[idx][col]):
+                    if verbose:
+                        print(f"Column '{col}': Both values are missing (NaN/None)")
+                    continue  # This column has only NaN/None difference
+
+                # If we get here, this is a real difference
+                real_differences.append(col)
+
+            # If no real differences remain, skip this row
+            if not real_differences:
+                print("Only case differences or equivalent missing values found - verbose=True for more info")
+                continue  # Skip this difference and continue checking other rows
+            else:
+                # Replace different_columns with real_differences for reporting
+                different_columns = real_differences
+
+            if different_columns:
+                print("\nSpecific differences in row", idx, ":")
+                for col in different_columns:
+                    print(f"Column '{col}':")
+                    print(f"  File 1: {df1.iloc[idx][col]}")
+                    print(f"  File 2: {df2.iloc[idx][col]}")
+
+            if not full_diff:
+                break
+
+    if not differences_found:
+        print("No differences found. The files are identical.")
+
+    # Save results to output file if specified
+    if output_path and comparison_results:
+        with open(output_path, 'w') as f:
+            f.write(f"Comparison between {file1_path} and {file2_path}\n\n")
+            for diff in comparison_results:
+                idx = diff["row_index"]
+                f.write(f"Difference at row {idx}:\n")
+
+                f.write(f"\nFile 1 rows {idx} to {idx + len(diff['file1_rows']) - 1}:\n")
+                f.write(pd.DataFrame(diff["file1_rows"]).to_string())
+
+                f.write(f"\nFile 2 rows {idx} to {idx + len(diff['file2_rows']) - 1}:\n")
+                f.write(pd.DataFrame(diff["file2_rows"]).to_string())
+
+                f.write("\n" + "=" * 50 + "\n")
+
+        print(f"\nComparison results saved to {output_path}")
