@@ -31,9 +31,18 @@ def process_excel_files(input_dir="data/", base_output_dir="output_files", initi
     # Auto-increment version number if directory exists
     version = initial_version
     while True:
-        output_dir = f"{base_output_dir}\\output_v{version}_{date_str}"
-        if not os.path.exists(output_dir):
+        output_dir = os.path.join(base_output_dir, f"output_v{version}_{date_str}")
+        
+        # Check if any folder with this version exists, regardless of date
+        version_exists = False
+        for existing_dir in os.listdir(base_output_dir):
+            if existing_dir.startswith(f"output_v{version}_"):
+                version_exists = True
+                break
+        
+        if not version_exists:
             break
+        
         version += 1
 
     print(f"Creating output directory with version {version}: {output_dir}")
