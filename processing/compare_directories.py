@@ -3,12 +3,34 @@ import re
 import pandas as pd
 from tqdm import tqdm
 from pathlib import Path
+from comparison_utils import convert_to_numeric, is_extra_whitespace, is_case_difference, is_numeric_rounding, is_missing_value, is_fill_forward_issue, is_header_included, is_cutoff_difference
+
+
+class RemarkGenerator:
+    def __init__(self):
+        self.issue_patterns = {}
+
+        # initialize with known issues
+        self.add_issue("Extra whitespace difference", is_extra_whitespace)
+        self.add_issue("Case difference", is_case_difference)
+        self.add_issue("Numeric rounding difference", is_numeric_rounding)
+        self.add_issue("Missing value", is_missing_value)
+        self.add_issue("Incorrect fill forward", is_fill_forward_issue)
+        self.add_issue("Table headers included in output", is_header_included)
+
+    def add_issue(self, description, check_function):
+        self.issue_patterns[description] = check_function
+
+    def generate_remark(self, df1_value, df2_value):
+        for remark, check in self.issue_patterns.items():
+            if check(df1_value, df2_value):
+                return remark
+        return "Unclassified difference"
+        
 
 class DirectoryDataFrameComparator:
-    """
-    This class is a work in progress. Do not use this yet.
-    """
-    def __init__(self, input_dir_1: str, input_dir_2: str, output_dir=None, verbose_logs=False):
+    def __init__(self, input_dir_1: str, input_dir_2: str, remark_generator=RemarkGenerator(), 
+                 output_dir=None):
         try:
             self.input_dir_1 = self._validate_path(input_dir_1)
             self.input_dir_2 = self._validate_path(input_dir_2)
@@ -17,7 +39,7 @@ class DirectoryDataFrameComparator:
                 "input_dir_1": self._read_directory(self.input_dir_1),
                 "input_dir_2": self._read_directory(self.input_dir_2)
             }
-            self.verbose_logs = verbose_logs
+            self.remark_generator = remark_generator
         except Exception as e:
             print(f"Error initializing comparator: {e}")
 
@@ -51,7 +73,7 @@ class DirectoryDataFrameComparator:
         if not directory_files['input_dir_1'] or not directory_files['input_dir_2']:
             raise ValueError("One or both directories are empty. No comparisons can be made.")
         try:
-            rdo_pattern = re.compile(r"RDO No\. \d+")
+            rdo_pattern = re.compile(r"RDO No\. \d+[A-Z]?")
             dir1_files = {}
             dir2_files = {}
 
@@ -95,12 +117,15 @@ class DirectoryDataFrameComparator:
                 diff_rows = mask[col]
                 if diff_rows.any():
                     for index in df1.index[diff_rows]:
+                        df1_value = df1.at[index, col]
+                        df2_value = df2.at[index, col]
+                        remark = self.remark_generator.generate_remark(df1_value, df2_value)
                         differences.append({
                             'idx': index,
-                            'df1_value': df1.at[index, col],
-                            'df2_value': df2.at[index, col],
+                            'df1_value': df1_value,
+                            'df2_value': df2_value,
                             'column': col,
-                            'remarks': "",  # blank for now
+                            'remarks': remark,
                             'df1_filename': filepair[0].name,
                             'df2_filename': filepair[1].name
                         })
@@ -112,17 +137,30 @@ class DirectoryDataFrameComparator:
             print(f"Error comparing files {filepair[0]} and {filepair[1]}: {e}")
             return None
 
-    def run(self):
+    def run(self, to_file=False, verbose_logs=False, unique_only=False):
         cumulative_diff_df = pd.DataFrame(columns=['idx', 'df1_value', 'df2_value', 'column',
                                                   'remarks', 'df1_filename', 'df2_filename'])
         matched_filepairs = self._match_directory_files(self.directory_files)
         for filepair in tqdm(matched_filepairs, desc="Comparing files", unit="pair"):
-            if self.verbose_logs:
+            if verbose_logs:
                 print(f"Comparing: {filepair[0].name} with {filepair[1].name}")
             diff_df = self._compare_excel_files(filepair)
             
             if diff_df is not None:  # Avoid concatenating None
                 cumulative_diff_df = pd.concat([cumulative_diff_df, diff_df], ignore_index=True)
         
+        print("Comparisons complete!")
+
+        if unique_only:
+            mask = cumulative_diff_df.drop('idx', axis=1).columns
+            cumulative_diff_df = cumulative_diff_df.drop_duplicates(subset=mask)
+            
+        if to_file:
+            print("Writing to csv...")
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            filename = f"cumulative_diff_{timestamp}.csv"
+            filepath = os.path.join(self.output_dir if self.output_dir else ".", filename)
+            cumulative_diff_df.to_csv(filepath, encoding='utf-8')
+            print(f"Successfully written file to {filepath}")
         return cumulative_diff_df
         
