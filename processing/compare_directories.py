@@ -7,10 +7,17 @@ from comparison_utils import convert_to_numeric, is_extra_whitespace, is_case_di
 
 
 class RemarkGenerator:
+    """
+    Generates human-readable remarks about differences between two dataframe values.
+
+    Attributes:
+        issue_patterns (dict): Dictionary mapping issue descriptions to validation functions.
+    """
     def __init__(self):
+        """Initialize the RemarkGenerator with predefined issue patterns."""
         self.issue_patterns = {}
 
-        # initialize with known issues
+        # Register known issues with their respective checking functions
         self.add_issue("Extra whitespace difference", is_extra_whitespace)
         self.add_issue("Case difference", is_case_difference)
         self.add_issue("Numeric rounding difference", is_numeric_rounding)
@@ -19,9 +26,26 @@ class RemarkGenerator:
         self.add_issue("Table headers included in output", is_header_included)
 
     def add_issue(self, description, check_function):
+        """
+        Adds a new type of issue to be checked.
+
+        Args:
+            description (str): The human-readable description of the issue.
+            check_function (function): The function that validates the issue.
+        """
         self.issue_patterns[description] = check_function
 
     def generate_remark(self, df1_value, df2_value):
+        """
+        Generates a remark describing the type of difference between two values.
+
+        Args:
+            df1_value: The value from the first dataframe.
+            df2_value: The value from the second dataframe.
+
+        Returns:
+            str: A descriptive remark about the difference.
+        """
         for remark, check in self.issue_patterns.items():
             if check(df1_value, df2_value):
                 return remark
@@ -29,8 +53,28 @@ class RemarkGenerator:
         
 
 class DirectoryDataFrameComparator:
+    """
+    Compares data files (Excel) from two directories and identifies differences.
+
+    Attributes:
+        input_dir_1 (str): Path to the first directory.
+        input_dir_2 (str): Path to the second directory.
+        output_dir (str or None): Optional path to output comparison results.
+        directory_files (dict): Stores the files found in each directory.
+        remark_generator (RemarkGenerator): An instance of RemarkGenerator for categorizing differences.
+    """
+    
     def __init__(self, input_dir_1: str, input_dir_2: str, remark_generator=RemarkGenerator(), 
                  output_dir=None):
+        """
+        Initializes the comparator and validates input directories.
+
+        Args:
+            input_dir_1 (str): Path to the first directory.
+            input_dir_2 (str): Path to the second directory.
+            remark_generator (RemarkGenerator, optional): A remark generator instance.
+            output_dir (str, optional): Path to save output files.
+        """
         try:
             self.input_dir_1 = self._validate_path(input_dir_1)
             self.input_dir_2 = self._validate_path(input_dir_2)
@@ -44,6 +88,21 @@ class DirectoryDataFrameComparator:
             print(f"Error initializing comparator: {e}")
 
     def _validate_path(self, directory:str, is_output_dir=False) -> str:
+        """
+        Validates a directory path.
+
+        Args:
+            directory (str): The directory path to validate.
+            is_output_dir (bool): Whether the directory is meant for output.
+
+        Returns:
+            str: The validated directory path.
+
+        Raises:
+            FileNotFoundError: If the directory does not exist.
+            NotADirectoryError: If the path is not a directory.
+            PermissionError: If access is not permitted.
+        """
         if not os.path.exists(directory):
             raise FileNotFoundError(f"Directory '{directory}' does not exist.")
             
@@ -60,6 +119,15 @@ class DirectoryDataFrameComparator:
         return directory
 
     def _read_directory(self, directory: str):
+        """
+        Reads all files from a directory.
+
+        Args:
+            directory (str): Path to the directory.
+
+        Returns:
+            list: List of file paths.
+        """
         dir = Path(directory)
         dir_files = []
         try:
@@ -70,6 +138,15 @@ class DirectoryDataFrameComparator:
             print(f"Error reading directory: {e}")
 
     def _match_directory_files(self, directory_files: dict):
+        """
+        Matches files from two directories based on a common pattern.
+
+        Args:
+            directory_files (dict): Dictionary containing lists of files from both directories.
+
+        Returns:
+            list: List of matched file pairs.
+        """
         if not directory_files['input_dir_1'] or not directory_files['input_dir_2']:
             raise ValueError("One or both directories are empty. No comparisons can be made.")
         try:
@@ -97,6 +174,15 @@ class DirectoryDataFrameComparator:
             raise e
 
     def _compare_excel_files(self, filepair: tuple):
+        """
+        Compares two Excel files cell-by-cell.
+
+        Args:
+            filepair (tuple): A pair of file paths.
+
+        Returns:
+            pd.DataFrame: A DataFrame containing the differences.
+        """
         try:
             df1 = pd.read_excel(str(filepair[0]))
             df2 = pd.read_excel(str(filepair[1]))
@@ -138,6 +224,17 @@ class DirectoryDataFrameComparator:
             return None
 
     def run(self, to_file=False, verbose_logs=False, unique_only=False):
+        """
+        Runs the file comparison process.
+
+        Args:
+            to_file (bool): Whether to save results to a file.
+            verbose_logs (bool): Whether to print detailed logs.
+            unique_only (bool): Whether to display only the first instance of an identified difference.
+
+        Returns:
+            pd.DataFrame: The cumulative differences found.
+        """
         cumulative_diff_df = pd.DataFrame(columns=['idx', 'df1_value', 'df2_value', 'column',
                                                   'remarks', 'df1_filename', 'df2_filename'])
         matched_filepairs = self._match_directory_files(self.directory_files)
