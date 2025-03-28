@@ -76,6 +76,7 @@ def clean_value(value, feature=False):
             value = re.sub(
                 r"\s*-*\s*(\s*\(cont\s*\.\)|(?:\()?\s*continued\s*(?:\)?)|(?:\()?\s*continuation\s*(?:\))?|(?:\()?\s*continaution\s*(?:\))?)",
                 "", value, flags=re.IGNORECASE).strip()
+            value = re.sub(r"\s*-+\s*revised.*", "", value, flags=re.IGNORECASE).strip()
             value = re.sub(r'[\s_]+$', '', value)
             return value
         return value
@@ -84,9 +85,9 @@ def clean_value(value, feature=False):
 def extract_value(pattern, text):
     match = re.search(pattern, text, re.IGNORECASE)
     if match:
-        return match.group(1).strip()
+        return match.group(1).strip(), True
     else:
-        return None
+        return None, False
 
 
 def find_column_headers(df, index, proximity_window=3, debug=False):
@@ -197,7 +198,7 @@ def find_column_headers(df, index, proximity_window=3, debug=False):
     # for the classification in 3 diff
     if headers['zv_sq_m_index'] and headers['vicinity_index']:
         if headers['zv_sq_m_index'] - headers['vicinity_index'] == 4:
-            if headers['classification_index'] - headers['vicinity_index'] == 4:
+            if headers['classification_index'] - headers['vicinity_index'] == 1:
                 headers['classification_index'] += 1
 
     # If all headers were found, determine the maximum offset used
@@ -205,7 +206,7 @@ def find_column_headers(df, index, proximity_window=3, debug=False):
         # if we have a dupe
         header_values = list(headers.values())
         if debug:
-            print(f"Header values: {headers_max_offset.values()}")
+            print(f"Offset values: {headers_max_offset.values()}")
         if len(header_values) != len(set(header_values)):
             if debug:
                 print(f"Duplicate header index at index {index}")
@@ -295,7 +296,7 @@ def find_location_components(df, index, proximity_window=3, current_province=Non
             # If all components have values (either found now or already had values), we can return
             # if (current_province and current_city and current_barangay) or offset == proximity_window - 1:
             if all([current_province and current_city and current_barangay]):
-                return current_province, current_city, current_barangay, last_matched_index
+                return current_province, current_city, current_barangay, last_matched_index + 1
             if offset == proximity_window - 1:
                 return current_province, current_city, current_barangay, initial_index
 
@@ -311,8 +312,8 @@ def find_location_components(df, index, proximity_window=3, current_province=Non
                 offset += 1
                 continue
             # Check for Province
-            province = extract_value(r"Province\s*(?::|\s|of)?\s*(.*)", combined_current_row)
-            if province:
+            province, p_match = extract_value(r"Province\s*(?::|\s|of)?\s*(.*)", combined_current_row)
+            if p_match:
                 current_province = clean_value(province)
                 found_any = True
                 extend_search = True
@@ -321,10 +322,10 @@ def find_location_components(df, index, proximity_window=3, current_province=Non
                     print(f"Province match found in row {current_index}: {current_province}")
 
             # Check for City/Municipality
-            city = extract_value(
+            city, c_match = extract_value(
                 r"(?:(?!City,)(?:City|Municipality))(?:\s*\/\s*(?:City|Municipality))?\s*[:\s]?\s*(.+)",
                 combined_current_row)
-            if city:
+            if c_match:
                 current_city = clean_value(city)
                 found_any = True
                 extend_search = True
@@ -333,14 +334,14 @@ def find_location_components(df, index, proximity_window=3, current_province=Non
                     print(f"City/Municipality match found in row {current_index}: {current_city}")
 
             # Check for Barangay/Zone
-            barangay = extract_value(
+            barangay, b_match = extract_value(
                 r"(?:Barangays|Zone|Barangay)(?:\s*\/\s*(?:Barangays|Zone|Barangay))?\s*[:\s]?\s*(.+)",
                 combined_current_row)
             # Check if the extracted barangay value contains a phrase like "along barangay road"
             if barangay and re.search(r".*\s*(?:along\s*)?barangay.*road.*", combined_current_row, re.IGNORECASE):
                 # print(f"Discarding match due to 'along barangay road' pattern: {barangay}")
                 barangay = None
-            if barangay:
+            if b_match:
                 current_barangay = clean_value(barangay)
                 found_any = True
                 extend_search = True
@@ -376,17 +377,17 @@ def find_location_components(df, index, proximity_window=3, current_province=Non
                     continue
                 if debug:
                     print(f"Found all location components! Last matched index: {last_matched_index}")
-                return current_province, current_city, current_barangay, last_matched_index
+                return current_province, current_city, current_barangay, last_matched_index + 1
 
             if offset == proximity_window - 1:
                 if found_any:
-                    return current_province, current_city, current_barangay, last_matched_index
+                    return current_province, current_city, current_barangay, last_matched_index + 1
                 if barangay_holder:
                     current_barangay = barangay_holder
-                    return current_province, current_city, current_barangay, last_matched_index
+                    return current_province, current_city, current_barangay, last_matched_index + 1
                 if city_holder:
                     current_city = city_holder
-                    return current_province, current_city, current_barangay, last_matched_index
+                    return current_province, current_city, current_barangay, last_matched_index + 1
                 return current_province, current_city, current_barangay, initial_index
 
             # if extend_search:
@@ -412,7 +413,7 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
     new_df = pd.DataFrame(columns=['Province', 'City/Municipality', 'Barangay',
                                    'Street/Subdivision', 'Vicinity', 'Classification', 'ZV/SQM'])
 
-    PROXIMITY_WINDOW = 2  # Increased to accommodate different formats
+    PROXIMITY_WINDOW = 3  # Increased to accommodate different formats
 
     #
     current_province = None
@@ -442,7 +443,6 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
         if debug:
             print(f"Column headers found: {header_indices_new}")
 
-        # if we (kinda) confident we have a table
         if found_headers and found_components:
             if current_province_new == current_province:
                 continuation = True
@@ -467,6 +467,7 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
             vicinity_holder = None
 
             all_other_vicinity = None
+            prev_col1_is_all_other = None
 
             while index < final_index and age < MAX_AGE:
                 # TODO: Check the types of all variables because some NaN stuff and floats and inconsistent and yeah
@@ -575,6 +576,14 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
                     index += 1
                     continue
 
+                # Just testing this out
+                # make sure to reset all otehr if col1 updates
+                if not (pd.isna(col1) or not str(col1).strip()):
+                    all_other_vicinity = None
+                    if debug:
+                        print(f"New col1 value '{col1}' detected. Resetting all_other_vicinity.")
+
+
                 # Checking for empty col1
                 null_col1 = pd.isna(col1) or not str(col1).strip()
                 if null_col1:
@@ -587,7 +596,7 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
 
                 if isinstance(col1, str):
                     col1_stripped_upper = col1.strip().upper()
-                    is_all_other = col1_stripped_upper.startswith("ALL OTHER")
+                    is_all_other = col1_stripped_upper.startswith("ALL OTHER") or col1_stripped_upper.startswith("ALL LOTS")
                 else:
                     col1_stripped_upper = ''
                     is_all_other = False
@@ -609,11 +618,19 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
                 else:
                     vicinity_holder = vicinity
 
-                    # 'ALL OTHER' logic
+
+                # just testing this out
+                if isinstance(prev_col1, str) and null_col1:
+                    prev_col1_stripped_upper = prev_col1.strip().upper()
+                    prev_col1_is_all_other = prev_col1_stripped_upper.startswith("ALL OTHER") or prev_col1_stripped_upper.startswith(
+                        "ALL LOTS")
+
+
+                # 'ALL OTHER' logic
                 if is_all_other:
                     if not null_vicinity:
                         all_other_vicinity = vicinity
-                    if all_other_vicinity:
+                    if all_other_vicinity or prev_col1_is_all_other:
                         vicinity = all_other_vicinity
                     else:
                         vicinity = ''
@@ -621,6 +638,10 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
                             print(f"'col1' starts with 'ALL OTHER'. Setting 'vicinity' to blank.")
                 else:
                     all_other_vicinity = None
+
+                # TODO: dont hardcode this
+                if vicinity == "ALL LOTS":
+                    vicinity = None
 
                 def is_dash_string(var):
                     return isinstance(var, str) and re.fullmatch(r"\-+", var) is not None
