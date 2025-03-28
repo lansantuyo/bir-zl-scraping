@@ -85,9 +85,9 @@ def clean_value(value, feature=False):
 def extract_value(pattern, text):
     match = re.search(pattern, text, re.IGNORECASE)
     if match:
-        return match.group(1).strip()
+        return match.group(1).strip(), True
     else:
-        return None
+        return None, False
 
 
 def find_column_headers(df, index, proximity_window=3, debug=False):
@@ -312,8 +312,8 @@ def find_location_components(df, index, proximity_window=3, current_province=Non
                 offset += 1
                 continue
             # Check for Province
-            province = extract_value(r"Province\s*(?::|\s|of)?\s*(.*)", combined_current_row)
-            if province:
+            province, p_match = extract_value(r"Province\s*(?::|\s|of)?\s*(.*)", combined_current_row)
+            if p_match:
                 current_province = clean_value(province)
                 found_any = True
                 extend_search = True
@@ -322,10 +322,10 @@ def find_location_components(df, index, proximity_window=3, current_province=Non
                     print(f"Province match found in row {current_index}: {current_province}")
 
             # Check for City/Municipality
-            city = extract_value(
+            city, c_match = extract_value(
                 r"(?:(?!City,)(?:City|Municipality))(?:\s*\/\s*(?:City|Municipality))?\s*[:\s]?\s*(.+)",
                 combined_current_row)
-            if city:
+            if c_match:
                 current_city = clean_value(city)
                 found_any = True
                 extend_search = True
@@ -334,14 +334,14 @@ def find_location_components(df, index, proximity_window=3, current_province=Non
                     print(f"City/Municipality match found in row {current_index}: {current_city}")
 
             # Check for Barangay/Zone
-            barangay = extract_value(
+            barangay, b_match = extract_value(
                 r"(?:Barangays|Zone|Barangay)(?:\s*\/\s*(?:Barangays|Zone|Barangay))?\s*[:\s]?\s*(.+)",
                 combined_current_row)
             # Check if the extracted barangay value contains a phrase like "along barangay road"
             if barangay and re.search(r".*\s*(?:along\s*)?barangay.*road.*", combined_current_row, re.IGNORECASE):
                 # print(f"Discarding match due to 'along barangay road' pattern: {barangay}")
                 barangay = None
-            if barangay:
+            if b_match:
                 current_barangay = clean_value(barangay)
                 found_any = True
                 extend_search = True
