@@ -74,7 +74,7 @@ def clean_value(value, feature=False):
                                flags=re.IGNORECASE).strip()
             value = re.sub(r'^no\.\s*\d+\s*-\s*', '', value, flags=re.IGNORECASE).strip()
             value = re.sub(
-                r"\s*-*\s*(\s*\(cont\s*\.\)|(?:\()?\s*continued\s*(?:\)?)|(?:\()?\s*continuation\s*(?:\))?|(?:\()?\s*continaution\s*(?:\))?)",
+                r"\s*-*\s*(\s*\(cont\s*\.?\)|(?:\()?\s*continued\s*(?:\)?)|(?:\()?\s*continuation\s*(?:\))?|(?:\()?\s*continaution\s*(?:\))?)",
                 "", value, flags=re.IGNORECASE).strip()
             value = re.sub(r"\s*-+\s*revised.*", "", value, flags=re.IGNORECASE).strip()
             value = re.sub(r'[\s_]+$', '', value)
@@ -351,8 +351,8 @@ def find_location_components(df, index, proximity_window=3, current_province=Non
 
             if extend_search:
                 # print("Extending search")
-                offset -= 2
-                index += 2
+                offset -= 1
+                index += 1
                 extend_search = False
 
                 # If we've found any component, we can check if we've reached the proximity window or if all components are found
@@ -508,6 +508,7 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
 
                 combined_row = ''.join(map(str, row[
                     [header_indices['classification_index'], header_indices['zv_sq_m_index']]].dropna())).strip()
+                # TODO: make sure calssification index cell value cant ahve a length of 5 or moew
                 valid_data_row = clean_value(combined_row)
                 if debug and any([current_province_new_in_row, current_city_new_in_row, current_barangay_new_in_row]):
                     if current_province_new_in_row:
@@ -639,9 +640,9 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
                 else:
                     all_other_vicinity = None
 
-                # TODO: dont hardcode this
-                if vicinity == "ALL LOTS":
-                    vicinity = None
+                # # TODO: dont hardcode this
+                # if vicinity == "ALL LOTS":
+                #     vicinity = None
 
                 def is_dash_string(var):
                     return isinstance(var, str) and re.fullmatch(r"\-+", var) is not None
