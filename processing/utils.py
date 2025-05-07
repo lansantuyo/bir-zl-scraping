@@ -6,9 +6,10 @@ import argparse
 
 from processing.functions import xls_to_df, main, clean_value
 from processing.test_functions import main_recursive
+from processing.functions_v2 import main
 
 
-def process_excel_files(input_dir="data/", base_output_dir="output_files", initial_version=1, use_recursive=False):
+def process_excel_files(input_dir="data/", base_output_dir="output_files", initial_version=1, use_alternate=False):
     """
     Process all Excel files in a directory and save results with auto-incrementing version and date.
     Include the sheet name in the output filename.
@@ -59,8 +60,8 @@ def process_excel_files(input_dir="data/", base_output_dir="output_files", initi
         df, sheet_name = df_result
 
         if df is not None:
-            if use_recursive:
-                processed = main_recursive(df)
+            if use_alternate:
+                processed = main(df)
             else:
                 processed = main(df)
 

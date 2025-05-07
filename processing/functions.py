@@ -241,6 +241,8 @@ def find_location_components(df, index, proximity_window=3, current_province=Non
     barangay_holder = None
     city_holder = None
 
+    found_details = {}
+
     while offset < proximity_window:
 
         current_index = index + offset
@@ -261,6 +263,7 @@ def find_location_components(df, index, proximity_window=3, current_province=Non
                 re.search(r"PROVINCE\s*/\s*CITY\s*/\s*MUNICIPALITY\s*/\s*BARANGAYS", cell, re.IGNORECASE) for cell in
                 non_null_cells):
             expecting_values = True
+            found_details['combined_label_found_at_df_row'] = current_index
             if debug:
                 print(f"Combined labels found at row {current_index}")
 
@@ -279,16 +282,19 @@ def find_location_components(df, index, proximity_window=3, current_province=Non
                     value = cell.lstrip(":").strip()
                     if not current_province:
                         current_province = clean_value(value)
+                        found_details['province_found_at_df_row'] = current_index
                         found_any = True
                         if debug:
                             print(f"Province found: {current_province}")
                     elif not current_city:
                         current_city = clean_value(value)
+                        found_details['city_found_at_df_row'] = current_index
                         found_any = True
                         if debug:
                             print(f"City/Municipality found: {current_city}")
                     elif not current_barangay:
                         current_barangay = clean_value(value)
+                        found_details['barangay_found_at_df_row'] = current_index
                         found_any = True
                         if debug:
                             print(f"Barangay found: {current_barangay}")
