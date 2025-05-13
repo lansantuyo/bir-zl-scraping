@@ -1,7 +1,9 @@
+import json
 import os
 import re
-import pandas as pd
 
+import numpy as np
+import pandas as pd
 
 
 def extract_rdo_number(filename: str) -> float:
@@ -309,6 +311,7 @@ def find_column_headers(df: pd.DataFrame, start_index: int, proximity_window: in
 
 def find_location_components(
         df: pd.DataFrame,
+        data: np.ndarray,
         start_index: int,
         proximity_window: int = 3,
         current_province: str = None,
@@ -359,10 +362,9 @@ def find_location_components(
         if current_df_row_index >= len(df):
             break
 
-        current_row_series = df.iloc[current_df_row_index]
-        # Concatenate non-null stringified cells for pattern matching across the row
-        combined_row_text = ''.join(map(str, current_row_series.dropna())).strip()
-        non_null_cells_in_row = current_row_series.dropna().astype(str).tolist()
+        row = data[current_df_row_index]
+        non_null_cells_in_row = [str(cell) for cell in row if not pd.isnull(cell)]
+        combined_row_text = ''.join(non_null_cells_in_row).strip()
 
         if debug:
             print(
@@ -524,7 +526,7 @@ def find_location_components(
     return province_val, city_val, barangay_val, final_return_index
 
 
-def main(
+def mainv2(
         df: pd.DataFrame,
         debug: bool = False,
         start_row_index: int = 0,
@@ -552,11 +554,14 @@ def main(
     # Determine the final row index for processing
     max_row_index = len(df) if end_row_index == -1 else end_row_index
     current_row_index = start_row_index
+    data = df.to_numpy()
 
     processed_table_count = 0
-    output_columns = ['Province', 'City/Municipality', 'Barangay',
-                      'Street/Subdivision', 'Vicinity', 'Classification', 'ZV/SQM']
-    structured_df = pd.DataFrame(columns=output_columns)
+    # output_columns = ['Province', 'City/Municipality', 'Barangay',
+    #                   'Street/Subdivision', 'Vicinity', 'Classification', 'ZV/SQM']
+    # structured_df = pd.DataFrame(columns=output_columns)
+
+    output_rows = []
 
     LOCATION_PROXIMITY_WINDOW = 3  # For finding location components
     HEADER_PROXIMITY_WINDOW = 3  # For finding column headers
@@ -590,7 +595,7 @@ def main(
         # Try to find/update location components (Province, City, Barangay)
         # `loc_search_end_idx` is the row index *after* the last row scanned for location info
         new_province, new_city, new_barangay, loc_search_end_idx = find_location_components(
-            df, current_row_index,
+            df, data, current_row_index,
             proximity_window=LOCATION_PROXIMITY_WINDOW,
             current_province=current_province,  # Pass existing to potentially fill gaps
             current_city=current_city,
@@ -661,28 +666,25 @@ def main(
 
             # --- Inner loop: Process data rows for the current table ---
             while current_row_index < max_row_index and empty_row_streak < MAX_EMPTY_ROW_STREAK:
-                current_data_row_series = df.iloc[current_row_index]
+                row = data[current_row_index]
 
-                # Extract cell values based on found header indices
-                # Ensure robust access even if a header index is unexpectedly missing (though find_column_headers should ensure all are present)
-                col1_val = current_data_row_series.iloc[
-                    current_header_indices['street_name_index']] if current_header_indices.get(
+                col1_val = row[current_header_indices['street_name_index']] if current_header_indices.get(
                     'street_name_index') is not None else None
-                classification_val = current_data_row_series.iloc[
-                    current_header_indices['classification_index']] if current_header_indices.get(
+                classification_val = row[current_header_indices['classification_index']] if current_header_indices.get(
                     'classification_index') is not None else None
-                zv_sqm_val = current_data_row_series.iloc[
-                    current_header_indices['zv_sq_m_index']] if current_header_indices.get(
+                zv_sqm_val = row[current_header_indices['zv_sq_m_index']] if current_header_indices.get(
                     'zv_sq_m_index') is not None else None
 
                 vicinity_val = None
                 vicinity_idx_config = current_header_indices.get('vicinity_index')
                 if isinstance(vicinity_idx_config, int):
-                    vicinity_val = current_data_row_series.iloc[vicinity_idx_config]
+                    vicinity_val = row[vicinity_idx_config]
                 elif isinstance(vicinity_idx_config, list):  # Handle potential merged vicinity columns
-                    vic_str_parts = [str(current_data_row_series.iloc[idx]) for idx in vicinity_idx_config if
-                                     idx is not None]
-                    vic_str_parts = [s for s in vic_str_parts if s.lower() != 'nan']  # Filter out 'nan' strings
+                    vic_str_parts = [
+                        str(row[idx]) for idx in vicinity_idx_config
+                        if idx is not None and not pd.isnull(row[idx])
+                    ]
+                    vic_str_parts = [s for s in vic_str_parts if s.lower() != 'nan']  # Optional, defensive
                     vicinity_val = ', '.join(vic_str_parts) if vic_str_parts else None
 
                 if debug:
@@ -693,7 +695,7 @@ def main(
                 # --- Check for new location/header interrupting current table data ---
                 # This indicates current table ended and a new one starts immediately
                 # First, check if the current data row itself looks like a new location specifier
-                temp_prov, temp_city, temp_brgy, temp_loc_idx = find_location_components(df, current_row_index,
+                temp_prov, temp_city, temp_brgy, temp_loc_idx = find_location_components(df, data, current_row_index,
                                                                                          proximity_window=1,
                                                                                          debug=False)  # Check only current row
 
@@ -720,7 +722,7 @@ def main(
                 # --- Validate data row ---
                 # A row is considered invalid if both classification and ZV/SQM are essentially empty.
                 # Or if the entire row (when cleaned) is empty.
-                cleaned_full_row_str = clean_value(''.join(map(str, current_data_row_series.dropna())).strip())
+                cleaned_full_row_str = clean_value(''.join(str(cell) for cell in row if not pd.isnull(cell)).strip())
 
                 # Refined condition for skipping row:
                 # If classification and ZV are both null/empty strings
@@ -780,8 +782,8 @@ def main(
                         # This condition ensures holder is only used if col1 is same or also empty.
                         if (pd.isna(prev_row_col1_val) and pd.isna(col1_val)) or (prev_row_col1_val == col1_val):
                             vicinity_val = current_table_vicinity_holder if not (
-                                        pd.isna(current_table_vicinity_holder) or not str(
-                                    current_table_vicinity_holder).strip()) else prev_row_vicinity_val
+                                    pd.isna(current_table_vicinity_holder) or not str(
+                                current_table_vicinity_holder).strip()) else prev_row_vicinity_val
                         # else: vicinity_holder = vicinity_val (which is None/empty) - implicitly done
                     elif not (pd.isna(current_table_vicinity_holder) or not str(current_table_vicinity_holder).strip()):
                         if (pd.isna(prev_row_col1_val) and pd.isna(col1_val)) or (prev_row_col1_val == col1_val):
@@ -841,19 +843,26 @@ def main(
                     continue
 
                 # --- Append data to structured_df ---
-                new_row_data = {
-                    'Province': current_province,
-                    'City/Municipality': current_city,
-                    'Barangay': current_barangay,
-                    'Street/Subdivision': clean_value(col1_val, feature=True),
-                    'Vicinity': clean_value(vicinity_val, feature=True),
-                    'Classification': clean_value(classification_val, feature=True),
-                    'ZV/SQM': clean_value(zv_sqm_val, feature=True)  # ZV/SQM is numeric or empty string
-                }
-                structured_df.loc[len(structured_df)] = new_row_data
+                output_rows.append([
+                    current_province,
+                    current_city,
+                    current_barangay,
+                    clean_value(col1_val, feature=True),
+                    clean_value(vicinity_val, feature=True),
+                    clean_value(classification_val, feature=True),
+                    clean_value(zv_sqm_val, feature=True)
+                ])
 
                 if debug:
-                    print(f"  Appended data: {new_row_data}")
+                    print(f"  Appended data: {[
+                        current_province,
+                        current_city,
+                        current_barangay,
+                        clean_value(col1_val, feature=True),
+                        clean_value(vicinity_val, feature=True),
+                        clean_value(classification_val, feature=True),
+                        clean_value(zv_sqm_val, feature=True)
+                    ]}")
                     print("\n  -------")
 
                 # Update previous row values for next iteration's carry-over logic
@@ -873,6 +882,11 @@ def main(
         else:  # Headers not found, or critical location info missing
             if debug: print(f"  Skipping row {current_row_index}: No valid headers or insufficient location context.")
             current_row_index += 1  # Advance to next row to continue search
+
+    structured_df = pd.DataFrame(output_rows, columns=[
+        'Province', 'City/Municipality', 'Barangay',
+        'Street/Subdivision', 'Vicinity', 'Classification', 'ZV/SQM'
+    ])
 
     if debug:
         print(f"\nTotal tables processed: {processed_table_count}")

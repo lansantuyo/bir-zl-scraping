@@ -226,7 +226,7 @@ def find_column_headers(df, index, proximity_window=3, debug=False):
 def find_location_components(df, index, proximity_window=3, current_province=None, current_city=None,
                              current_barangay=None, debug=False):
     if debug:
-        print(f"\nRunning find_location_components")
+        print(f"\nRunning find_location_components starting at df index {index}")
     last_matched_index = index
     initial_index = index
     expecting_values = False  # Flag to indicate we are expecting values in subsequent rows after combined labels
