@@ -1,7 +1,8 @@
+import json
 import os
 import re
 import pandas as pd
-import csv  # For writing annotations
+import csv
 
 # --- Constants for Annotation Labels ---
 LABEL_LOC_P = "LOC_P"
@@ -15,58 +16,7 @@ LABEL_TITLE = "TITLE"  # If you have logic to detect titles, not present in curr
 LABEL_NOTE = "NOTE"  # If you have logic to detect notes, not present in current main
 
 
-def extract_rdo_number(filename: str) -> float:
-    # ... (your existing code)
-    try:
-        # Use regular expressions to find the numeric part of the RDO number
-        # Pattern expects "RDO No. <number><optional_char> - <name>.xls(x)"
-        match = re.search(r'RDO No\. (\d+)\w? - (.+)\.?(?:xls|xlsx)?', filename, re.IGNORECASE)
-        if match:
-            return int(match.group(1))  # Extract the number and convert to integer
-        else:
-            return float('inf')  # Return infinity if no match, for sorting purposes
-    except (ValueError, IndexError) as e:
-        print(f"Error processing filename for RDO number: {filename} - {e}")
-        return float('inf')
-
-
-def xls_to_df(filename: str, base_dir: str = "data/", full_path: str = None) -> tuple[pd.DataFrame | None, str | None]:
-    # ... (your existing code)
-    filepath = full_path if full_path else os.path.join(base_dir, filename)
-
-    try:
-        # Determine engine based on file extension
-        if filename.lower().endswith('.xls'):
-            excel_file = pd.ExcelFile(filepath, engine='xlrd')
-        elif filename.lower().endswith('.xlsx'):
-            excel_file = pd.ExcelFile(filepath, engine='openpyxl')
-        else:
-            # Fallback or error for unsupported types, though ExcelFile might handle some
-            excel_file = pd.ExcelFile(filepath)  # Rely on pandas default engine detection
-
-        all_sheet_names = excel_file.sheet_names
-
-        # Filter for sheets matching the "Sheet<number>" pattern and sort them
-        relevant_sheet_names = sorted(
-            [name for name in all_sheet_names if name.strip().lower().startswith('sheet')],
-            key=lambda name: int(re.search(r'\d+', name).group()) if re.search(r'\d+', name) else -1
-        )
-
-        if relevant_sheet_names:
-            selected_sheet_name = relevant_sheet_names[-1]  # Select the last sheet in the sorted list
-            df = pd.read_excel(excel_file, sheet_name=selected_sheet_name, header=None)
-            return df, selected_sheet_name
-        else:
-            print(f"No matching sheets (e.g., 'Sheet1') found in {filename}")
-            return None, None
-
-    except Exception as e:
-        print(f"Error processing file {filename}: {e}")
-        return None, None
-
-
 def clean_value(value, feature: bool = False) -> str | float:
-    # ... (your existing code)
     try:
         float_value = float(value)
         return round(float_value, 3)
@@ -111,7 +61,6 @@ def clean_value(value, feature: bool = False) -> str | float:
 
 
 def extract_value(pattern: str, text: str) -> tuple[str | None, bool]:
-    # ... (your existing code)
     match = re.search(pattern, text, re.IGNORECASE)
     if match:
         return match.group(1).strip(), True
@@ -121,7 +70,6 @@ def extract_value(pattern: str, text: str) -> tuple[str | None, bool]:
 
 def find_column_headers(df: pd.DataFrame, start_index: int, proximity_window: int = 3, debug: bool = False) -> tuple[
     bool, dict | None, int]:
-    # ... (your existing code)
     headers = {
         'street_name_index': None,
         'vicinity_index': None,
@@ -272,13 +220,12 @@ def find_location_components(
         current_city: str = None,
         current_barangay: str = None,
         debug: bool = False,
-        # --- New parameter for annotation ---
         annotations_list: list = None,
         filename_for_ann: str = "unknown_file",
         sheetname_for_ann: str = "unknown_sheet"
 ) -> tuple[str | None, str | None, str | None, int]:
-    # ... (rest of the function signature is the same)
-    if debug: print(f"\nRunning find_location_components starting at df index {start_index}")
+    if debug:
+        print(f"\nRunning find_location_components starting at df index {start_index}")
 
     province_val, city_val, barangay_val = current_province, current_city, current_barangay
     last_matched_df_index = start_index
@@ -292,7 +239,7 @@ def find_location_components(
     # --- Annotation: Keep track of rows processed by this function call ---
     # And their tentative labels before a final decision is made by this function
     # For location, it's tricky because a row might contain a label, but the value extraction fails,
-    # or it might be a combined label row. We'll try to label the rows where a component *value* is set.
+    # or it might be a combined label row. Try to label the rows where a component *value* is set.
 
     rows_processed_in_this_call = []  # Store (df_row_index, combined_row_text)
 
@@ -303,7 +250,8 @@ def find_location_components(
             break
 
         current_row_series = df.iloc[current_df_row_index]
-        combined_row_text = ' '.join(map(str, current_row_series.dropna())).strip()  # Use space for better readability
+        combined_row_text = json.dumps([str(cell) if not pd.isna(cell) else None for cell in
+                                        current_row_series])  # Use space for better readability
         non_null_cells_in_row = current_row_series.dropna().astype(str).tolist()
 
         rows_processed_in_this_call.append(
@@ -312,23 +260,19 @@ def find_location_components(
         if debug:
             print(
                 f"\nfind_location_components: Processing df_row {current_df_row_index} (offset {current_offset}/{proximity_window - 1})")
-            # ... (rest of debug prints)
 
         # --- Logic for identifying location components ---
-        # (Your existing logic here)
         # --- WHEN A COMPONENT IS IDENTIFIED AND ITS VALUE SET, UPDATE ITS LABEL ---
         # Example modification for Province:
         # Province
-        original_province_val = province_val  # Store before attempting to update
+        original_province_val = province_val
         extracted_prov, prov_match = extract_value(r"Province\s*(?::|\s|of)?\s*(.*)", combined_row_text)
         if prov_match:
             province_val = clean_value(extracted_prov)
-            if province_val != original_province_val and province_val:  # If value actually changed and is not empty
-                # Mark this row as LOC_P in our temporary list for this call
-                for row_info in rows_processed_in_this_call:
-                    if row_info['index'] == current_df_row_index:
-                        row_info['label'] = LABEL_LOC_P
-                        break
+            for row_info in rows_processed_in_this_call:
+                if row_info['index'] == current_df_row_index:
+                    row_info['label'] = LABEL_LOC_P
+                    break
             any_component_found_this_call = True  # Original logic
             extend_search_window = True  # Original logic
             last_matched_df_index = initial_search_df_index = province_found_at_df_idx = current_df_row_index  # Original logic
@@ -343,11 +287,10 @@ def find_location_components(
         )
         if city_match:
             city_val = clean_value(extracted_city)
-            if city_val != original_city_val and city_val:
-                for row_info in rows_processed_in_this_call:
-                    if row_info['index'] == current_df_row_index:
-                        row_info['label'] = LABEL_LOC_C
-                        break
+            for row_info in rows_processed_in_this_call:
+                if row_info['index'] == current_df_row_index:
+                    row_info['label'] = LABEL_LOC_C
+                    break
             any_component_found_this_call = True
             extend_search_window = True
             last_matched_df_index = initial_search_df_index = city_found_at_df_idx = current_df_row_index
@@ -364,11 +307,10 @@ def find_location_components(
             extracted_brgy = None
         if brgy_match:
             barangay_val = clean_value(extracted_brgy)
-            if barangay_val != original_barangay_val and barangay_val:
-                for row_info in rows_processed_in_this_call:
-                    if row_info['index'] == current_df_row_index:
-                        row_info['label'] = LABEL_LOC_B
-                        break
+            for row_info in rows_processed_in_this_call:
+                if row_info['index'] == current_df_row_index:
+                    row_info['label'] = LABEL_LOC_B
+                    break
             any_component_found_this_call = True
             extend_search_window = True
             last_matched_df_index = initial_search_df_index = barangay_found_at_df_idx = current_df_row_index
@@ -384,7 +326,9 @@ def find_location_components(
                 if row_info['index'] == current_df_row_index:
                     row_info['label'] = LABEL_TITLE  # Or a new "LOC_COMBINED_LABEL"
                     break
-            current_offset += 1
+            if debug:
+                print(f"Combined labels found at row {current_df_row_index}")
+            # current_offset += 1 #TODO: Check if this is needed
             continue
 
         if expecting_colon_prefixed_values:
@@ -396,6 +340,9 @@ def find_location_components(
             colon_values_found_on_this_row = False
             for cell_text in non_null_cells_in_row:
                 cell_text_stripped = cell_text.strip()
+                if debug:
+                    print(f"Cell: {non_null_cells_in_row}")
+
                 if cell_text_stripped.startswith(":"):
                     value_after_colon = cell_text_stripped.lstrip(":").strip()
                     cleaned_colon_val = clean_value(value_after_colon)
@@ -561,7 +508,7 @@ def main(
         if headers_found:
             for r_idx in range(_start_hdr_scan, header_search_end_idx + 1):
                 if r_idx < max_row_index and r_idx not in processed_rows_in_main_loop:  # Avoid re-annotating if somehow overlapped
-                    row_text_hdr = ' '.join(map(str, df.iloc[r_idx].dropna())).strip()
+                    row_text_hdr = json.dumps([str(cell) if not pd.isna(cell) else None for cell in df.iloc[r_idx]])
                     annotations_list.append({
                         "filename": filename_for_ann, "sheetname": sheetname_for_ann,
                         "row_index": r_idx, "raw_text": row_text_hdr, "label": LABEL_HDR
@@ -593,7 +540,7 @@ def main(
             # (if any, usually none) as BLANK/OTHER
             for r_idx in range(loc_search_end_idx, data_processing_start_index):  # Covers header rows too
                 if r_idx < max_row_index and r_idx not in processed_rows_in_main_loop:
-                    row_text_inter = ' '.join(map(str, df.iloc[r_idx].dropna())).strip()
+                    row_text_inter = json.dumps([str(cell) if not pd.isna(cell) else None for cell in df.iloc[r_idx]])
                     label = LABEL_BLANK if not row_text_inter else LABEL_OTHER
                     if r_idx >= _start_hdr_scan and r_idx <= header_search_end_idx and headers_found:  # If it's a header row
                         label = LABEL_HDR
@@ -617,7 +564,8 @@ def main(
             while current_row_index < max_row_index and empty_row_streak < MAX_EMPTY_ROW_STREAK:
                 _end_data_scan = current_row_index  # Track the last row attempted in this data block
                 current_data_row_series = df.iloc[current_row_index]
-                row_text_data = ' '.join(map(str, current_data_row_series.dropna())).strip()
+                row_text_data = json.dumps(
+                    [str(cell) if not pd.isna(cell) else None for cell in current_data_row_series])
 
                 # ... (Your existing data extraction logic: col1_val, vicinity_val, etc.) ...
                 col1_val = current_data_row_series.iloc[
@@ -769,7 +717,8 @@ def main(
                 # if it hasn't been processed yet.
                 idx_to_label_if_no_table = loc_search_end_idx  # This is where header search started
                 if idx_to_label_if_no_table < max_row_index and idx_to_label_if_no_table not in processed_rows_in_main_loop:
-                    row_text_skipped = ' '.join(map(str, df.iloc[idx_to_label_if_no_table].dropna())).strip()
+                    row_text_skipped = json.dumps(
+                        [str(cell) if not pd.isna(cell) else None for cell in df.iloc[idx_to_label_if_no_table]])
                     annotations_list.append({
                         "filename": filename_for_ann, "sheetname": sheetname_for_ann,
                         "row_index": idx_to_label_if_no_table, "raw_text": row_text_skipped,
@@ -787,7 +736,7 @@ def main(
 
     for r_idx in unprocessed_indices:
         if r_idx < len(df):  # Check bounds again
-            row_text_unprocessed = ' '.join(map(str, df.iloc[r_idx].dropna())).strip()
+            row_text_unprocessed = json.dumps([str(cell) if not pd.isna(cell) else None for cell in df.iloc[r_idx]])
             annotations_list.append({
                 "filename": filename_for_ann, "sheetname": sheetname_for_ann,
                 "row_index": r_idx, "raw_text": row_text_unprocessed,
