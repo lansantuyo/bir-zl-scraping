@@ -1,105 +1,160 @@
+import csv
 import os
 import re
 import pandas as pd
-import numpy as np
-import argparse
+import datetime
+from annotation import main
 
-from processing.functions import xls_to_df, main, clean_value
-from processing.test_functions import main_recursive
-from processing.functions_v2 import main
+# Label constants
+LABEL_LOC_P = "LOC_P"
+LABEL_LOC_C = "LOC_C"
+LABEL_LOC_B = "LOC_B"
+LABEL_HDR = "HDR"
+LABEL_DATA = "DATA"
+LABEL_BLANK = "BLANK"
+LABEL_OTHER = "OTHER"
+LABEL_TITLE = "TITLE"
+LABEL_NOTE = "NOTE"
 
 
-def process_excel_files(input_dir="data/", base_output_dir="output_files", initial_version=1, use_alternate=False):
-    """
-    Process all Excel files in a directory and save results with auto-incrementing version and date.
-    Include the sheet name in the output filename.
+def extract_rdo_number(filename):
+    """Extract the RDO number from the filename for sorting"""
+    try:
+        match = re.search(r'RDO No\. (\d+)\w? - (.+)\.?(?:xls|xlsx)?', filename, re.IGNORECASE)
+        return int(match.group(1)) if match else float('inf')
+    except (ValueError, IndexError) as e:
+        print(f"Error processing filename: {filename} - {e}")
+        return float('inf')
 
-    Args:
-        input_dir (str): Input directory containing Excel files
-        initial_version (int): Initial version number to start checking from
-        use_recursive (bool): Whether to use the recursive version of main
-        base_output_dir (str): directory for all output dirs
 
-    Returns:
-        str: Path to the output directory where files were saved
-    """
-    import datetime
+def xls_to_df(filename, base_dir="data/", full_path=None):
+    """Convert Excel file to DataFrame and return with sheet name"""
+    filepath = full_path if full_path else os.path.join(base_dir, filename)
 
-    # Create output directory with version number and date (DD_MM format)
+    try:
+        # Determine engine based on file extension
+        if filename.lower().endswith('.xls'):
+            excel_file = pd.ExcelFile(filepath, engine='xlrd')
+        elif filename.lower().endswith('.xlsx'):
+            excel_file = pd.ExcelFile(filepath, engine='openpyxl')
+        else:
+            excel_file = pd.ExcelFile(filepath)  # Use pandas default engine detection
+
+        # Find and sort sheets matching "Sheet<number>" pattern
+        sheet_names = excel_file.sheet_names
+        relevant_sheets = sorted(
+            [name for name in sheet_names if name.strip().lower().startswith('sheet')],
+            key=lambda name: int(re.search(r'\d+', name).group()) if re.search(r'\d+', name) else -1
+        )
+
+        if relevant_sheets:
+            selected_sheet = relevant_sheets[-1]  # Select the last sheet
+            return pd.read_excel(excel_file, sheet_name=selected_sheet, header=None), selected_sheet
+        else:
+            print(f"No matching sheets found in {filename}")
+            return None, None
+
+    except Exception as e:
+        print(f"Error processing file {filename}: {e}")
+        return None, None
+
+
+def process_excel_files(input_dir="data/", base_output_dir="output_files", debug=False, initial_version=1):
+    """Process Excel files and save results with versioned output"""
+    annotations_list = []
+
+    # Create versioned output directory
     today = datetime.datetime.now()
-    date_str = today.strftime("%d_%m")  # DD_MM format
+    date_str = today.strftime("%d_%m")
 
-    # Auto-increment version number if directory exists
     version = initial_version
     while True:
         output_dir = os.path.join(base_output_dir, f"output_v{version}_{date_str}")
-        
-        # Check if any folder with this version exists, regardless of date
-        version_exists = False
-        for existing_dir in os.listdir(base_output_dir):
-            if existing_dir.startswith(f"output_v{version}_"):
-                version_exists = True
-                break
-        
+        version_exists = any(dir.startswith(f"output_v{version}_") for dir in os.listdir(base_output_dir))
         if not version_exists:
             break
-        
         version += 1
 
-    print(f"Creating output directory with version {version}: {output_dir}")
-
+    print(f"Creating output directory: {output_dir}")
     os.makedirs(output_dir, exist_ok=True)
-    excel_files = [f for f in os.listdir(input_dir) if os.path.isfile(os.path.join(input_dir, f))]
+
+    # Get files to process
+    files_to_process = [f for f in os.listdir(input_dir) if os.path.isfile(os.path.join(input_dir, f)) and
+                        f.lower().endswith(('.xls', '.xlsx'))]
 
     processed_count = 0
     skipped_count = 0
 
-    for excel in excel_files:
-        print(f'Processing {excel}')
-        df_result = xls_to_df(excel, base_dir=input_dir)
-        df, sheet_name = df_result
+    # Process each file
+    for file in files_to_process:
+        print(f'Processing {file}')
+        df, sheet_name = xls_to_df(file, base_dir=input_dir)
 
-        if df is not None:
-            if use_alternate:
-                processed = main(df)
-            else:
-                processed = main(df)
+        if df is not None and sheet_name is not None:
+            rdo_number = extract_rdo_number(sheet_name)
+            sheet_id = f"RDO_{rdo_number}" if rdo_number != float('inf') else "RDO_UNKNOWN"
+            clean_sheet_name = re.sub(r'[^a-zA-Z0-9]', '_', sheet_name) if sheet_name else "Unknown"
 
-            # Split the filename and the extension
-            filename, extension = os.path.splitext(excel)
+            # Process the data
+            structured_data = main(
+                df,
+                filename_for_ann=file,
+                sheetname_for_ann=sheet_id,
+                annotations_cache=annotations_list,
+                debug=debug,
+                debug_location=debug,
+                debug_header=debug
+            )
 
-            if extension.lower() in ['.xls', '.xlsx']:
-                # Clean sheet name for filename (remove spaces, special chars)
-                clean_sheet_name = re.sub(r'[^a-zA-Z0-9]', '_', sheet_name) if sheet_name else "Unknown"
-                normalized_filename = f"{filename}"
-            else:
-                print(f"Unsupported file format for {excel}. Skipping...")
-                skipped_count += 1
-                continue
-
-            # Include sheet name in output filename
-            output_path = os.path.join(output_dir, f"{normalized_filename}_{clean_sheet_name}.xlsx")
-            processed.to_excel(output_path, index=False)
-
-            print(f'Processed file saved as: {output_path}')
+            # Save processed data
+            output_path = os.path.join(output_dir, f"{sheet_id}_{clean_sheet_name}.xlsx")
+            structured_data.to_excel(output_path, index=False)
+            print(f'Saved as: {output_path}')
             processed_count += 1
         else:
-            print(f"Could not process {excel}. Skipping...")
+            print(f"Could not process {file}. Skipping...")
             skipped_count += 1
 
+    # Process annotations
+    if annotations_list:
+        seen_annotations = set()
+        final_unique_annotations = []
+
+        # Filter and prioritize annotations
+        priority = {
+            LABEL_LOC_P: 5, LABEL_LOC_C: 5, LABEL_LOC_B: 5,
+            LABEL_HDR: 4, LABEL_DATA: 3, LABEL_TITLE: 2,
+            LABEL_NOTE: 2, LABEL_BLANK: 1, LABEL_OTHER: 0
+        }
+
+        for ann in annotations_list:
+            ann_key = (ann["filename"], ann["sheetname"], ann["row_index"])
+
+            if ann_key not in seen_annotations:
+                final_unique_annotations.append(ann)
+                seen_annotations.add(ann_key)
+            else:
+                # Update if new annotation has higher priority
+                for i, existing_ann in enumerate(final_unique_annotations):
+                    if (existing_ann["filename"], existing_ann["sheetname"], existing_ann["row_index"]) == ann_key:
+                        if priority.get(ann["label"], -1) > priority.get(existing_ann["label"], -1):
+                            final_unique_annotations[i] = ann
+                        break
+
+        # Sort and save annotations
+        final_unique_annotations.sort(key=lambda x: (x["filename"], x["sheetname"], x["row_index"]))
+        ann_output_path = os.path.join(output_dir, "annotations.csv")
+        print(f"\nWriting {len(final_unique_annotations)} annotations to {ann_output_path}")
+
+        annotation_df = pd.DataFrame(final_unique_annotations)
+        annotation_df.to_csv(ann_output_path, index=False, quoting=csv.QUOTE_ALL)
+    else:
+        print("No annotations were generated.")
+
     print(f"Processing complete: {processed_count} files processed, {skipped_count} files skipped")
-    print(f"All files saved to directory: {output_dir}")
+    print(f"Output directory: {output_dir}")
 
     return output_dir
-
-
-def excel_to_df(filename, path, use_recursive=False):
-    df_result = xls_to_df(filename, full_path=path)
-    df, sheet_name = df_result
-
-    print(f"Processing: {filename}, sheet: {sheet_name}")
-
-    return df
 
 
 def compare_excel_files(file1, file2, num_rows=3, verbose=False, full_diff=False, output_path=None):

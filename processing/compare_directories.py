@@ -1,5 +1,7 @@
 import os
 import re
+import polars as pl
+import numpy as np
 import pandas as pd
 from tqdm import tqdm
 from pathlib import Path
@@ -152,7 +154,9 @@ class DirectoryDataFrameComparator:
         if not directory_files['input_dir_1'] or not directory_files['input_dir_2']:
             raise ValueError("One or both directories are empty. No comparisons can be made.")
         try:
-            rdo_pattern = re.compile(r"RDO No\. \d+[A-Z]?")
+            # rdo_pattern = re.compile(r"RDO No\. \d+[A-Z]?")
+            rdo_pattern = re.compile(r".*")
+
             dir1_files = {}
             dir2_files = {}
 
@@ -186,8 +190,11 @@ class DirectoryDataFrameComparator:
             pd.DataFrame: A DataFrame containing the differences.
         """
         try:
-            df1 = pd.read_excel(str(filepair[0]))
-            df2 = pd.read_excel(str(filepair[1]))
+            # df1 = pl.read_csv(str(filepair[0])).to_pandas()
+            # df2 = pl.read_csv(str(filepair[1])).to_pandas()
+
+            df1 = pd.read_excel(filepair[0])
+            df2 = pd.read_excel(filepair[1])
 
             # Align DataFrames to ensure same shape (fills missing values with NaN)
             df1, df2 = df1.align(df2, join="outer", axis=1)  # Align columns
@@ -200,23 +207,23 @@ class DirectoryDataFrameComparator:
             
             mask = df1.ne(df2)
             differences = []
-            
-            for col in df1.columns:
-                diff_rows = mask[col]
-                if diff_rows.any():
-                    for index in df1.index[diff_rows]:
-                        df1_value = df1.at[index, col]
-                        df2_value = df2.at[index, col]
-                        remark = self.remark_generator.generate_remark(df1_value, df2_value)
-                        differences.append({
-                            'idx': index,
-                            'df1_value': df1_value,
-                            'df2_value': df2_value,
-                            'column': col,
-                            'remarks': remark,
-                            'df1_filename': filepair[0].name,
-                            'df2_filename': filepair[1].name
-                        })
+
+            row_indices, col_indices = np.where(mask.values)
+            for row_idx, col_idx in zip(row_indices, col_indices):
+                index = df1.index[row_idx]
+                col = df1.columns[col_idx]
+                df1_value = df1.at[index, col]
+                df2_value = df2.at[index, col]
+                remark = self.remark_generator.generate_remark(df1_value, df2_value)
+                differences.append({
+                    'idx': index,
+                    'df1_value': df1_value,
+                    'df2_value': df2_value,
+                    'column': col,
+                    'remarks': remark,
+                    'df1_filename': filepair[0].name,
+                    'df2_filename': filepair[1].name
+                })
 
             diff_df = pd.DataFrame(differences)
             return diff_df

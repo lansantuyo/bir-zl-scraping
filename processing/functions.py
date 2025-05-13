@@ -90,9 +90,7 @@ def extract_value(pattern, text):
         return None, False
 
 
-def find_column_headers(df, index, proximity_window=3, debug=False):
-    import re
-
+def find_column_headers(df, data, index, proximity_window=3, debug=False):
     headers = {
         'street_name_index': None,
         'vicinity_index': None,
@@ -122,7 +120,7 @@ def find_column_headers(df, index, proximity_window=3, debug=False):
         if current_index >= len(df):
             break
 
-        row = df.iloc[current_index]
+        row = data[current_index]
 
         for col_index, cell in enumerate(row):
             cell_value = str(cell)
@@ -223,7 +221,7 @@ def find_column_headers(df, index, proximity_window=3, debug=False):
         return False, None, original_index
 
 
-def find_location_components(df, index, proximity_window=3, current_province=None, current_city=None,
+def find_location_components(df, data, index, proximity_window=3, current_province=None, current_city=None,
                              current_barangay=None, debug=False):
     if debug:
         print(f"\nRunning find_location_components starting at df index {index}")
@@ -248,9 +246,10 @@ def find_location_components(df, index, proximity_window=3, current_province=Non
         current_index = index + offset
         if current_index >= len(df):
             break
-        current_row = df.iloc[current_index]
-        combined_current_row = ''.join(map(str, current_row.dropna())).strip()
-        non_null_cells = current_row.dropna().astype(str).tolist()
+        current_row = data[current_index]
+        # Filter out NaN values manually
+        non_null_cells = [str(val) for val in current_row if not pd.isna(val)]
+        combined_current_row = ''.join(non_null_cells).strip()
 
         if debug:
             print("\n")
@@ -415,9 +414,11 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
     else:
         final_index = end
     index = start
+    data = df.to_numpy()
+    columns = df.columns.tolist()
+    output_rows = []
+
     count = 0
-    new_df = pd.DataFrame(columns=['Province', 'City/Municipality', 'Barangay',
-                                   'Street/Subdivision', 'Vicinity', 'Classification', 'ZV/SQM'])
 
     PROXIMITY_WINDOW = 3  # Increased to accommodate different formats
 
@@ -437,7 +438,7 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
     # while index < len(df):
     while index < final_index:
         current_province_new, current_city_new, current_barangay_new, index = find_location_components(
-            df, index, proximity_window=PROXIMITY_WINDOW, debug=debug_location)
+            df, data, index, proximity_window=PROXIMITY_WINDOW, debug=debug_location)
         # Update current location components with any new values
 
         found_components = any([current_province_new, current_city_new, current_barangay_new])
@@ -445,7 +446,7 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
             print(f"Location components found: {current_province_new}, {current_city_new}, {current_barangay_new}")
 
         # Attempt to find headers starting from the last matched index
-        found_headers, header_indices_new, new_index = find_column_headers(df, index, debug=debug_header)
+        found_headers, header_indices_new, new_index = find_column_headers(df, data, index, debug=debug_header)
         if debug:
             print(f"Column headers found: {header_indices_new}")
 
@@ -477,20 +478,20 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
 
             while index < final_index and age < MAX_AGE:
                 # TODO: Check the types of all variables because some NaN stuff and floats and inconsistent and yeah
-                row = df.iloc[index]
+                row = data[index]
 
                 vicinity = 'Test u should not see this pop up pls'
                 # Extract data using the header indices
-                col1 = row.iloc[header_indices['street_name_index']]
-                classification = row.iloc[header_indices['classification_index']]
-                zv = row.iloc[header_indices['zv_sq_m_index']]
+                col1 = row[header_indices['street_name_index']]
+                classification = row[header_indices['classification_index']]
+                zv = row[header_indices['zv_sq_m_index']]
 
                 # Check for double column
                 if isinstance(header_indices['vicinity_index'], int):
-                    vicinity = row.iloc[header_indices['vicinity_index']]
+                    vicinity = row[header_indices['vicinity_index']]
                 elif isinstance(header_indices['vicinity_index'], list):
-                    vicinity1 = str(row.iloc[header_indices['vicinity_index'][0]])
-                    vicinity2 = str(row.iloc[header_indices['vicinity_index'][1]])
+                    vicinity1 = str(row[header_indices['vicinity_index'][0]])
+                    vicinity2 = str(row[header_indices['vicinity_index'][1]])
                     if vicinity1 == 'nan':
                         vicinity = vicinity2
                     elif vicinity2 == 'nan':
@@ -504,16 +505,18 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
 
                 # Check for new location components in the current row
                 current_province_new_in_row, current_city_new_in_row, current_barangay_new_in_row, new_index_2 = find_location_components(
-                    df, index, proximity_window=PROXIMITY_WINDOW, debug=debug_location)
+                    df, data, index, proximity_window=PROXIMITY_WINDOW, debug=debug_location)
                 # found_headers_in_row, header_indices_in_row, new_index_in_row = find_column_headers(df, index, debug=debug)
 
                 # if col1 index is not zone/barangay pattern
                 # if barangay index is before province index, look for a province pa, and if we find, overwrite
-                found_headers_in_row, header_indices_in_row, new_index_in_row = find_column_headers(df, new_index_2,
+                found_headers_in_row, header_indices_in_row, new_index_in_row = find_column_headers(df, data, new_index_2,
                                                                                                     debug=debug_header)
 
-                combined_row = ''.join(map(str, row[
-                    [header_indices['classification_index'], header_indices['zv_sq_m_index']]].dropna())).strip()
+                class_val = row[header_indices['classification_index']]
+                zv_val = row[header_indices['zv_sq_m_index']]
+                filtered_vals = [str(val) for val in [class_val, zv_val] if not pd.isna(val)]
+                combined_row = ''.join(filtered_vals).strip()
                 # TODO: make sure calssification index cell value cant ahve a length of 5 or moew
                 valid_data_row = clean_value(combined_row)
                 if debug and any([current_province_new_in_row, current_city_new_in_row, current_barangay_new_in_row]):
@@ -564,7 +567,8 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
 
                     continue  # Start processing new table from updated index
 
-                cleaned_row = clean_value(''.join(map(str, row.dropna())).strip())
+                filtered_row = [str(val) for val in row if not pd.isna(val)]
+                cleaned_row = clean_value(''.join(filtered_row).strip())
                 row_is_valid = (not ((pd.isnull(classification) or str(classification).strip() == '') and (
                         pd.isnull(zv) or str(zv).strip() == ''))) and str(cleaned_row).strip()
                 if not row_is_valid:
@@ -590,7 +594,6 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
                     if debug:
                         print(f"New col1 value '{col1}' detected. Resetting all_other_vicinity.")
 
-
                 # Checking for empty col1
                 null_col1 = pd.isna(col1) or not str(col1).strip()
                 if null_col1:
@@ -603,7 +606,8 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
 
                 if isinstance(col1, str):
                     col1_stripped_upper = col1.strip().upper()
-                    is_all_other = col1_stripped_upper.startswith("ALL OTHER") or col1_stripped_upper.startswith("ALL LOTS")
+                    is_all_other = col1_stripped_upper.startswith("ALL OTHER") or col1_stripped_upper.startswith(
+                        "ALL LOTS")
                 else:
                     col1_stripped_upper = ''
                     is_all_other = False
@@ -625,13 +629,12 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
                 else:
                     vicinity_holder = vicinity
 
-
                 # just testing this out
                 if isinstance(prev_col1, str) and null_col1:
                     prev_col1_stripped_upper = prev_col1.strip().upper()
-                    prev_col1_is_all_other = prev_col1_stripped_upper.startswith("ALL OTHER") or prev_col1_stripped_upper.startswith(
+                    prev_col1_is_all_other = prev_col1_stripped_upper.startswith(
+                        "ALL OTHER") or prev_col1_stripped_upper.startswith(
                         "ALL LOTS")
-
 
                 # 'ALL OTHER' logic
                 if is_all_other:
@@ -661,7 +664,7 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
 
                 # Append to new DataFrame
                 # TODO: check if cleaning features is necessary
-                new_df.loc[len(new_df)] = [
+                output_rows.append([
                     current_province,
                     current_city,
                     current_barangay,
@@ -669,7 +672,7 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
                     clean_value(vicinity, feature=True),
                     clean_value(classification, feature=True),
                     clean_value(zv, feature=True)
-                ]
+                ])
 
                 prev_col1 = col1
                 prev_vicinity = vicinity
@@ -677,7 +680,15 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
                 prev_zvsqm = zv
 
                 if debug:
-                    print(new_df.loc[len(new_df) - 1])
+                    print([
+                        current_province,
+                        current_city,
+                        current_barangay,
+                        clean_value(col1, feature=True),
+                        clean_value(vicinity, feature=True),
+                        clean_value(classification, feature=True),
+                        clean_value(zv, feature=True)
+                    ])
                     print("\n-------\n")
 
                 index += 1
@@ -685,6 +696,11 @@ def main(df, debug=False, start=0, end=-1, debug_location=False, debug_header=Fa
             continue  # Proceed to next iteration of the main loop
         else:
             index += 1  # No headers found, move to the next row
+
+    new_df = pd.DataFrame(output_rows, columns=[
+        'Province', 'City/Municipality', 'Barangay',
+        'Street/Subdivision', 'Vicinity', 'Classification', 'ZV/SQM'
+    ])
     if debug:
         print(f"Total tables processed: {count}")
     return new_df
