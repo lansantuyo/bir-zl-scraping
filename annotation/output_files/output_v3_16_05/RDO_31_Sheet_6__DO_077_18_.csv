@@ -1,0 +1,1396 @@
+Province,City/Municipality,Barangay,Street/Subdivision,Vicinity,Classification,ZV/SQM
+National Capital Region (NCR),"Sta. Cruz, Manila",206  ZONE:  19,BALANGA,ORION-DINALUPIHAN,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",206  ZONE:  19,DINALUPIHAN,J ABAD SANTOS-SOLIS,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",206  ZONE:  19,JOSE ABAD SANTOS,DINALUPIHAN-RIZAL AVE,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",206  ZONE:  19,JOSE ABAD SANTOS,DINALUPIHAN-RIZAL AVE,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",206  ZONE:  19,MOUNT SAMAT,RIZAL AVE-DINALUPIHAN,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",206  ZONE:  19,ORANI,ORION-DINALUPIHAN,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",206  ZONE:  19,ORION,J ABAD SANTOS-SOLIS,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",206  ZONE:  19,RIZAL AVENUE EXTENSION,J ABAD SANTOS-MT SAMAT,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",206  ZONE:  19,SAMAL,ORION-DINALUPIHAN,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",206  ZONE:  19,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",206  ZONE:  19,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",207ZONE:  19,DINALUPIHAN,J ABAD SANTOS-SOLIS,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",207ZONE:  19,JOSE ABAD SANTOS,SOLIS-DINALUPIHAN,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",207ZONE:  19,ORION,JUNCTION-ORANI-SOLIS,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",207ZONE:  19,RIZAL AVENUE,JUNCTION-AURORA-SOLIS,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",207ZONE:  19,SOLIS,RIZAL AVE-J A SANTOS,CR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",207ZONE:  19,SOLIS,RIZAL AVE-J A SANTOS,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",207ZONE:  19,*PAMPANGA,DINALUPIHAN- RIZAL AVE.,CR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",207ZONE:  19,*PAMPANGA,DINALUPIHAN- RIZAL AVE.,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",207ZONE:  19,*PAMANA,PAMPANGA,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",207ZONE:  19,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",207ZONE:  19,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",208ZONE:  19,MOUNT SAMAT,ORION-RIZAL AVENUE,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",208ZONE:  19,ORION,SOLIS-MT SAMAT,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",208ZONE:  19,RIZAL AVENUE,MT SAMAT-SOLIS,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",208ZONE:  19,SAMAL,RIZAL AVE-ORION,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",208ZONE:  19,SOLIS,RIZAL AVE-ORION,CR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",208ZONE:  19,SOLIS,RIZAL AVE-ORION,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",208ZONE:  19,*ORANI,ORION-DINALUPIHAN,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",208ZONE:  19,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",208ZONE:  19,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",209ZONE:  19,ANTIPOLO,RIZAL AVE-T MAPUA,CR,40000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",209ZONE:  19,ANTIPOLO,RIZAL AVE-T MAPUA,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",209ZONE:  19,CAVITE,T BUGALLON-RIZAL AVE,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",209ZONE:  19,LICO,TECSON-CAVITE,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",209ZONE:  19,LICO,TECSON-CAVITE,CR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",209ZONE:  19,RIZAL AVENUE,CAVITE-ANTIPOLO,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",209ZONE:  19,S REYES (O'DONNELL),CAVITE-TECSON,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",209ZONE:  19,T BUGALLON,T MAPUA-TECSON,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",209ZONE:  19,T BUGALLON,T MAPUA-TECSON,CR,40000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",209ZONE:  19,T MAPUA,ANTIPOLO-TECSON,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",209ZONE:  19,T MAPUA,ANTIPOLO-TECSON,CR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",209ZONE:  19,TECSON,J A SANTOS-LICO,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",209ZONE:  19,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",209ZONE:  19,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",210ZONE:  19,ANACLETO,LICO-SOLIS,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",210ZONE:  19,LICO,RIZAL AVE-SOLIS,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",210ZONE:  19,LICO,RIZAL AVE-SOLIS,CR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",210ZONE:  19,RIZAL AVENUE,SOLIS-CAVITE,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",210ZONE:  19,SOLIS,LICO-RIZAL AVE,CR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",210ZONE:  19,SOLIS,LICO-RIZAL AVE,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",210ZONE:  19,TECSON,LICO-RIZAL AVE,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",210ZONE:  19,*PAMPANGA,LICO-RIZAL AVE.,CR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",210ZONE:  19,*PAMPANGA,LICO-RIZAL AVE.,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",210ZONE:  19,*PAMANA,PAMPANGA,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",210ZONE:  19,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",210ZONE:  19,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",211ZONE:  19,ANACLETO,LICO-S REYES,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",211ZONE:  19,LICO,SOLIS-TECSON,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",211ZONE:  19,LICO,SOLIS-TECSON,CR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",211ZONE:  19,SOLIS,J A SANTOS-LICO,CR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",211ZONE:  19,SOLIS,J A SANTOS-LICO,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",211ZONE:  19,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",211ZONE:  19,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",212ZONE:  19,JOSE ABAD SANTOS,TECSON,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",212ZONE:  19,SOLIS,JOSE ABAD SANTOS,CR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",212ZONE:  19,SOLIS,JOSE ABAD SANTOS,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",212ZONE:  19,T BUGALLON,CAVITE-TECSON,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",212ZONE:  19,TECSON,BUGALLON-J A SANTOS,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",212ZONE:  19,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",212ZONE:  19,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",219ZONE:  20,ALMEDA,T BUGALLON-ANTIPOLO,CR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",219ZONE:  20,ALMEDA,T BUGALLON-ANTIPOLO,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",219ZONE:  20,ANTIPOLO,IPIL-J A SANTOS,CR,40000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",219ZONE:  20,ANTIPOLO,IPIL-J A SANTOS,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",219ZONE:  20,CAVITE,J A SANTOS-IPIL,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",219ZONE:  20,JOSE ABAD SANTOS,ANTIPOLO-T BUGALLON,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",219ZONE:  20,TINDALO,T BUGALLON-ANTIPOLO,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",219ZONE:  20,T BUGALLON,J A SANTOS-TINDALO,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",219ZONE:  20,T BUGALLON,J A SANTOS-TINDALO,CR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",219ZONE:  20,*KUSANG LOOB,CAVITE-ANTIPOLO,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",219ZONE:  20,TECSON,TINDALO - J A SANTOS,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",219ZONE:  20,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",219ZONE:  20,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",220ZONE:  21,ANTIPOLO,T BUGALLON-TINDALO,CR,40000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",220ZONE:  21,ANTIPOLO,T BUGALLON-TINDALO,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",220ZONE:  21,BALDWIN,ANTIPOLO-CAVITE,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",220ZONE:  21,CAVITE,TINDALO-T BUGALLON,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",220ZONE:  21,IPIL,ANTIPOLO-T BUGALLON,CR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",220ZONE:  21,IPIL,ANTIPOLO-T BUGALLON,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",220ZONE:  21,S REYES (O'DONNELL),ANTIPOLO-T BUGALLON,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",220ZONE:  21,T MAPUA,T BUGALLON-ANTIPOLO,CR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",220ZONE:  21,T MAPUA,T BUGALLON-ANTIPOLO,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",220ZONE:  21,TINDALO,CAVITE-T BUGALLON,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",220ZONE:  21,T BUGALLON,TINDALO-ANTIPOLO,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",220ZONE:  21,T BUGALLON,TINDALO-ANTIPOLO,CR,40000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",220ZONE:  21,*KUSANG LOOB,ANTIPOLO- CAVITE,RR,20000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",220ZONE:  21,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",220ZONE:  21,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",223ZONE:  21,BATANGAS (A. LORENZO),J A SANTOS-MAGDALENA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",223ZONE:  21,BATANGAS (A. LORENZO),J A SANTOS-MAGDALENA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",223ZONE:  21,TAYABAS (YUSECO),MAGDALENA-J A SANTOS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",223ZONE:  21,TAYABAS (YUSECO),MAGDALENA-J A SANTOS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",223ZONE:  21,JOSE ABAD SANTOS,TAYABAS-BATANGAS,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",223ZONE:  21,ALMEDA,TAYABAS-BATANGAS,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",223ZONE:  21,ALMEDA,TAYABAS-BATANGAS,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",223ZONE:  21,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",223ZONE:  21,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",224ZONE:  21,OLD ANTIPOLO,J A SANTOS-MAGDALENA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",224ZONE:  21,OLD ANTIPOLO,J A SANTOS-MAGDALENA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",224ZONE:  21,BATANGAS (A. LORENZO),MAGDALENA-J A SANTOS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",224ZONE:  21,BATANGAS (A. LORENZO),MAGDALENA-J A SANTOS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",224ZONE:  21,JOSE ABAD SANTOS,BATANGAS-ANTIPOLO,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",224ZONE:  21,ALMEDA,BATANGAS-ANTIPOLO,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",224ZONE:  21,ALMEDA,BATANGAS-ANTIPOLO,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",224ZONE:  21,LAGUNA,MAGDALENA-J A SANTOS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",224ZONE:  21,LAGUNA,MAGDALENA-J A SANTOS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",224ZONE:  21,TINDALO EXTENSION,LAGUNA-ANTIPOLO,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",224ZONE:  21,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",224ZONE:  21,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",225ZONE:  21,TAYABAS (YUSECO),ALMEDA- YAKAL,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",225ZONE:  21,TAYABAS (YUSECO),ALMEDA- YAKAL,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",225ZONE:  21,TAYUMAN,EST MAGDALENA-ALMEDA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",225ZONE:  21,TAYUMAN,EST MAGDALENA-ALMEDA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",225ZONE:  21,ALMEDA,TAYUMAN-TAYABAS,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",225ZONE:  21,ALMEDA,TAYUMAN-TAYABAS,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",225ZONE:  21,YAKAL,YUSECO-PRISCILLA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",225ZONE:  21,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",225ZONE:  21,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",226ZONE:  21,TAYUMAN,ALMEDA-J A SANTOS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",226ZONE:  21,TAYUMAN,ALMEDA-J A SANTOS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",226ZONE:  21,ALMEDA,TAYUMAN-TAYABAS,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",226ZONE:  21,ALMEDA,TAYUMAN-TAYABAS,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",226ZONE:  21,JOSE ABAD SANTOS,TAYUMAN-TAYABAS,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",226ZONE:  21,TAYABAS (YUSECO),J A SANTOS-ALMEDA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",226ZONE:  21,TAYABAS (YUSECO),J A SANTOS-ALMEDA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",226ZONE:  21,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",226ZONE:  21,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",249ZONE:  23,ALMEDA,VILLARUEL-YAKAL,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",249ZONE:  23,ALMEDA,VILLARUEL-YAKAL,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",249ZONE:  23,TAYUMAN,J A SANTOS-TECSON,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",249ZONE:  23,TAYUMAN,J A SANTOS-TECSON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",249ZONE:  23,BIAK NA BATO,VILLARUEL-YAKAL,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",249ZONE:  23,G SANTIAGO,ALMEDA-TECSON,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",249ZONE:  23,JOSE ABAD SANTOS,VILLARUEL-TAYUMAN,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",249ZONE:  23,TECSON,YAKAL-VILLARUEL,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",249ZONE:  23,TINDALO,VILLARUEL-YAKAL,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",249ZONE:  23,VILLARUEL,TECSON-J A SANTOS,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",249ZONE:  23,YAKAL,BIAK NA BATO-TECSON,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",249ZONE:  23,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",249ZONE:  23,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",250ZONE:  23,ALVARADO EXTENSION,LA TORRE-M HIZON,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",250ZONE:  23,ALVARADO EXTENSION,LA TORRE-M HIZON,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",250ZONE:  23,JOSE ABAD SANTOS,LA TORRE-M HIZON ELM,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",250ZONE:  23,LA TORRE,EST MAGDALENA-SANTOS,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",250ZONE:  23,LA TORRE,EST MAGDALENA-SANTOS,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",250ZONE:  23,MAYHALIGUE,J A SANTOS-ESTERO,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",250ZONE:  23,MAYHALIGUE,J A SANTOS-ESTERO,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",250ZONE:  23,NARCISA RIZAL,LA TORRE-ESTERO,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",250ZONE:  23,SANCHEZ,LA TORRE-M HIZON,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",250ZONE:  23,SANCHEZ,LA TORRE-M HIZON,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",250ZONE:  23,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",250ZONE:  23,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",251ZONE:  23,ALMEDA,QUIRICADA-VILLARUEL,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",251ZONE:  23,ALMEDA,QUIRICADA-VILLARUEL,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",251ZONE:  23,QUIRICADA,TECSON-ALMEDA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",251ZONE:  23,QUIRICADA,TECSON-ALMEDA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",251ZONE:  23,SAN NICOLAS,ALMEDA-TECSON,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",251ZONE:  23,TECSON,VILLARUEL-QUIRICADA,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",251ZONE:  23,TINDALO,QUIRICADA-VILLARUEL,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",251ZONE:  23,VILLARUEL,ALMEDA-TECSON,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",251ZONE:  23,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",251ZONE:  23,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",252ZONE:  23,ALMEDA,VILLARUEL-QUIRICADA,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",252ZONE:  23,ALMEDA,VILLARUEL-QUIRICADA,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",252ZONE:  23,BIAK NA BATO,SAN NICOLAS-VILLARUEL,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",252ZONE:  23,JOSE ABAD SANTOS,QUIRICADA-VILLARUEL,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",252ZONE:  23,QUIRICADA,ALMEDA-J A SANTOS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",252ZONE:  23,QUIRICADA,ALMEDA-J A SANTOS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",252ZONE:  23,SAN NICOLAS,BIAK NA BATO-ALMEDA,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",252ZONE:  23,VILLARUEL,J A SANTOS-ALMEDA,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",252ZONE:  23,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",252ZONE:  23,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",253ZONE:  23,ALMEDA,BAMBANG-QUIRICADA,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",253ZONE:  23,ALMEDA,BAMBANG-QUIRICADA,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",253ZONE:  23,BAMBANG,ALMEDA-J A SANTOS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",253ZONE:  23,BAMBANG,ALMEDA-J A SANTOS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",253ZONE:  23,JOSE ABAD SANTOS,BAMBANG-QUIRICADA,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",253ZONE:  23,QUIRICADA,J A SANTOS-ALMEDA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",253ZONE:  23,QUIRICADA,J A SANTOS-ALMEDA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",253ZONE:  23,SANCHEZ,BAMBANG-J A SANTOS,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",253ZONE:  23,SANCHEZ,BAMBANG-J A SANTOS,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",253ZONE:  23,TINDALO,QUIRICADA-BAMBANG,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",253ZONE:  23,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",253ZONE:  23,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",254ZONE:  23,BAMBANG,J A SANTOS-YAKAL,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",254ZONE:  23,BAMBANG,J A SANTOS-YAKAL,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",254ZONE:  23,TOBERA,EST MAGDALENA-BAMBANG,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",254ZONE:  23,G ARANETA,J A SANTOS-F TUBERA,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",254ZONE:  23,JOSE ABAD SANTOS,M HIZON-BAMBANG,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",254ZONE:  23,QUIRICADA,ALMEDA-YAKAL,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",254ZONE:  23,QUIRICADA,ALMEDA-YAKAL,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",254ZONE:  23,SANCHEZ,G ARANETA-BAMBANG,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",254ZONE:  23,SANCHEZ,G ARANETA-BAMBANG,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",254ZONE:  23,YAKAL,QUIRICADA-ESTERO,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",254ZONE:  23,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",254ZONE:  23,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",255ZONE:  23,QUIRICADA,ESTERO DE MAGDALENA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",255ZONE:  23,QUIRICADA,ESTERO DE MAGDALENA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",255ZONE:  23,SAN NICOLAS,YAKAL-EST DE MAGDALENA,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",255ZONE:  23,VILLARUEL,YAKAL-EST DE MAGDALENA,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",255ZONE:  23,YAKAL,QUIRICADA-VILLARUEL,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",255ZONE:  23,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",255ZONE:  23,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",256ZONE:  23,TAYUMAN,TECSON-ESTERO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",256ZONE:  23,TAYUMAN,TECSON-ESTERO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",256ZONE:  23,TORERA,YAKAL-VILLARUEL,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",256ZONE:  23,TECSON,VILLARUEL-TAYUMAN,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",256ZONE:  23,VILLARUEL,ESTERO-TECSON,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",256ZONE:  23,YAKAL,VILLARUEL-TECSON,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",256ZONE:  23,*G SANTIAGO,VILLARUEL,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",256ZONE:  23,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",256ZONE:  23,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",257ZONE:  23,BAMBANG,YAKAL-ESTERO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",257ZONE:  23,BAMBANG,YAKAL-ESTERO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",257ZONE:  23,FELIX DE LEON,ESTERO-QUIRICADA,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",257ZONE:  23,QUIRICADA,YAKAL-ESTERO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",257ZONE:  23,QUIRICADA,YAKAL-ESTERO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",257ZONE:  23,YAKAL,ESTERO-QUIRICADA,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",257ZONE:  23,*TORERA,,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",257ZONE:  23,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",257ZONE:  23,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",258ZONE:  23,G SANTIAGO,SAN NICOLAS-VILLARUEL,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",258ZONE:  23,QUIRICADA,YAKAL-TECSON,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",258ZONE:  23,QUIRICADA,YAKAL-TECSON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",258ZONE:  23,SAN NICOLAS,TECSON-YAKAL,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",258ZONE:  23,TECSON,QUIRICADA-VILLARUEL,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",258ZONE:  23,VILLARUEL,TECSON-YAKAL,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",258ZONE:  23,YAKAL,VILLARUEL-QUIRICADA,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",258ZONE:  23,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",258ZONE:  23,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",259ZONE:  23,ALVARADO EXTENSION,C M RECTO-LA TORRE,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",259ZONE:  23,ALVARADO EXTENSION,C M RECTO-LA TORRE,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",259ZONE:  23,C M RECTO,MAGDALENA-J A SANTOS,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",259ZONE:  23,JOSE ABAD SANTOS,C M RECTOR-LA TORRE,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",259ZONE:  23,LA TORRE,J A SANTOS-ESTERO,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",259ZONE:  23,LA TORRE,J A SANTOS-ESTERO,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",259ZONE:  23,NARCISA RIZAL,P.ALGUE-LA TORRE,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",259ZONE:  23,PADRE ALGUE,J A SANTOS-MAGDALENA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",259ZONE:  23,PADRE ALGUE,J A SANTOS-MAGDALENA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",259ZONE:  23,SANCHEZ,C M RECTO-LA TORRE,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",259ZONE:  23,SANCHEZ,C M RECTO-LA TORRE,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",259ZONE:  23,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",259ZONE:  23,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",260ZONE:  24,BENAVIDEZ,C M RECTO-LA TORRE,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",260ZONE:  24,BENAVIDEZ,C M RECTO-LA TORRE,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",260ZONE:  24,C M RECTO,DE LAZARO-MASANGKAY,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",260ZONE:  24,G MASANGKAY,C M RECTO-LA TORRE,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",260ZONE:  24,G MASANGKAY,C M RECTO-LA TORRE,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",260ZONE:  24,LA TORRE,MASANGKAY-DE LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",260ZONE:  24,LA TORRE,MASANGKAY-DE LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",260ZONE:  24,LUZON,MASANGKAY-DE LAZARO,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",260ZONE:  24,LUZON,MASANGKAY-DE LAZARO,RR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",260ZONE:  24,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",260ZONE:  24,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",261ZONE:  24,G MASANGKAY,MAYHALIGUE-DE LAZARO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",261ZONE:  24,G MASANGKAY,MAYHALIGUE-DE LAZARO,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",261ZONE:  24,G MASANGKAY,MAYHALIGUE-DE LAZARO,X,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",261ZONE:  24,MAYHALIGUE,DE LAZARO-MASANGKAY,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",261ZONE:  24,MAYHALIGUE,DE LAZARO-MASANGKAY,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",261ZONE:  24,MAYHALIGUE,DE LAZARO-MASANGKAY,X,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",261ZONE:  24,*BAMBANG,S.REYES-MASANGKAY,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",261ZONE:  24,*BAMBANG,S.REYES-MASANGKAY,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",261ZONE:  24,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",261ZONE:  24,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",261ZONE:  24,**ALL OTHER STREETS,,X,
+National Capital Region (NCR),"Sta. Cruz, Manila",262ZONE:  24,G MASANGKAY,BAMBANG-MAYHALIGUE,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",262ZONE:  24,G MASANGKAY,BAMBANG-MAYHALIGUE,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",262ZONE:  24,G MASANGKAY,BAMBANG-MAYHALIGUE,X,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",262ZONE:  24,*KALAW,ESTERO DE LAZARO,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",262ZONE:  24,LA TORRE,DE LAZARO-MAGDALENA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",262ZONE:  24,LA TORRE,DE LAZARO-MAGDALENA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",262ZONE:  24,MAYHALIGUE,E MAGDALENA-E LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",262ZONE:  24,MAYHALIGUE,E MAGDALENA-E LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",262ZONE:  24,MAYHALIGUE,E MAGDALENA-E LAZARO,X,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",262ZONE:  24,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",262ZONE:  24,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",262ZONE:  24,**ALL OTHER STREETS,,X,
+National Capital Region (NCR),"Sta. Cruz, Manila",263ZONE:  24,BENAVIDEZ,LA TORRE-G MASANGKAY,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",263ZONE:  24,BENAVIDEZ,LA TORRE-G MASANGKAY,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",263ZONE:  24,G MASANGKAY,LA TORRE-DE LAZARO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",263ZONE:  24,G MASANGKAY,LA TORRE-DE LAZARO,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",263ZONE:  24,LA TORRE,MASANGKAY-DE LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",263ZONE:  24,LA TORRE,MASANGKAY-DE LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",263ZONE:  24,MAYHALIGUE,MASANGKAY-DE LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",263ZONE:  24,MAYHALIGUE,MASANGKAY-DE LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",263ZONE:  24,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",263ZONE:  24,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",264ZONE:  24,ALEGRE,MAYHALIGUE-BAMBANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",264ZONE:  24,BAMBANG,MAGDALENA-MASANGKAY,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",264ZONE:  24,BAMBANG,MAGDALENA-MASANGKAY,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",264ZONE:  24,G MASANGKAY,BAMBANG-MAYHALIGUE,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",264ZONE:  24,G MASANGKAY,BAMBANG-MAYHALIGUE,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",264ZONE:  24,MAYHALIGUE,MASANGKAY-MAGDALENA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",264ZONE:  24,MAYHALIGUE,MASANGKAY-MAGDALENA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",264ZONE:  24,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",264ZONE:  24,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",265ZONE:  24,BAMBANG,IPIL-MAGDALENA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",265ZONE:  24,BAMBANG,IPIL-MAGDALENA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",265ZONE:  24,DIZON,BAMBANG-IPIL,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",265ZONE:  24,IPIL,DIZON-BAMBANG,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",265ZONE:  24,IPIL,DIZON-BAMBANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",265ZONE:  24,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",265ZONE:  24,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",266ZONE:  24,AGUILAR,C M RECTO-LUZON,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",266ZONE:  24,AGUILAR,C M RECTO-LUZON,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",266ZONE:  24,C M RECTO,EST LAZARO-MASANGKAY,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",266ZONE:  24,G MASANGKAY,LA TORRE-C M RECTO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",266ZONE:  24,G MASANGKAY,LA TORRE-C M RECTO,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",266ZONE:  24,LA TORRE,MAGDALENA-MASANGKAY,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",266ZONE:  24,LA TORRE,MAGDALENA-MASANGKAY,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",266ZONE:  24,LUZON,EST MAGDALENA-MASANGKAY,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",266ZONE:  24,LUZON,EST MAGDALENA-MASANGKAY,RR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",266ZONE:  24,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",266ZONE:  24,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",267ZONE:  24,ALVAREZ EXTENSION,EST MAGDALENA-IPIL,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",267ZONE:  24,DIZON,IPIL-BAMBANG,RR,30000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",267ZONE:  24,IPIL,QUIRICADA-DIZON,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",267ZONE:  24,IPIL,QUIRICADA-DIZON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",267ZONE:  24,QUIRICADA,EST MAGDALENA-IPIL,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",267ZONE:  24,QUIRICADA,EST MAGDALENA-IPIL,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",267ZONE:  24,*BAMBANG,IPIL-YAKAL,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",267ZONE:  24,*BAMBANG,IPIL-YAKAL,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",267ZONE:  24,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",267ZONE:  24,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",297ZONE:  29,BAHAMA,ONGPIN COR T ALONZO,CR,100000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",297ZONE:  29,ESPELETA,DE LAZARO-T ALONZO,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",297ZONE:  29,S PADILLA (GANDARA),TETUAN-ONGPIN,CR,240000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",297ZONE:  29,ONGPIN,T ALONZO-DE LAZARO,CR,240000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",297ZONE:  29,T ALONZO,ONGPIN-DELA REINA,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",297ZONE:  29,TETUAN,GANDARA-T ALONZO,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",297ZONE:  29,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",297ZONE:  29,LA GRANDA MANSION,S PADILLA (GANDARA),CC,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",297ZONE:  29,LA GRANDA MANSION,S PADILLA (GANDARA),RC,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",297ZONE:  29,LA GRANDA MANSION,S PADILLA (GANDARA),PS,40000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",298ZONE:  29,BERMUDA,ESPELETA-ONGPIN,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",298ZONE:  29,ESPELETA,T ALONZO-T MAPUA,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",298ZONE:  29,OBANDO,T MAPUA-BERMUDA,CR,100000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",298ZONE:  29,ONGPIN,T ALONZO-STA CRUZ,CR,240000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",298ZONE:  29,PILARICA,T MAPUA-BERMUDA,CR,100000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",298ZONE:  29,PLAZA SANTA CRUZ,ONGPIN-DELA REINA,CR,240000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",298ZONE:  29,T ALONZO,DELA REINA-ONGPIN,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",298ZONE:  29,T MAPUA,DELA REINA-ONGPIN,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",298ZONE:  29,TAMBAKAN,DELA REINA-ONGPIN,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",298ZONE:  29,TETUAN,T ALONZO-T MAPUA,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",298ZONE:  29,YEBANA,DELA REINA-ESPELETA,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",298ZONE:  29,RONQUILLO,TETUAN-ONGPIN,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",298ZONE:  29,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",299ZONE:  29,C M RECTO,T ALONZO-DE LAZARO,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",299ZONE:  29,SOLER,DE LAZARO-T ALONZO,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",299ZONE:  29,T ALONZO,ZACATEROS-C M RECTO,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",299ZONE:  29,ZACATEROS,DE LAZARO-T ALONZO,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",299ZONE:  29,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",300ZONE:  29,S PADILLA (GANDARA),ONGPIN-DE LAZARO,CR,240000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",300ZONE:  29,ONGPIN,DE LAZARO-T ALONZO,CR,240000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",300ZONE:  29,T ALONZO,ONGPIN-ZACATEROS,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",300ZONE:  29,ZACATEROS,DE LAZARO-T ALONZO,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",300ZONE:  29,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",301ZONE:  29,FERNANDEZ,ZACATEROS-ONGPIN,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",301ZONE:  29,ONGPIN,FERNANDEZ-T MAPUA,CR,240000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",301ZONE:  29,*PAKADUA,T ALONZO-T MAPUA,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",301ZONE:  29,SOLER,T MAPUA-T ALONZO,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",301ZONE:  29,T ALONZO,SOLER-ZACATEROS,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",301ZONE:  29,T MAPUA,SOLER-ONGPIN,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",301ZONE:  29,ZACATEROS,T ALONZO-T MAPUA,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",301ZONE:  29,**KIPUJA,T. ALONZO-ONGPIN,CR,100000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",301ZONE:  29,***ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",302ZONE:  29,FERNANDEZ,ZACATEROS-ONGPIN,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",302ZONE:  29,KIPUJA,T ALONZO-FERNANDEZ,CR,100000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",302ZONE:  29,ONGPIN,FERNANDEZ-T ALONZO,CR,240000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",302ZONE:  29,T ALONZO,ZACATEROS-ONGPIN,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",302ZONE:  29,ZACATEROS,T ALONZO-FERNANDEZ,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",302ZONE:  29,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",303ZONE:  29,A REYES,F TORRES-G PUYAT,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",303ZONE:  29,BUSTOS,STA CRUZ-RIZAL AVE,CR,160000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",303ZONE:  29,F TORRES,G PUYAT-KATUBUSAN,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",303ZONE:  29,G PUYAT RAON,ONGPIN-RIZAL AVE,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",303ZONE:  29,KATUBUSAN,RIZAL AVE-F TORRES,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",303ZONE:  29,ONGPIN,G PUYAT-RAON,CR,240000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",303ZONE:  29,PLAZA SANTA CRUZ,ALL AROUND,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",303ZONE:  29,RIZAL AVENUE,DELA REINA-KATUBUSAN,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",303ZONE:  29,RONQUILLO,DELA REINA-RIZAL AVE,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",303ZONE:  29,*CARRIEDO,PLAZA STA CRUZ-RIZAL AVE,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",303ZONE:  29,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",304ZONE:  29,C M RECTO,RIZAL AVE-F TORRES,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",304ZONE:  29,F TORRES,C M RECTO-KATUBUSAN,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",304ZONE:  29,KATUBUSAN,F TORRES-RIZAL AVE,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",304ZONE:  29,RIZAL AVENUE,KATUBUSAN-C M RECTO,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",304ZONE:  29,SOLER,F TORRES-RIZAL AVE,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",304ZONE:  29,A REYES,F TORRES-G PUYAT,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",304ZONE:  29,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",305ZONE:  29,C M RECTO,F TORRES-T ALONZO,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",305ZONE:  29,F TORRES,G PUYAT-CM RECTO,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",305ZONE:  29,G PUYAT (RAON),F TORRES-ONGPIN,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",305ZONE:  29,ONGPIN,RAON-T MAPUA,CR,240000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",305ZONE:  29,SAN BERNARDO,SOLER-C M RECTO,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",305ZONE:  29,SOLER,F TORRES- T ALONZO,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",305ZONE:  29,T ALONZO,SOLER-C M RECTO,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",305ZONE:  29,T MAPUA,ONGPIN-RAON,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",305ZONE:  29,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",310ZONE:  31,A MENDOZA (ANDALUCIA),CTRL MKT-RECTO AVE,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",310ZONE:  31,C M RECTO,RECTO-DOROTEO JOSE,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",310ZONE:  31,DOROTEO JOSE,RIZAL AVE-OROQUIETA,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",310ZONE:  31,OLD BILIBID,OROQUIETA-A MENDOZA,GL,
+National Capital Region (NCR),"Sta. Cruz, Manila",310ZONE:  31,OROQUIETA,C M RECTO-D JOSE,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",310ZONE:  31,RIZAL AVENUE,RECTO-DOROTEO JOSE,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",310ZONE:  31,*LOPE DE VEGA,OROQUIETA- QUEZON BLVD.,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",310ZONE:  31,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",311ZONE:  31,A MENDOZA (ANDALUCIA),OLD BILIBID-V FUGOSO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",311ZONE:  31,FELIX HUERTAS,DE VEGA-V FUGOSO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",311ZONE:  31,FELIX HUERTAS,DE VEGA-V FUGOSO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",311ZONE:  31,LOPE DE VEGA,M HIZON-P GUEVARRA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",311ZONE:  31,LOPE DE VEGA,M HIZON-P GUEVARRA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",311ZONE:  31,M HIZON,JF MEM HOSP-V FUGOSO,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",311ZONE:  31,M HIZON,JF MEM HOSP-V FUGOSO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",311ZONE:  31,OLD BILIBID,M HIZON-A MENDOZA,GL,
+National Capital Region (NCR),"Sta. Cruz, Manila",311ZONE:  31,P GUEVARRA,DE VEGA-V FUGOSO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",311ZONE:  31,SULU,DE VEGA-V FUGOSO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",311ZONE:  31,V FUGOSO,A MENDOZA-M HIZON,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",311ZONE:  31,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",311ZONE:  31,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",312ZONE:  31,DOROTEO JOSE,OLD BILIBID-RIZAL AVE,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",312ZONE:  31,LOPE DE VEGA,RIZAL AVE-M HIZON,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",312ZONE:  31,LOPE DE VEGA,RIZAL AVE-M HIZON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",312ZONE:  31,M HIZON,V FUGOSO-OLD BILIBID,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",312ZONE:  31,M HIZON,V FUGOSO-OLD BILIBID,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",312ZONE:  31,M NATIVIDAD,D JOSE-ZURBABAN,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",312ZONE:  31,M NATIVIDAD,D JOSE-ZURBABAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",312ZONE:  31,OROQUIETA,D JOSE-ZURBABAN,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",312ZONE:  31,RIZAL AVENUE,D JOSE-ZURBABAN,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",312ZONE:  31,V FUGOSO,RIZAL AVE-M HIZON,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",312ZONE:  31,V FUGOSO,RIZAL AVE-M HIZON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",312ZONE:  31,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",312ZONE:  31,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",313ZONE:  31,C M RECTO,RIZAL AVE-DE LAZARO,CR,180000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",313ZONE:  31,DOROTEO JOSE,DE LAZARO-RIZAL AVE,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",313ZONE:  31,DOROTEO JOSE,DE LAZARO-RIZAL AVE,RR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",313ZONE:  31,KUSANG LOOB,D JOSE,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",313ZONE:  31,NORTE,D JOSE,RR,100000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",313ZONE:  31,RIZAL AVENUE,D JOSE-M RECTO,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",313ZONE:  31,S REYES (O'DONNELL),D JOSE-M RECTO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",313ZONE:  31,T ALONZO,D JOSE-M RECTO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",313ZONE:  31,T MAPUA,D JOSE-M RECTO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",313ZONE:  31,T MAPUA,D JOSE-M RECTO,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",313ZONE:  31,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",313ZONE:  31,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",314ZONE:  31,DOROTEO JOSE,RIZAL AVE-DE LAZARO,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",314ZONE:  31,DOROTEO JOSE,RIZAL AVE-DE LAZARO,RR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",314ZONE:  31,KUSANG LOOB,LOPE DE VEGA-D JOSE,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",314ZONE:  31,LOPE DE VEGA,DE LAZARO-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",314ZONE:  31,LOPE DE VEGA,DE LAZARO-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",314ZONE:  31,RIZAL AVENUE,LOPE DE VEGA-D JOSE,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",314ZONE:  31,S REYES (O'DONNELL),LOPE DE VEGA-D JOSE,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",314ZONE:  31,T ALONZO,LOPE DE VEGA-D JOSE,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",314ZONE:  31,T MAPUA,LOPE DE VEGA-D JOSE,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",314ZONE:  31,T MAPUA,LOPE DE VEGA-D JOSE,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",314ZONE:  31,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",314ZONE:  31,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",315ZONE:  31,A MENDOZA (ANDALUCIA),REMIGIO-V FUGOSO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",315ZONE:  31,E REMIGIO,F HUERTAS-A MENDOZA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",315ZONE:  31,E REMIGIO,F HUERTAS-A MENDOZA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",315ZONE:  31,FELIX HUERTAS,ZURBARAN-E REMIGIO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",315ZONE:  31,FELIX HUERTAS,ZURBARAN-E REMIGIO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",315ZONE:  31,MAYHALIGUE,F HUERTAS-P GUEVARRA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",315ZONE:  31,P GUEVARRA,ZURBARAN-E REMIGIO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",315ZONE:  31,SULU,ZURBARAN-E REMIGIO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",315ZONE:  31,V FUGOSO,A MENDOZA-F HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",315ZONE:  31,*M HIZON,FUGOSO-REMIGIO,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",315ZONE:  31,*M HIZON,FUGOSO-REMIGIO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",315ZONE:  31,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",315ZONE:  31,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",316ZONE:  32,E REMIGIO REQUESENS,RIZAL AVE FELIX HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",316ZONE:  32,E REMIGIO REQUESENS,RIZAL AVE FELIX HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",316ZONE:  32,FELIX HUERTAS,E REMIGIO ZURBARAN,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",316ZONE:  32,FELIX HUERTAS,E REMIGIO ZURBARAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",316ZONE:  32,M HIZON,ZURBARAN E REMIGIO,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",316ZONE:  32,M HIZON,ZURBARAN E REMIGIO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",316ZONE:  32,M NATIVIDAD,ZURBARAN E REMIGIO,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",316ZONE:  32,M NATIVIDAD,ZURBARAN E REMIGIO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",316ZONE:  32,MAYHALIGUE,RIZAL AVE FELIX HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",316ZONE:  32,OROQUIETA,ZURBARAN E REMIGIO,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",316ZONE:  32,RIZAL AVENUE,ZURBARAN E REMIGIO,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",316ZONE:  32,V FUGOSO,FELIX HUERTAS RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",316ZONE:  32,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",316ZONE:  32,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",317ZONE:  32,A MENDOZA (ANDALUCIA),ALVAREZ BAMBANG,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",317ZONE:  32,A MENDOZA (ANDALUCIA),ALVAREZ BAMBANG,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",317ZONE:  32,ALVAREZ,F HUERTAS A MENDOZA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",317ZONE:  32,ALVAREZ,F HUERTAS A MENDOZA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",317ZONE:  32,BAMBANG,A MENDOZA F HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",317ZONE:  32,BAMBANG,A MENDOZA F HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",317ZONE:  32,FELIX HUERTAS,BAMBANG ALVAREZ,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",317ZONE:  32,FELIX HUERTAS,BAMBANG ALVAREZ,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",317ZONE:  32,KALIMBAS,BAMBANG ALVAREZ,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",317ZONE:  32,MILAGROS,BAMBANG ALVAREZ,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",317ZONE:  32,P GUEVARRA,BAMBANG ALVAREZ,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",317ZONE:  32,SULU,BAMBANG ALVAREZ,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",317ZONE:  32,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",317ZONE:  32,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",318ZONE:  32,BAMBANG,F HUERTAS P GUEVARRA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",318ZONE:  32,BAMBANG,F HUERTAS P GUEVARRA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",318ZONE:  32,E REMIGIO,P GUEVARRA F HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",318ZONE:  32,E REMIGIO,P GUEVARRA F HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",318ZONE:  32,FELIX HUERTAS,E REMIGIO BAMBANG,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",318ZONE:  32,FELIX HUERTAS,E REMIGIO BAMBANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",318ZONE:  32,P GUEVARRA,BAMBANG E REMIGIO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",318ZONE:  32,SULU,E REMIGIO BAMBANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",318ZONE:  32,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",318ZONE:  32,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",319ZONE:  32,A MENDOZA (ANDALUCIA),BANBANG E REMIGIO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",319ZONE:  32,BAMBANG,P GUEVARRA A MENDOZA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",319ZONE:  32,BAMBANG,P GUEVARRA A MENDOZA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",319ZONE:  32,E REMIGIO,A MENDOZA P GUEVARRA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",319ZONE:  32,E REMIGIO,A MENDOZA P GUEVARRA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",319ZONE:  32,KALIMBAS,E REMIGIO BAMBANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",319ZONE:  32,P GUEVARRA,E REMIGIO  BAMBANG,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",319ZONE:  32,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",319ZONE:  32,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",320ZONE:  32,ALVAREZ,RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",320ZONE:  32,ALVAREZ,RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",320ZONE:  32,BAMBANG,F HUERTAS RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",320ZONE:  32,BAMBANG,F HUERTAS RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",320ZONE:  32,FELIX HUERTAS,ALVAREZ BAMBANG,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",320ZONE:  32,FELIX HUERTAS,ALVAREZ BAMBANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",320ZONE:  32,M HIZON,BAMBANG ALVAREZ,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",320ZONE:  32,M HIZON,BAMBANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",320ZONE:  32,M NATIVIDAD,BAMBANG ALVAREZ,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",320ZONE:  32,M NATIVIDAD,BAMBANG ALVAREZ,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",320ZONE:  32,OROQUIETA,BAMBANG ALVAREZ,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",320ZONE:  32,RIZAL AVENUE,BAMBANG ALVAREZ,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",320ZONE:  32,RIZAL AVENUE,BAMBANG ALVAREZ,RR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",320ZONE:  32,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",320ZONE:  32,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",321ZONE:  32,BAMBANG,RIZAL AVENUE-OROQUIETA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",321ZONE:  32,BAMBANG,RIZAL AVENUE-OROQUIETA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",321ZONE:  32,E REMIGIO,OROQUIETA-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",321ZONE:  32,E REMIGIO,OROQUIETA-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",321ZONE:  32,M NATIVIDAD,BAMBANG-ALVAREZ,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",321ZONE:  32,M NATIVIDAD,BAMBANG-ALVAREZ,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",321ZONE:  32,OROQUIETA,BAMBANG-REMIGIO,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",321ZONE:  32,RIZAL AVENUE,E REMIGIO-BAMBANG,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",321ZONE:  32,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",321ZONE:  32,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",322ZONE:  32,BAMBANG,OROQUETA-F.HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",322ZONE:  32,BAMBANG,OROQUETA-F.HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",322ZONE:  32,E REMIGIO,FELIX HUERTAS-OROQUIETA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",322ZONE:  32,E REMIGIO,FELIX HUERTAS-OROQUIETA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",322ZONE:  32,FELIX HUERTAS,E REMIGIO-BAMBANG,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",322ZONE:  32,FELIX HUERTAS,E REMIGIO-BAMBANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",322ZONE:  32,M HIZON,E REMIGIO-BAMBANG,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",322ZONE:  32,M HIZON,E REMIGIO-BAMBANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",322ZONE:  32,OROQUIETA,E REMIGIO-BAMBANG,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",322ZONE:  32,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",322ZONE:  32,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",323ZONE:  32,A MENDOZA (ANDALUCIA),QUIRICADA-ALVAREZ,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",323ZONE:  32,ALVAREZ,A MENDOZA-F HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",323ZONE:  32,ALVAREZ,A MENDOZA-F HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",323ZONE:  32,FELIX HUERTAS,ALVAREZ-QUIRICADA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",323ZONE:  32,FELIX HUERTAS,ALVAREZ-QUIRICADA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",323ZONE:  32,KALIMBAS,ALVAREZ-QUIRICADA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",323ZONE:  32,MILAGROS,ALVAREZ-QUIRICADA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",323ZONE:  32,P GUEVARRA,ALVAREZ-QUIRICADA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",323ZONE:  32,P GUEVARRA,ALVAREZ-QUIRICADA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",323ZONE:  32,QUIRICADA,F HUERTAS-A MENDOZA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",323ZONE:  32,QUIRICADA,F HUERTAS-A MENDOZA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",323ZONE:  32,SULU,ALVAREZ-QUIRICADA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",323ZONE:  32,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",323ZONE:  32,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",324ZONE:  32,ALVAREZ,F HUERTAS-OROQUIETA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",324ZONE:  32,ALVAREZ,F HUERTAS-OROQUIETA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",324ZONE:  32,FELIX HUERTAS,QUIRICADA-ALVAREZ,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",324ZONE:  32,FELIX HUERTAS,QUIRICADA-ALVAREZ,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",324ZONE:  32,M HIZON,ALVAREZ-QUIRICADA,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",324ZONE:  32,M HIZON,ALVAREZ-QUIRICADA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",324ZONE:  32,OROQUIETA,ALVAREZ-QUIRICADA,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",324ZONE:  32,OROQUIETA,ALVAREZ-QUIRICADA,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",324ZONE:  32,QUIRICADA,OROQUIETA-FELIX HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",324ZONE:  32,QUIRICADA,OROQUIETA-FELIX HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",324ZONE:  32,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",324ZONE:  32,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",325ZONE:  32,ALVAREZ,OROQUIETA-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",325ZONE:  32,ALVAREZ,OROQUIETA-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",325ZONE:  32,M NATIVIDAD,ALVAREZ-QUIRICADA,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",325ZONE:  32,M NATIVIDAD,ALVAREZ-QUIRICADA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",325ZONE:  32,OROQUIETA,QUIRICADA-ALVAREZ,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",325ZONE:  32,OROQUIETA,QUIRICADA-ALVAREZ,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",325ZONE:  32,QUIRICADA,RIZAL AVE-OROQUETA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",325ZONE:  32,QUIRICADA,RIZAL AVE-OROQUETA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",325ZONE:  32,RIZAL AVENUE,ALVAREZ-QUIRICADA,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",325ZONE:  32,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",325ZONE:  32,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",326ZONE:  33,BAMBANG,ESTERO DE LAZARO-TM,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",326ZONE:  33,BAMBANG,ESTERO DE LAZARO-TM,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",326ZONE:  33,E REMIGIO,MAPUA-ESTERO DE LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",326ZONE:  33,E REMIGIO,MAPUA-ESTERO DE LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",326ZONE:  33,MAKATA,E REMIGIO-BAMBANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",326ZONE:  33,S REYES (O'DONNELL),E REMIGIO-BAMBANG,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",326ZONE:  33,S REYES (O'DONNELL),E REMIGIO-BAMBANG,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",326ZONE:  33,T MAPUA,BAMBANG-REMIGIO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",326ZONE:  33,T MAPUA,BAMBANG-REMIGIO,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",326ZONE:  33,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",326ZONE:  33,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",327ZONE:  33,ALVAREZ,ESTERO LAZARO-MAPUA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",327ZONE:  33,ALVAREZ,ESTERO LAZARO-MAPUA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",327ZONE:  33,BAMBANG,MAPUA-ESTERO LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",327ZONE:  33,BAMBANG,MAPUA-ESTERO LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",327ZONE:  33,MAKATA,BAMBANG-S REYES,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",327ZONE:  33,QUIRICADA,LAZARO-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",327ZONE:  33,QUIRICADA,LAZARO-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",327ZONE:  33,S REYES (O'DONNELL),BAMBANG-ALVAREZ,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",327ZONE:  33,S REYES (O'DONNELL),BAMBANG-ALVAREZ,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",327ZONE:  33,T MAPUA,ALVAREZ-BAMBANG,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",327ZONE:  33,T MAPUA,ALVAREZ-BAMBANG,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",327ZONE:  33,IPIL,QUIRICADA-BAMBANG,CR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",327ZONE:  33,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",327ZONE:  33,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",328ZONE:  33,E REMIGIO,ESTERO LAZARO-MAPUA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",328ZONE:  33,E REMIGIO,ESTERO LAZARO-MAPUA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",328ZONE:  33,MAKATA,MAYHALIGUE-E REMIGIO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",328ZONE:  33,MAYHALIGUE,MAPUA-ESTERO LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",328ZONE:  33,MAYHALIGUE,MAPUA-ESTERO LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",328ZONE:  33,S REYES (O'DONNELL),MAYHALIGUE-E REMIGIO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",328ZONE:  33,S REYES (O'DONNELL),MAYHALIGUE-E REMIGIO,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",328ZONE:  33,T MAPUA,E REMIGIO-MAYHALIGUE,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",328ZONE:  33,T MAPUA,E REMIGIO-MAYHALIGUE,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",328ZONE:  33,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",328ZONE:  33,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",329ZONE:  33,LOPE DE VEGA,T MAPUA- S REYES,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",329ZONE:  33,LOPE DE VEGA,T MAPUA- S REYES,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",329ZONE:  33,MAKATA,L DE VEGA-MAYHALIGUE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",329ZONE:  33,MAYHALIGUE,S REYES-T MAPUA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",329ZONE:  33,MAYHALIGUE,S REYES-T MAPUA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",329ZONE:  33,S REYES (O'DONNELL),L DE VEGA-MAYHALIGUE,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",329ZONE:  33,S REYES (O'DONNELL),L DE VEGA-MAYHALIGUE,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",329ZONE:  33,T MAPUA,MAYHALIGUE-L DE VEGA,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",329ZONE:  33,T MAPUA,MAYHALIGUE-L DE VEGA,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",329ZONE:  33,V FUGOSO,S REYES-T MAPUA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",329ZONE:  33,V FUGOSO,S REYES-T MAPUA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",329ZONE:  33,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",329ZONE:  33,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",330ZONE:  33,KUSANG LOOB,L DE VEGA-MAYHALIGUE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",330ZONE:  33,KUSANG LOOB,L DE VEGA-MAYHALIGUE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",330ZONE:  33,LOPE DE VEGA,REYES-ESTERO LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",330ZONE:  33,LOPE DE VEGA,REYES-ESTERO LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",330ZONE:  33,MAYHALIGUE,ESTERO LAZARO-REYES,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",330ZONE:  33,MAYHALIGUE,ESTERO LAZARO-REYES,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",330ZONE:  33,S REYES (O'DONNELL),MAYHALIGUE-DE VEGA,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",330ZONE:  33,S REYES (O'DONNELL),MAYHALIGUE-DE VEGA,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",330ZONE:  33,T ALONZO,L DE VEGA-EST LAZARO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",330ZONE:  33,V FUGOSO,EST LAZARO-S REYES,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",330ZONE:  33,V FUGOSO,EST LAZARO-S REYES,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",330ZONE:  33,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",330ZONE:  33,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",331ZONE:  33,APITONG,TAYUMAN-EST LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",331ZONE:  33,DAPDAP,TAYUMAN-EST LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",331ZONE:  33,IPIL,TAYUMAN-EST LAZARO,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",331ZONE:  33,IPIL,TAYUMAN-EST LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",331ZONE:  33,QUIRICADA,IPIL-EST LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",331ZONE:  33,QUIRICADA,IPIL-EST LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",331ZONE:  33,TAYUMAN,EST LAZARO-IPIL,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",331ZONE:  33,TAYUMAN,EST LAZARO-IPIL,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",331ZONE:  33,*RIZAL AVENUE,TAYUMAN-QUIRICADA,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",331ZONE:  33,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",331ZONE:  33,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",332ZONE:  33,ANACLETO,MAYHALIGUE-REMIGIO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",332ZONE:  33,ANACLETO,MAYHALIGUE-REMIGIO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",332ZONE:  33,E REMIGIO,T MAPUA-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",332ZONE:  33,E REMIGIO,T MAPUA-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",332ZONE:  33,MAYHALIGUE,RIZAL AVE-T MAPUA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",332ZONE:  33,MAYHALIGUE,RIZAL AVE-T MAPUA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",332ZONE:  33,RIZAL AVENUE,E REMIGIO-MAYHALIGUE,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",332ZONE:  33,T MAPUA,MAYHALIGUE-REMIGIO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",332ZONE:  33,T MAPUA,MAYHALIGUE-REMIGIO,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",332ZONE:  33,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",332ZONE:  33,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",333ZONE:  33,ANACLETO,E REMIGIO-BAMBANG,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",333ZONE:  33,ANACLETO,E REMIGIO-BAMBANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",333ZONE:  33,BAMBANG,T MAPUA-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",333ZONE:  33,BAMBANG,T MAPUA-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",333ZONE:  33,E REMIGIO,RIZAL AVE-T MAPUA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",333ZONE:  33,E REMIGIO,RIZAL AVE-T MAPUA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",333ZONE:  33,RIZAL AVENUE,BAMBANG-E REMIGIO,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",333ZONE:  33,T MAPUA,E REMIGIO-BAMBANG,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",333ZONE:  33,T MAPUA,E REMIGIO-BAMBANG,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",333ZONE:  33,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",333ZONE:  33,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",334ZONE:  33,ALVAREZ,T MAPUA-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",334ZONE:  33,ALVAREZ,T MAPUA-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",334ZONE:  33,ANACLETO,BAMBANG -ALVAREZ,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",334ZONE:  33,ANACLETO,BAMBANG -ALVAREZ,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",334ZONE:  33,BAMBANG,RIZAL AVE-T MAPUA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",334ZONE:  33,BAMBANG,RIZAL AVE-T MAPUA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",334ZONE:  33,IPIL,QUIRICADA-TAYUMAN,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",334ZONE:  33,IPIL,QUIRICADA-TAYUMAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",334ZONE:  33,QUIRICADA,IPIL-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",334ZONE:  33,QUIRICADA,IPIL-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",334ZONE:  33,RIZAL AVENUE,TAYUMAN-BAMBANG,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",334ZONE:  33,T MAPUA,BAMBANG-ALVAREZ,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",334ZONE:  33,T MAPUA,BAMBANG-ALVAREZ,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",334ZONE:  33,TAYUMAN,IPIL-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",334ZONE:  33,TAYUMAN,IPIL-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",334ZONE:  33,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",334ZONE:  33,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",335ZONE:  33,ANACLETO,L DE VEGA-MAYHALIGUE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",335ZONE:  33,ANACLETO,L DE VEGA-MAYHALIGUE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",335ZONE:  33,LOPE DE VEGA,RIZAL AVE-T MAPUA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",335ZONE:  33,LOPE DE VEGA,RIZAL AVE-T MAPUA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",335ZONE:  33,MAYHALIGUE,T MAPUA-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",335ZONE:  33,MAYHALIGUE,T MAPUA-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",335ZONE:  33,RIZAL AVENUE,MAYHALIGUE-L DE VEGA,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",335ZONE:  33,T MAPUA,L DE VEGA-MAYHALIGUE,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",335ZONE:  33,T MAPUA,L DE VEGA-MAYHALIGUE,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",335ZONE:  33,V FUGOSO,T MAPUA-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",335ZONE:  33,V FUGOSO,T MAPUA-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",335ZONE:  33,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",335ZONE:  33,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",336ZONE:  34,FELIX HUERTAS,TAYUMAN-MALABON,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",336ZONE:  34,FELIX HUERTAS,TAYUMAN-MALABON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",336ZONE:  34,M HIZON,TAYUMAN-MALABON,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",336ZONE:  34,M HIZON,TAYUMAN-MALABON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",336ZONE:  34,M NATIVIDAD,TAYUMAN-MALABON,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",336ZONE:  34,M NATIVIDAD,TAYUMAN-MALABON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",336ZONE:  34,MALABON,FELIX HUERTAS-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",336ZONE:  34,MALABON,FELIX HUERTAS-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",336ZONE:  34,OROQUIETA,TAYUMAN-MALABON,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",336ZONE:  34,OROQUIETA,TAYUMAN-MALABON,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",336ZONE:  34,RIZAL AVENUE,MALABON-TAYUMAN,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",336ZONE:  34,TAYUMAN,RIZAL AVE-FELIX HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",336ZONE:  34,TAYUMAN,RIZAL AVE-FELIX HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",336ZONE:  34,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",336ZONE:  34,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",337ZONE:  34,FELIX HUERTAS,MALABON-SAN LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",337ZONE:  34,FELIX HUERTAS,MALABON-SAN LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",337ZONE:  34,M HIZON,SAN LAZARO-MALABON,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",337ZONE:  34,M HIZON,SAN LAZARO-MALABON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",337ZONE:  34,M NATIVIDAD,SAN LAZARO-MALABON,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",337ZONE:  34,M NATIVIDAD,SAN LAZARO-MALABON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",337ZONE:  34,MALABON,RIZAL AVE-FELIX HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",337ZONE:  34,MALABON,RIZAL AVE-FELIX HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",337ZONE:  34,OROQUIETA,SAN LAZARO-MALABON,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",337ZONE:  34,OROQUIETA,SAN LAZARO-MALABON,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",337ZONE:  34,RIZAL AVENUE,SAN LAZARO-MALABON,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",337ZONE:  34,SAN LAZARO,FELIX HUERTAS-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",337ZONE:  34,SAN LAZARO,FELIX HUERTAS-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",337ZONE:  34,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",337ZONE:  34,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",338ZONE:  34,A MENDOZA (ANDALUCIA),MALABON-SAN LAZARO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",338ZONE:  34,A MENDOZA (ANDALUCIA),MALABON-SAN LAZARO,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",338ZONE:  34,FELIX HUERTAS,SAN LAZARO-MALABON,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",338ZONE:  34,FELIX HUERTAS,SAN LAZARO-MALABON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",338ZONE:  34,KALIMBAS,SAN LAZARO-MALABON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",338ZONE:  34,MALABON,F HUERTAS-A MENDOZA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",338ZONE:  34,MALABON,F HUERTAS-A MENDOZA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",338ZONE:  34,MILAGROS,SAN LAZARO-MALABON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",338ZONE:  34,P GUEVARRA,SAN LAZARO-MALABON,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",338ZONE:  34,P GUEVARRA,SAN LAZARO-MALABON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",338ZONE:  34,SAN LAZARO,A MENDOZA-F HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",338ZONE:  34,SAN LAZARO,A MENDOZA-F HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",338ZONE:  34,SULU,SAN LAZARO-MALABON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",338ZONE:  34,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",338ZONE:  34,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",339ZONE:  34,FELIX HUERTAS,MALABON-SAN LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",339ZONE:  34,FELIX HUERTAS,MALABON-SAN LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",339ZONE:  34,M HIZON,QUIRICADA-SAN LAZARO,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",339ZONE:  34,M HIZON,QUIRICADA-SAN LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",339ZONE:  34,M NATIVIDAD,QUIRICADA-SAN LAZARO,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",339ZONE:  34,M NATIVIDAD,QUIRICADA-SAN LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",339ZONE:  34,OROQUIETA,QUIRICADA-SAN LAZARO,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",339ZONE:  34,OROQUIETA,QUIRICADA-SAN LAZARO,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",339ZONE:  34,QUIRICADA,FELIX HUERTAS-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",339ZONE:  34,QUIRICADA,FELIX HUERTAS-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",339ZONE:  34,RIZAL AVENUE,QUIRICADA-SAN LAZARO,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",339ZONE:  34,SAN LAZARO,RIZAL AVE-F HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",339ZONE:  34,SAN LAZARO,RIZAL AVE-F HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",339ZONE:  34,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",339ZONE:  34,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",340ZONE:  34,A MENDOZA (ANDALUCIA),SAN LAZARO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",340ZONE:  34,A MENDOZA (ANDALUCIA),SAN LAZARO,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",340ZONE:  34,FELIX HUERTAS,QUIRICADA-SAN LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",340ZONE:  34,FELIX HUERTAS,QUIRICADA-SAN LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",340ZONE:  34,KALIMBAS,QUIRICADA-SAN LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",340ZONE:  34,MILAGROS,QUIRICADA-SAN LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",340ZONE:  34,P GUEVARRA,QUIRICADA-SAN LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",340ZONE:  34,P GUEVARRA,QUIRICADA-SAN LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",340ZONE:  34,QUIRICADA,A MENDOA-F HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",340ZONE:  34,QUIRICADA,A MENDOA-F HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",340ZONE:  34,SAN LAZARO,F HUERTAS-A MENDOZA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",340ZONE:  34,SAN LAZARO,F HUERTAS-A MENDOZA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",340ZONE:  34,SULU,QUIRICADA-SAN LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",340ZONE:  34,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",340ZONE:  34,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",341ZONE:  34,A MENDOZA (ANDALUCIA),TAYUMAN-MALABON,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",341ZONE:  34,A MENDOZA (ANDALUCIA),TAYUMAN-MALABON,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",341ZONE:  34,FELIX HUERTAS,MALABON-TAYUMAN,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",341ZONE:  34,FELIX HUERTAS,MALABON-TAYUMAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",341ZONE:  34,KALIMBAS,MALABON-TAYUMAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",341ZONE:  34,MALABON,A MENDOZA-F HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",341ZONE:  34,MALABON,A MENDOZA-F HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",341ZONE:  34,MILAGROS,MALABON-TAYUMAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",341ZONE:  34,P GUEVARRA,MALABON-TAYUMAN,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",341ZONE:  34,P GUEVARRA,MALABON-TAYUMAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",341ZONE:  34,SULU,MALABON-TAYUMAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",341ZONE:  34,TAYUMAN,FHUERTAS-A MENDOZA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",341ZONE:  34,TAYUMAN,FHUERTAS-A MENDOZA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",341ZONE:  34,*LACSON AVENUE,A.MENDOZA-TAYUMAN,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",341ZONE:  34,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",341ZONE:  34,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",342ZONE:  34,A H LACSON (GOV FORBES),TAYUMAN-LAONG LAAN,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",342ZONE:  34,A H LACSON (GOV FORBES),TAYUMAN-LAONG LAAN,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",342ZONE:  34,A MENDOZA (ANDALUCIA),L LAAN-LACSON,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",342ZONE:  34,A MENDOZA (ANDALUCIA),L LAAN-LACSON,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",342ZONE:  34,ALFREDO,MA CLARA-LAONG LAAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",342ZONE:  34,ANTONIO,A MENDOZA-L LAAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",342ZONE:  34,ASTURIAS,A MENDOZA-L LAAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",342ZONE:  34,CONCEPCION,A MENDOZA-L LAAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",342ZONE:  34,GELINOS,A MENDOZA-L LAAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",342ZONE:  34,LANGIT,MA CLARA-LAONG LAAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",342ZONE:  34,LAONG LAAN,GOV FORBES-ANDALUCIA,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",342ZONE:  34,LAONG LAAN,GOV FORBES-ANDALUCIA,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",342ZONE:  34,MARIA CLARA,ANDALUCIA-GOV FORBES,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",342ZONE:  34,MARIA CLARA,ANDALUCIA-GOV FORBES,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",342ZONE:  34,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",342ZONE:  34,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",343ZONE:  34,A H LACSON (GOV FORBES),DIMASALANG-MENDOZA,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",343ZONE:  34,A H LACSON (GOV FORBES),DIMASALANG-MENDOZA,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",343ZONE:  34,ARAGON,A MENDOZA-DIMASALANG,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",343ZONE:  34,ARAGON,A MENDOZA-DIMASALANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",343ZONE:  34,CAROLA,MARIA CLARA-DIMASALANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",343ZONE:  34,DIMASALANG,ARAGON-A MENDOZA,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",343ZONE:  34,DIMASALANG,ARAGON-A MENDOZA,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",343ZONE:  34,DON QUIJOTE,MARIA CLARA-DIMASALANG,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",343ZONE:  34,DON QUIJOTE,MARIA CLARA-DIMASALANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",343ZONE:  34,DOS CASTILLAS,ARAGON-DIMASALANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",343ZONE:  34,MARIA CLARA,A MENDOZA-DIMASALANG,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",343ZONE:  34,MARIA CLARA,A MENDOZA-DIMASALANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",343ZONE:  34,*FELINA,MARIA CLARA-DIMASALANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",343ZONE:  34,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",343ZONE:  34,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,CAMARINES (S HERRERA),RIZAL AVENUE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,CAMARINES (S HERRERA),RIZAL AVENUE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,F HUERTAS,TAYUMAN-CAMARINES,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,F HUERTAS,TAYUMAN-CAMARINES,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,M HIZON,CAMARINES-TAYUMAN,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,M HIZON,CAMARINES-TAYUMAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,M NATIVIDAD,CAMARINES-TAYUMAN,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,M NATIVIDAD,CAMARINES-TAYUMAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,OROQUIETA,CAMARINES-TAYUMAN,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,OROQUIETA,CAMARINES-TAYUMAN,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,RIZAL AVENUE,TAYUMAN-CAMARINES,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,TAYUMAN,RIZAL AVENUE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,TAYUMAN,RIZAL AVENUE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,LACSON AVENUE EXTENSION,HERRERA-TAYUMAN,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,LACSON AVENUE EXTENSION,HERRERA-TAYUMAN,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,*CONSUELO,LACSON-RIZAL,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",344ZONE:  35,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",345ZONE:  35,BATANGAS (A. LORENZO),RIZAL AVE-F HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",345ZONE:  35,BATANGAS (A. LORENZO),RIZAL AVE-F HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",345ZONE:  35,FELIX HUERTAS,BATANGAS-TAYABAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",345ZONE:  35,FELIX HUERTAS,BATANGAS-TAYABAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",345ZONE:  35,M HIZON,TAYABAS-BATANGAS,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",345ZONE:  35,M HIZON,TAYABAS-BATANGAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",345ZONE:  35,M NATIVIDAD,TAYABAS-BATANGAS,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",345ZONE:  35,M NATIVIDAD,TAYABAS-BATANGAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",345ZONE:  35,OROQUIETA,TAYABAS-BATANGAS,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",345ZONE:  35,OROQUIETA,TAYABAS-BATANGAS,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",345ZONE:  35,RIZAL AVENUE,TAYABAS-BATANGAS,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",345ZONE:  35,TAYABAS (YUSECO),F HUERTAS-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",345ZONE:  35,TAYABAS (YUSECO),F HUERTAS-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",345ZONE:  35,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",345ZONE:  35,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",346ZONE:  35,CAMARINES (S.HERERRA),F HUERTAS-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",346ZONE:  35,CAMARINES (S.HERERRA),F HUERTAS-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",346ZONE:  35,FELIX HUERTAS,TAYABAS-CAMARINES,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",346ZONE:  35,FELIX HUERTAS,TAYABAS-CAMARINES,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",346ZONE:  35,M HIZON,CAMARINES-TAYABAS,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",346ZONE:  35,M HIZON,CAMARINES-TAYABAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",346ZONE:  35,M NATIVIDAD,CAMARINES-TAYABAS,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",346ZONE:  35,M NATIVIDAD,CAMARINES-TAYABAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",346ZONE:  35,OROQUIETA,CAMARINES-TAYABAS,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",346ZONE:  35,OROQUIETA,CAMARINES-TAYABAS,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",346ZONE:  35,RIZAL AVENUE,CAMARINES-TAYABAS,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",346ZONE:  35,TAYABAS (YUSECO),RIZAL AVE-F HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",346ZONE:  35,TAYABAS (YUSECO),RIZAL AVE-F HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",346ZONE:  35,LACSON AVENUE EXTENSION,RIZAL AVE-F HUERTAS,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",346ZONE:  35,LACSON AVENUE EXTENSION,RIZAL AVE-F HUERTAS,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",346ZONE:  35,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",346ZONE:  35,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",347ZONE:  35,BATANGAS (A. LORENZO),F HUERTAS-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",347ZONE:  35,BATANGAS (A. LORENZO),F HUERTAS-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",347ZONE:  35,F HUERTAS,LAGUNA-BATANGAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",347ZONE:  35,F HUERTAS,LAGUNA-BATANGAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",347ZONE:  35,LAGUNA,RIZAL AVE-F HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",347ZONE:  35,LAGUNA,RIZAL AVE-F HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",347ZONE:  35,M HIZON,BATANGAS-LAGUNA,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",347ZONE:  35,M HIZON,BATANGAS-LAGUNA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",347ZONE:  35,M NATIVIDAD,BATANGAS-LAGUNA,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",347ZONE:  35,M NATIVIDAD,BATANGAS-LAGUNA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",347ZONE:  35,OROQUIETA,BATANGAS-LAGUNA,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",347ZONE:  35,OROQUIETA,BATANGAS-LAGUNA,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",347ZONE:  35,RIZAL AVENUE,BATANGAS-LAGUNA,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",347ZONE:  35,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",347ZONE:  35,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",348ZONE:  35,OLD ANTIPOLO,RIZAL AVE-F HUERTAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",348ZONE:  35,OLD ANTIPOLO,RIZAL AVE-F HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",348ZONE:  35,F HUERTAS,ANTIPOLO-LAGUNA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",348ZONE:  35,F HUERTAS,ANTIPOLO-LAGUNA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",348ZONE:  35,LAGUNA,F HUERTAS-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",348ZONE:  35,LAGUNA,F HUERTAS-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",348ZONE:  35,M NATIVIDAD,LAGUNA-ANTIPOLO,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",348ZONE:  35,M NATIVIDAD,LAGUNA-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",348ZONE:  35,OROQUIETA,LAGUNA-ANTIPOLO,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",348ZONE:  35,OROQUIETA,LAGUNA-ANTIPOLO,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",348ZONE:  35,RIZAL AVENUE,LAGUNA-ANTIPOLO,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",348ZONE:  35,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",348ZONE:  35,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",349ZONE:  35,OLD ANTIPOLO,F HUERTAS-PISTA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",349ZONE:  35,OLD ANTIPOLO,F HUERTAS-PISTA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",349ZONE:  35,F HUERTAS,LAGUNA-ANTIPOLO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",349ZONE:  35,F HUERTAS,LAGUNA-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",349ZONE:  35,LAGUNA,F HUERTAS-SAN LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",349ZONE:  35,LAGUNA,F HUERTAS-SAN LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",349ZONE:  35,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",349ZONE:  35,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",350ZONE:  35,CONSUELO,A MENDOZA-SAN LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",350ZONE:  35,F HUERTAS,LAGUNA-ANTIPOLO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",350ZONE:  35,F HUERTAS,LAGUNA-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",350ZONE:  35,LAGUNA,F HUERTAS-SAN LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",350ZONE:  35,LAGUNA,F HUERTAS-SAN LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",350ZONE:  35,*TAYABAS (YUSECO),F.HUERTAS-SAN LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",350ZONE:  35,*TAYABAS (YUSECO),F.HUERTAS-SAN LAZARO,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",350ZONE:  35,LACSON AVENUE EXTENSION,F.HUERTAS-TAYUMAN,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",350ZONE:  35,LACSON AVENUE EXTENSION,F.HUERTAS-TAYUMAN,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",350ZONE:  35,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",350ZONE:  35,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",351ZONE:  35,ANTIPOLO,PISTA-DIMASALANG,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",351ZONE:  35,ANTIPOLO,PISTA-DIMASALANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",351ZONE:  35,BALAGUER,PISTA-DIMASALANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",351ZONE:  35,BECERRA,DIMASALANG-PISTA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",351ZONE:  35,DIMASALANG,ANTIPOLO-BECERRA,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",351ZONE:  35,DIMASALANG,ANTIPOLO-BECERRA,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",351ZONE:  35,ELIAS,BECERRA-ANTIPOLO,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",351ZONE:  35,ELIAS,BECERRA-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",351ZONE:  35,KARAPATAN,BECERRA-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",351ZONE:  35,PISTA,BECERRA-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",351ZONE:  35,VISION,BECERRA-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",351ZONE:  35,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",351ZONE:  35,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",352ZONE:  35,A H LACSON (GOV FORBES),ARAGON-CONSUELO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",352ZONE:  35,A H LACSON (GOV FORBES),ARAGON-CONSUELO,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",352ZONE:  35,ARAGON,DIMASALANG-A MENDOZA,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",352ZONE:  35,ARAGON,DIMASALANG-A MENDOZA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",352ZONE:  35,BECERRA,PISTA-DIMASALANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",352ZONE:  35,DIMASALANG,BECERRA-ARAGON,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",352ZONE:  35,DIMASALANG,BECERRA-ARAGON,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",352ZONE:  35,ELIAS,BECERRA-ARAGON,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",352ZONE:  35,ELIAS,BECERRA-ARAGON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",352ZONE:  35,PISTA,CONSUELO-BECERRA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",352ZONE:  35,QUIROGA,DIMASALANG-ARAGON,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",352ZONE:  35,QUIROGA,DIMASALANG-ARAGON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",352ZONE:  35,VISION,BECERRA-QUIRICADA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",352ZONE:  35,VISION,BECERRA-QUIRICADA,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",352ZONE:  35,*CONSUELO,LACSON AVE.EXT.-ELIAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",352ZONE:  35,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",352ZONE:  35,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,ANACLETO,TAYUMAN-CAMARINES,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,ANACLETO,TAYUMAN-CAMARINES,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,CAMARINES (S HERRERA),IPIL-RIZAL AVENUE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,CAMARINES (S HERRERA),IPIL-RIZAL AVENUE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,IPIL,TAYUMAN-CAMARINES,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,IPIL,TAYUMAN-CAMARINES,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,KUSANG LOOB,TAYUMAN-CAMARINES,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,KUSANG LOOB,TAYUMAN-CAMARINES,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,MAKATA,TAYUMAN-CAMARINES,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,RIZAL AVENUE,CAMARINES-TAYUMAN,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,S REYES (O'DONNELL),TAYUMAN-CAMARINES,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,S REYES (O'DONNELL),TAYUMAN-CAMARINES,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,TAYUMAN,RIZAL AVE-IPIL,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,TAYUMAN,RIZAL AVE-IPIL,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,T MAPUA,TAYUMAN-CAMARINES,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,T MAPUA,TAYUMAN-CAMARINES,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",353ZONE:  36,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,ANACLETO,CAMARINES-TAYABAS,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,ANACLETO,CAMARINES-TAYABAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,CAMARINES (S HERRERA),RIZAL AVE-IPIL,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,CAMARINES (S HERRERA),RIZAL AVE-IPIL,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,IPIL,CAMARINES-TAYABAS,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,IPIL,CAMARINES-TAYABAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,KUSANG LOOB,CAMARINES-TAYABAS,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,KUSANG LOOB,CAMARINES-TAYABAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,MAKATA,CAMARINES-TAYABAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,RIZAL AVENUE,TAYABAS-CAMARINES,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,S REYES (O'DONNELL),CAMARINES-TAYABAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,S REYES (O'DONNELL),CAMARINES-TAYABAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,TAYABAS (YUSECO),IPIL-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,TAYABAS (YUSECO),IPIL-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,T MAPUA,CAMARINES-TAYABAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,T MAPUA,CAMARINES-TAYABAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",354ZONE:  36,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",355ZONE:  36,CAMARINES (S HERRERA),EST LAZARO-IPIL,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",355ZONE:  36,CAMARINES (S HERRERA),EST LAZARO-IPIL,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",355ZONE:  36,ESCALER,CAMARINES-TAYABAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",355ZONE:  36,ILUSTRE,CAMRINES-TAYABAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",355ZONE:  36,IPIL,TAYABAS-TAYUMAN,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",355ZONE:  36,IPIL,TAYABAS-TAYUMAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",355ZONE:  36,PRISCILLA,CAMARINES-IPIL,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",355ZONE:  36,TAYABAS (YUSECO),EST LAZARO-IPIL,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",355ZONE:  36,TAYABAS (YUSECO),EST LAZARO-IPIL,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",355ZONE:  36,TAYUMAN,IPIL-ESTERO LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",355ZONE:  36,TAYUMAN,IPIL-ESTERO LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",355ZONE:  36,YAKAL,CAMARINES-TAYABAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",355ZONE:  36,*GEN DIOKNO,YUSECO-HERRERA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",355ZONE:  36,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",355ZONE:  36,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",356ZONE:  36,ANACLETO,LAGUNA-ANTIPOLO,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",356ZONE:  36,ANACLETO,LAGUNA-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",356ZONE:  36,OLD ANTIPOLO,MAKATA-RIZAL AVENUE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",356ZONE:  36,OLD ANTIPOLO,MAKATA-RIZAL AVENUE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",356ZONE:  36,LAGUNA,RIZAL AVE-MAKATA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",356ZONE:  36,LAGUNA,RIZAL AVE-MAKATA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",356ZONE:  36,MAKATA,LAGUNA-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",356ZONE:  36,T MAPUA,LAGUNA-ANTIPOLO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",356ZONE:  36,T MAPUA,LAGUNA-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",356ZONE:  36,RIZAL AVENUE,ANTIPOLO-LAGUNA,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",356ZONE:  36,*S REYES (O'DONNELL),ANTIPOLO-LAGUNA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",356ZONE:  36,*S REYES (O'DONNELL),ANTIPOLO-LAGUNA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",356ZONE:  36,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",356ZONE:  36,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",357ZONE:  36,ANACLETO,LAGUNA-ANTIPOLO,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",357ZONE:  36,ANACLETO,LAGUNA-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",357ZONE:  36,BATANGAS (A. LORENZO),RIZAL AVE-MAKATA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",357ZONE:  36,BATANGAS (A. LORENZO),RIZAL AVE-MAKATA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",357ZONE:  36,LAGUNA,MAKATA-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",357ZONE:  36,LAGUNA,MAKATA-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",357ZONE:  36,MAKATA,LAGUNA-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",357ZONE:  36,T MAPUA,LAGUNA-ANTIPOLO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",357ZONE:  36,T MAPUA,LAGUNA-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",357ZONE:  36,RIZAL AVENUE,LAGUNA-ANTIPOLO,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",357ZONE:  36,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",357ZONE:  36,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",358ZONE:  36,ANACLETO,TAYABAS-BATANGAS,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",358ZONE:  36,ANACLETO,TAYABAS-BATANGAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",358ZONE:  36,BATANGAS (A. LORENZO),MAKATA-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",358ZONE:  36,BATANGAS (A. LORENZO),MAKATA-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",358ZONE:  36,MAKATA,TAYABAS-BATANGAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",358ZONE:  36,T MAPUA,TAYABAS-BATANGAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",358ZONE:  36,T MAPUA,TAYABAS-BATANGAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",358ZONE:  36,RIZAL AVENUE,BATANGAS-TAYABAS,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",358ZONE:  36,TAYABAS (YUSECO),RIZAL AVE-MAKATA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",358ZONE:  36,TAYABAS (YUSECO),RIZAL AVE-MAKATA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",358ZONE:  36,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",358ZONE:  36,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",359ZONE:  36,OLD ANTIPOLO,EST LAZARO-MAKATA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",359ZONE:  36,OLD ANTIPOLO,EST LAZARO-MAKATA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",359ZONE:  36,IPIL,LAGUNA-ANTIPOLO,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",359ZONE:  36,IPIL,LAGUNA-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",359ZONE:  36,KUSANG LOOB,LAGUNA-ANTIPOLO,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",359ZONE:  36,KUSANG LOOB,LAGUNA-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",359ZONE:  36,LAGUNA,MAKATA-EST LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",359ZONE:  36,LAGUNA,MAKATA-EST LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",359ZONE:  36,MAKATA,ANTIPOLO-LAGUNA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",359ZONE:  36,S REYES (O'DONNELL),LAGUNA-ANTIPOLO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",359ZONE:  36,S REYES (O'DONNELL),LAGUNA-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",359ZONE:  36,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",359ZONE:  36,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",360ZONE:  36,BATANGAS (A. LORENZO),MAKATA-IPIL,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",360ZONE:  36,BATANGAS (A. LORENZO),MAKATA-IPIL,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",360ZONE:  36,IPIL,BATANGAS-LAGUNA,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",360ZONE:  36,IPIL,BATANGAS-LAGUNA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",360ZONE:  36,KUSANG LOOB,BATANGAS-LAGUNA,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",360ZONE:  36,KUSANG LOOB,BATANGAS-LAGUNA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",360ZONE:  36,LAGUNA,IPIL-MAKATA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",360ZONE:  36,LAGUNA,IPIL-MAKATA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",360ZONE:  36,MAKATA,LAGUNA-BATANGAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",360ZONE:  36,S REYES (O'DONNELL),LAGUNA-ANTIPOLO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",360ZONE:  36,S REYES (O'DONNELL),LAGUNA-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",360ZONE:  36,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",360ZONE:  36,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",361ZONE:  36,BATANGAS (A. LORENZO),IPIL-MAKATA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",361ZONE:  36,BATANGAS (A. LORENZO),IPIL-MAKATA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",361ZONE:  36,IPIL,TAYABAS-BATANGAS,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",361ZONE:  36,IPIL,TAYABAS-BATANGAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",361ZONE:  36,KUSANG LOOB,TAYABAS-BATANGAS,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",361ZONE:  36,KUSANG LOOB,TAYABAS-BATANGAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",361ZONE:  36,MAKATA,BATANGAS-TAYABAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",361ZONE:  36,S REYES (O'DONNELL),TAYABAS-BATANGAS,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",361ZONE:  36,S REYES (O'DONNELL),TAYABAS-BATANGAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",361ZONE:  36,TAYABAS (YUSECO),MAKATA-IPIL,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",361ZONE:  36,TAYABAS (YUSECO),MAKATA-IPIL,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",361ZONE:  36,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",361ZONE:  36,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",362ZONE:  36,BATANGAS (A. LORENZO),ESTERO LAZARO-IPIL,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",362ZONE:  36,BATANGAS (A. LORENZO),ESTERO LAZARO-IPIL,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",362ZONE:  36,BOLINAO,TAYABAS-GEN DIOKNO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",362ZONE:  36,ESCALER,TAYABAS-GEN DIOKNO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",362ZONE:  36,GEN DIOKNO,ESTERO LAZARO-IPIL,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",362ZONE:  36,ILUSTRE,TAYABAS-GEN DIOKNO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",362ZONE:  36,IPIL,LAGUNA-TAYABAS,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",362ZONE:  36,IPIL,LAGUNA-TAYABAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",362ZONE:  36,LAGUNA,ESTERO LAZARO-IPIL,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",362ZONE:  36,LAGUNA,ESTERO LAZARO-IPIL,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",362ZONE:  36,TAYABAS (YUSECO),IPIL-ESTERO LAZARO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",362ZONE:  36,TAYABAS (YUSECO),IPIL-ESTERO LAZARO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",362ZONE:  36,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",362ZONE:  36,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",363ZONE:  37,BLUMENTRITT,P GUEVARRA-RIZAL AVE,CR,100000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",363ZONE:  37,BLUMENTRITT,P GUEVARRA-RIZAL AVE,RR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",363ZONE:  37,CAVITE,RIZAL AVE-P GUEVARRA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",363ZONE:  37,CAVITE,RIZAL AVE-P GUEVARRA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",363ZONE:  37,F HUERTAS,BLUMENTRITT-CAVITE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",363ZONE:  37,F HUERTAS,BLUMENTRITT-CAVITE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",363ZONE:  37,M HIZON,BLUMENTRITT-CAVITE,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",363ZONE:  37,M HIZON,BLUMENTRITT-CAVITE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",363ZONE:  37,M NATIVIDAD,BLUMENTRITT-CAVITE,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",363ZONE:  37,M NATIVIDAD,BLUMENTRITT-CAVITE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",363ZONE:  37,OROQUIETA,BLUMENTRITT-CAVITE,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",363ZONE:  37,OROQUIETA,BLUMENTRITT-CAVITE,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",363ZONE:  37,RIZAL AVENUE,BLUMENTRITT-CAVITE,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",363ZONE:  37,SULU,BLUMENTRITT-CAVITE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",363ZONE:  37,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",363ZONE:  37,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",364ZONE:  37,ANTIPOLO,L RIVERA-SULU,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",364ZONE:  37,ANTIPOLO,L RIVERA-SULU,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",364ZONE:  37,BLUMENTRITT,ANTIPOLO-GUEVARRA,CR,100000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",364ZONE:  37,BLUMENTRITT,ANTIPOLO-GUEVARRA,RR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",364ZONE:  37,CAVITE,P GUEVARRA-L RIVERA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",364ZONE:  37,CAVITE,P GUEVARRA-L RIVERA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",364ZONE:  37,KALIMBAS,ANTIPOLO-CAVITE,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",364ZONE:  37,KALIMBAS,ANTIPOLO-CAVITE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",364ZONE:  37,LEONOR RIVERA,CAVITE-ANTIPOLO,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",364ZONE:  37,LEONOR RIVERA,CAVITE-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",364ZONE:  37,P GUEVARRA,ANTIPOLO-CAVITE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",364ZONE:  37,P GUEVARRA,ANTIPOLO-CAVITE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",364ZONE:  37,SULU,ANTIPOLO-BLUMENTRITT,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",364ZONE:  37,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",364ZONE:  37,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",365ZONE:  37,ANTIPOLO,SULU-M HIZON,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",365ZONE:  37,ANTIPOLO,SULU-M HIZON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",365ZONE:  37,BLUMENTRITT,M HIZON-SULU,CR,100000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",365ZONE:  37,BLUMENTRITT,M HIZON-SULU,RR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",365ZONE:  37,FELIX HUERTAS,ANTIPOLO-BLUMENTRITT,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",365ZONE:  37,FELIX HUERTAS,ANTIPOLO-BLUMENTRITT,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",365ZONE:  37,M HIZON,ANTIPOLO-BLUMENTRITT,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",365ZONE:  37,M HIZON,ANTIPOLO-BLUMENTRITT,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",365ZONE:  37,SULU,BLUMENTRITT-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",365ZONE:  37,*OROQUIETA,ANTIPOLO-BLUMENTRITT,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",365ZONE:  37,*OROQUIETA,ANTIPOLO-BLUMENTRITT,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",365ZONE:  37,*M NATIVIDAD,ANTIPOLO-BLUMENTRITT,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",365ZONE:  37,*M NATIVIDAD,ANTIPOLO-BLUMENTRITT,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",365ZONE:  37,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",365ZONE:  37,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",365-AZONE:  37,ANTIPOLO,M HIZON-RIZAL AVE,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",365-AZONE:  37,ANTIPOLO,M HIZON-RIZAL AVE,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",365-AZONE:  37,BLUMENTRITT,RIZAL AVE-M HIZON,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",365-AZONE:  37,BLUMENTRITT,RIZAL AVE-M HIZON,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",365-AZONE:  37,M HIZON,BLUMENTRITT-ANTIPOLO,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",365-AZONE:  37,M HIZON,BLUMENTRITT-ANTIPOLO,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",365-AZONE:  37,OROQUIETA,ANTIPOLO-BLUMENTRITT,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",365-AZONE:  37,OROQUIETA,ANTIPOLO-BLUMENTRITT,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",365-AZONE:  37,RIZAL AVENUE,ANTIPOLO-BLUMENTRITT,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",365-AZONE:  37,ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",365-AZONE:  37,ALL OTHER STREETS,None,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",366ZONE:  37,CAVITE,M HIZON-RIZAL AVE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",366ZONE:  37,CAVITE,M HIZON-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",366ZONE:  37,M HIZON,TECSON-CAVITE,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",366ZONE:  37,M HIZON,TECSON-CAVITE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",366ZONE:  37,M NATIVIDAD,CAVITE-TECSON,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",366ZONE:  37,M NATIVIDAD,CAVITE-TECSON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",366ZONE:  37,OROQUIETA,CAVITE-TECSON,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",366ZONE:  37,OROQUIETA,CAVITE-TECSON,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",366ZONE:  37,RIZAL AVENUE,CAVITE-TECSON,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",366ZONE:  37,TECSON,RIZAL AVE-M HIZON,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",366ZONE:  37,TECSON,RIZAL AVE-M HIZON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",366ZONE:  37,*F.HUERTAS,CAVITE-TECSON,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",366ZONE:  37,*F.HUERTAS,CAVITE-TECSON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",366ZONE:  37,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",366ZONE:  37,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,BLUMENTRITT,CAVITE-L RIVERA,CR,100000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,BLUMENTRITT,CAVITE-L RIVERA,RR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,CAVITE,L RIVERA-M HIZON,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,CAVITE,L RIVERA-M HIZON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,FELIX HUERTAS,CAVITE-TECSON,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,FELIX HUERTAS,CAVITE-TECSON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,KALIMBAS,BLUMENTRITT-TECSON,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,KALIMBAS,BLUMENTRITT-TECSON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,LEONOR RIVERA,TECSON-CAVITE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,LEONOR RIVERA,TECSON-CAVITE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,M HIZON,CAVITE-TECSON,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,M HIZON,CAVITE-TECSON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,P GUEVARRA,CAVITE-TECSON,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,P GUEVARRA,CAVITE-TECSON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,SULU,CAVITE-TECSON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,TECSON,M HIZON-L RIVERA,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,TECSON,M HIZON-L RIVERA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",367ZONE:  37,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",368ZONE:  37,ANTIPOLO,DIMASALAN-ISAGANI,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",368ZONE:  37,ANTIPOLO,DIMASALAN-ISAGANI,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",368ZONE:  37,DIMASALANG,TIAGO-ANTIPOLO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",368ZONE:  37,DIMASALANG,TIAGO-ANTIPOLO,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",368ZONE:  37,ELIAS,ANTIPOLO-TIAGO,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",368ZONE:  37,ELIAS,ANTIPOLO-TIAGO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",368ZONE:  37,ISAGANI,ANTIPOLO-TIAGO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",368ZONE:  37,KARAPATAN,ANTIPOLO-TIAGO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",368ZONE:  37,TIAGO,ISAGANI-DIMASALANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",368ZONE:  37,VISION,ANTIPOLO-TIAGO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",368ZONE:  37,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",368ZONE:  37,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",369ZONE:  37,ANDRADE,ANTIPOLO-CAVITE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",369ZONE:  37,ANTIPOLO,ISAGANI-L RIVERA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",369ZONE:  37,ANTIPOLO,ISAGANI-L RIVERA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",369ZONE:  37,CAVITE,L RIVERA-ISAGANI,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",369ZONE:  37,CAVITE,L RIVERA-ISAGANI,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",369ZONE:  37,ISAGANI,CAVITE-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",369ZONE:  37,LEONOR RIVERA,ANTIPOLO-CAVITE,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",369ZONE:  37,LEONOR RIVERA,ANTIPOLO-CAVITE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",369ZONE:  37,*TIAGO,ELIAS-ANDRADE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",369ZONE:  37,ELIAS,CAVITE-ANTIPOLO,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",369ZONE:  37,ELIAS,CAVITE-ANTIPOLO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",369ZONE:  37,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",369ZONE:  37,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",370ZONE:  37,ANDRADE,CAVITE-BLUMENTRITT,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",370ZONE:  37,BLUMENTRITT,L RIVERA-ISAGANI,CR,100000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",370ZONE:  37,BLUMENTRITT,L RIVERA-ISAGANI,RR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",370ZONE:  37,CAVITE,ISAGANI-L RIVERA,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",370ZONE:  37,CAVITE,ISAGANI-L RIVERA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",370ZONE:  37,ISAGANI,TECSON-TIAGO,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",370ZONE:  37,LEONOR RIVERA,CAVITE-TECSON,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",370ZONE:  37,LEONOR RIVERA,CAVITE-TECSON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",370ZONE:  37,TECSON,L RIVERA-ISAGANI,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",370ZONE:  37,TECSON,L RIVERA-ISAGANI,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",370ZONE:  37,*AURORA BLVD,TECSON-CAVITE,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",370ZONE:  37,*AURORA BLVD,TECSON-CAVITE,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",370ZONE:  37,*ELIAS,CAVITE-AURORA,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",370ZONE:  37,*ELIAS,CAVITE-AURORA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",370ZONE:  37,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",370ZONE:  37,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",371ZONE:  37,CAVITE,ISAGANI-DIMASALANG,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",371ZONE:  37,CAVITE,ISAGANI-DIMASALANG,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",371ZONE:  37,DIMASALANG,CAVITE-TIAGO,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",371ZONE:  37,DIMASALANG,CAVITE-TIAGO,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",371ZONE:  37,ELIAS,TIAGO-CAVITE,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",371ZONE:  37,ELIAS,TIAGO-CAVITE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",371ZONE:  37,ISAGANI,TIAGO-CAVITE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",371ZONE:  37,KARAPATAN,TIAGO-CAVITE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",371ZONE:  37,TIAGO,DIMASALANG-ISAGANI,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",371ZONE:  37,VISION,TIAGO-CAVITE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",371ZONE:  37,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",371ZONE:  37,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",372ZONE:  37,AURORA BLVD,CAVITE-BLUMENTRITT,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",372ZONE:  37,AURORA BLVD,CAVITE-BLUMENTRITT,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",372ZONE:  37,AURORA BLVD,CAVITE-BLUMENTRITT,X,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",372ZONE:  37,BLUMENTRITT,CGH-DIMASALANG,CR,100000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",372ZONE:  37,BLUMENTRITT,CGH-DIMASALANG,RR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",372ZONE:  37,BLUMENTRITT,CGH-DIMASALANG,X,100000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",372ZONE:  37,CAVITE,DIMASALANG-ISAGANI,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",372ZONE:  37,CAVITE,DIMASALANG-ISAGANI,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",372ZONE:  37,DIMASALANG,CGH-CAVITE,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",372ZONE:  37,DIMASALANG,CGH-CAVITE,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",372ZONE:  37,ELIAS,CAVITE-AURORA BLVD,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",372ZONE:  37,ELIAS,CAVITE-AURORA BLVD,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",372ZONE:  37,ISAGANI,CAVITE-BLUMENTRITT,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",372ZONE:  37,KARAPATAN,CAVITE-BLUMENTRITT,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",372ZONE:  37,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",372ZONE:  37,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",372ZONE:  37,*ALL OTHER STREETS,,X,
+National Capital Region (NCR),"Sta. Cruz, Manila",373ZONE:  38,ORANI,MCB-ORANI,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",373ZONE:  38,ORION,MCB-ORANI,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",373ZONE:  38,RIZAL AVENUE,TAMBUNTING-SAMAR,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",373ZONE:  38,*SAMAR,RIZAL AVE-T SORA,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",373ZONE:  38,TAMBUNTING,T SORA-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",373ZONE:  38,ZAMBALES,TAMBUNTING-SAMAR,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",373ZONE:  38,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",373ZONE:  38,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",374ZONE:  38,ORION,SAMAL-MLA CAL BDRY,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",374ZONE:  38,RIZAL AVENUE EXTENSION,SAMAL-MLA CAL BDRY,CR,150000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",374ZONE:  38,ZAMBALES,SAMAL-MLA CAL BDRY,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",374ZONE:  38,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",374ZONE:  38,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",375ZONE:  38,AURORA BLVD,OROQUIETA-TAMBUNTING,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",375ZONE:  38,AURORA BLVD,OROQUIETA-TAMBUNTING,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",375ZONE:  38,OROQUIETA,AURORA BLVD-ZAMBALES,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",375ZONE:  38,OROQUIETA,AURORA BLVD-ZAMBALES,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",375ZONE:  38,TAMBUNTING,R AVE-CHINESE CEM,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",375ZONE:  38,ZAMBALES,TAMBUNTING-F HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",375ZONE:  38,M NATIVIDAD,AURORA BLVD-ZAMBALES,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",375ZONE:  38,M NATIVIDAD,AURORA BLVD-ZAMBALES,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",375ZONE:  38,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",375ZONE:  38,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",376ZONE:  38,AURORA BLVD,TECSON-P GUEVARRA,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",376ZONE:  38,AURORA BLVD,TECSON-P GUEVARRA,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",376ZONE:  38,KALIMBAS,A BLVD-CHINESE CEM,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",376ZONE:  38,KALIMBAS,A BLVD-CHINESE CEM,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",376ZONE:  38,LEONOR RIVERA,A BLVD-CHINESE CEM,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",376ZONE:  38,LEONOR RIVERA,A BLVD-CHINESE CEM,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",376ZONE:  38,P GUEVARRA,A BLVD-CHINESE CEM,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",376ZONE:  38,P GUEVARRA,A BLVD-CHINESE CEM,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",376ZONE:  38,*BULACAN,P.GUEVARRA- KALIMBAS,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",376ZONE:  38,*BULACAN,P.GUEVARRA- KALIMBAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",376ZONE:  38,*BLUMENTRIT,AURORA BLVD.-DIMASALANG RD.,CR,100000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",376ZONE:  38,*BLUMENTRIT,AURORA BLVD.-DIMASALANG RD.,RR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",376ZONE:  38,**ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",376ZONE:  38,**ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",377ZONE:  38,AURORA BLVD,P GUEVARRA-F HUERTAS,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",377ZONE:  38,AURORA BLVD,P GUEVARRA-F HUERTAS,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",377ZONE:  38,FELIX HUERTAS,A BLVD-CHINESE CEM,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",377ZONE:  38,FELIX HUERTAS,A BLVD-CHINESE CEM,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",377ZONE:  38,P GUEVARRA,CHINESE CEM-A BLVD,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",377ZONE:  38,P GUEVARRA,CHINESE CEM-A BLVD,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",377ZONE:  38,PAMPANGA,P GUEVARRA-F HUERTAS,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",377ZONE:  38,PAMPANGA,P GUEVARRA-F HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",377ZONE:  38,SULU,A BLVD-CHINESE CEM,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",377ZONE:  38,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",377ZONE:  38,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",378ZONE:  38,AURORA BLVD,F HUERTAS-OROQUIETA,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",378ZONE:  38,AURORA BLVD,F HUERTAS-OROQUIETA,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",378ZONE:  38,FELIX HUERTAS,ZAMBALES-A BLVD,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",378ZONE:  38,FELIX HUERTAS,ZAMBALES-A BLVD,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",378ZONE:  38,M HIZON,A BLVD-ZAMBALES,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",378ZONE:  38,M HIZON,A BLVD-ZAMBALES,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",378ZONE:  38,OROQUIETA,A BLVD-ZAMBALES,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",378ZONE:  38,OROQUIETA,A BLVD-ZAMBALES,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",378ZONE:  38,PAMPANGA,A BLVD-ZAMBALES,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",378ZONE:  38,PAMPANGA,A BLVD-ZAMBALES,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",378ZONE:  38,ZAMBALES,OROQUIETA-F HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",378ZONE:  38,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",378ZONE:  38,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",379ZONE:  38,AURORA BLVD,P GUEVARRA-TECSON,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",379ZONE:  38,AURORA BLVD,P GUEVARRA-TECSON,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",379ZONE:  38,TECSON,A BLVD-P GUEVARRA,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",379ZONE:  38,TECSON,A BLVD-P GUEVARRA,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",379ZONE:  38,P GUEVARRA,TECSON-A BLVD,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",379ZONE:  38,P GUEVARRA,TECSON-A BLVD,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",379ZONE:  38,KALIMBAS,TECSON-A BLVD,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",379ZONE:  38,KALIMBAS,TECSON-A BLVD,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",379ZONE:  38,LEONOR RIVERA,TECSON-A BLVD,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",379ZONE:  38,LEONOR RIVERA,TECSON-A BLVD,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",379ZONE:  38,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",379ZONE:  38,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",380ZONE:  38,AURORA BLVD,F HUERTAS-P GUEVARRA,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",380ZONE:  38,AURORA BLVD,F HUERTAS-P GUEVARRA,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",380ZONE:  38,F HUERTAS,TECSON-A BLVD,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",380ZONE:  38,F HUERTAS,TECSON-A BLVD,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",380ZONE:  38,P GUEVARRA,TECSON-A BLVD,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",380ZONE:  38,P GUEVARRA,TECSON-A BLVD,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",380ZONE:  38,SULU,TECSON-A BLVD,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",380ZONE:  38,TECSON,P GUEVARRA-F HUERTAS,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",380ZONE:  38,TECSON,P GUEVARRA-F HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",380ZONE:  38,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",380ZONE:  38,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",381ZONE:  38,BULACAN,RIZAL AVE-F HUERTAS,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",381ZONE:  38,BULACAN,RIZAL AVE-F HUERTAS,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",381ZONE:  38,F HUERTAS,BULACAN-TECSON,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",381ZONE:  38,F HUERTAS,BULACAN-TECSON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",381ZONE:  38,M HIZON,TECSON-BULACAN,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",381ZONE:  38,M HIZON,TECSON-BULACAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",381ZONE:  38,M NATIVIDAD,TECSON-BULACAN,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",381ZONE:  38,M NATIVIDAD,TECSON-BULACAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",381ZONE:  38,OROQUIETA,TECSON-BULACAN,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",381ZONE:  38,OROQUIETA,TECSON-BULACAN,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",381ZONE:  38,RIZAL AVENUE,TECSON-BULACAN,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",381ZONE:  38,SAMPAGUITA,TECSON-M HIZON,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",381ZONE:  38,TECSON,F HUERTAS-RIZAL AVE,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",381ZONE:  38,TECSON,F HUERTAS-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",381ZONE:  38,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",381ZONE:  38,*ALL OTHER STREETS,,RR,
+National Capital Region (NCR),"Sta. Cruz, Manila",382ZONE:  38,AURORA BLVD,RIZAL AVE-F HUERTAS,CR,110000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",382ZONE:  38,AURORA BLVD,RIZAL AVE-F HUERTAS,RR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",382ZONE:  38,BULACAN,F HUERTAS-RIZAL AVE,CR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",382ZONE:  38,BULACAN,F HUERTAS-RIZAL AVE,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",382ZONE:  38,F HUERTAS,AURORA BLVD-BULACAN,CR,80000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",382ZONE:  38,F HUERTAS,AURORA BLVD-BULACAN,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",382ZONE:  38,M HIZON,BULACAN-A BLVD,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",382ZONE:  38,M HIZON,BULACAN-A BLVD,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",382ZONE:  38,M NATIVIDAD,BULACAN-A BLVD,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",382ZONE:  38,M NATIVIDAD,BULACAN-A BLVD,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",382ZONE:  38,OROQUIETA,BULACAN-PAMPANGA,CR,90000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",382ZONE:  38,OROQUIETA,BULACAN-PAMPANGA,RR,60000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",382ZONE:  38,PAMPANGA,RIZAL AVE- A BLVD,CR,70000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",382ZONE:  38,PAMPANGA,RIZAL AVE- A BLVD,RR,50000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",382ZONE:  38,RIZAL AVENUE,BULACAN-A BLVD,CR,120000.0
+National Capital Region (NCR),"Sta. Cruz, Manila",382ZONE:  38,*ALL OTHER STREETS,,CR,
+National Capital Region (NCR),"Sta. Cruz, Manila",382ZONE:  38,*ALL OTHER STREETS,,RR,

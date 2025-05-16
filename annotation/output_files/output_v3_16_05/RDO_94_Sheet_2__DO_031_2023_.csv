@@ -1,0 +1,2662 @@
+Province,City/Municipality,Barangay,Street/Subdivision,Vicinity,Classification,ZV/SQM
+,Isabela City,Aguada,All Lots,,CR,500.0
+,Isabela City,Aguada,All Lots,Outer Lot,RR,360.0
+,Isabela City,Aguada,All Lots,Inner Lot,RR,295.0
+,Isabela City,Aguada,All Lots,Inner Lot,A1,5.0
+,Isabela City,Aguada,All Lots,Inner Lot,A2,5.0
+,Isabela City,Aguada,All Lots,Inner Lot,A3,5.0
+,Isabela City,Aguada,All Lots,Inner Lot,A4,5.0
+,Isabela City,Aguada,All Lots,Inner Lot,A5,6.0
+,Isabela City,Aguada,All Lots,Inner Lot,A6,4.0
+,Isabela City,Aguada,All Lots,Inner Lot,A7,4.0
+,Isabela City,Aguada,All Lots,Inner Lot,A8,4.0
+,Isabela City,Aguada,All Lots,Inner Lot,A9,4.0
+,Isabela City,Aguada,All Lots,Inner Lot,A10,3.0
+,Isabela City,Aguada,All Lots,Inner Lot,A11,3.0
+,Isabela City,Balatanay,All Lots,Outer Lot,RR,280.0
+,Isabela City,Balatanay,All Lots,Inner Lot,RR,250.0
+,Isabela City,Balatanay,All Lots,Inner Lot,A1,5.0
+,Isabela City,Balatanay,All Lots,Inner Lot,A2,5.0
+,Isabela City,Balatanay,All Lots,Inner Lot,A3,5.0
+,Isabela City,Balatanay,All Lots,Inner Lot,A4,5.0
+,Isabela City,Balatanay,All Lots,Inner Lot,A5,6.0
+,Isabela City,Balatanay,All Lots,Inner Lot,A6,4.0
+,Isabela City,Balatanay,All Lots,Inner Lot,A7,4.0
+,Isabela City,Balatanay,All Lots,Inner Lot,A8,4.0
+,Isabela City,Balatanay,All Lots,Inner Lot,A9,4.0
+,Isabela City,Balatanay,All Lots,Inner Lot,A10,3.0
+,Isabela City,Balatanay,All Lots,Inner Lot,A11,3.0
+,Isabela City,Balatanay,`,,A35,4.0
+,Isabela City,Baluno,All Lots,Outer Lot,RR,280.0
+,Isabela City,Baluno,All Lots,Inner Lot,RR,250.0
+,Isabela City,Baluno,All Lots,Inner Lot,A1,5.0
+,Isabela City,Baluno,All Lots,Inner Lot,A2,5.0
+,Isabela City,Baluno,All Lots,Inner Lot,A3,5.0
+,Isabela City,Baluno,All Lots,Inner Lot,A4,5.0
+,Isabela City,Baluno,All Lots,Inner Lot,A5,6.0
+,Isabela City,Baluno,All Lots,Inner Lot,A6,4.0
+,Isabela City,Baluno,All Lots,Inner Lot,A7,4.0
+,Isabela City,Baluno,All Lots,Inner Lot,A8,4.0
+,Isabela City,Baluno,All Lots,Inner Lot,A9,4.0
+,Isabela City,Baluno,All Lots,Inner Lot,A10,3.0
+,Isabela City,Baluno,All Lots,Inner Lot,A11,3.0
+,Isabela City,Baluno,All Lots,Inner Lot,A35,4.0
+,Isabela City,Begang,All Lots,,CR,400.0
+,Isabela City,Begang,All Lots,Outer Lot,RR,280.0
+,Isabela City,Begang,All Lots,Inner Lot,RR,250.0
+,Isabela City,Begang,All Lots,Inner Lot,A1,5.0
+,Isabela City,Begang,All Lots,Inner Lot,A2,5.0
+,Isabela City,Begang,All Lots,Inner Lot,A3,5.0
+,Isabela City,Begang,All Lots,Inner Lot,A4,5.0
+,Isabela City,Begang,All Lots,Inner Lot,A5,6.0
+,Isabela City,Begang,All Lots,Inner Lot,A6,4.0
+,Isabela City,Begang,All Lots,Inner Lot,A7,4.0
+,Isabela City,Begang,All Lots,Inner Lot,A8,4.0
+,Isabela City,Begang,All Lots,Inner Lot,A9,4.0
+,Isabela City,Begang,All Lots,Inner Lot,A10,3.0
+,Isabela City,Begang,All Lots,Inner Lot,A11,3.0
+,Isabela City,Begang,All Lots,Inner Lot,A35,4.0
+,Isabela City,Binuangan,All Lots,,CR,400.0
+,Isabela City,Binuangan,All Lots,Outer Lot,RR,280.0
+,Isabela City,Binuangan,All Lots,Inner Lot,RR,250.0
+,Isabela City,Binuangan,All Lots,Inner Lot,A1,5.0
+,Isabela City,Binuangan,All Lots,Inner Lot,A2,5.0
+,Isabela City,Binuangan,All Lots,Inner Lot,A3,5.0
+,Isabela City,Binuangan,All Lots,Inner Lot,A4,5.0
+,Isabela City,Binuangan,All Lots,Inner Lot,A5,6.0
+,Isabela City,Binuangan,All Lots,Inner Lot,A6,4.0
+,Isabela City,Binuangan,All Lots,Inner Lot,A7,4.0
+,Isabela City,Binuangan,All Lots,Inner Lot,A8,4.0
+,Isabela City,Binuangan,All Lots,Inner Lot,A9,4.0
+,Isabela City,Binuangan,All Lots,Inner Lot,A10,3.0
+,Isabela City,Binuangan,All Lots,Inner Lot,A11,3.0
+,Isabela City,Binuangan,All Lots,Inner Lot,A35,4.0
+,Isabela City,Busay,All Lots,,CR,400.0
+,Isabela City,Busay,All Lots,Outer Lot,RR,280.0
+,Isabela City,Busay,All Lots,Inner Lot,RR,250.0
+,Isabela City,Busay,All Lots,Inner Lot,A1,5.0
+,Isabela City,Busay,All Lots,Inner Lot,A2,5.0
+,Isabela City,Busay,All Lots,Inner Lot,A3,5.0
+,Isabela City,Busay,All Lots,Inner Lot,A4,5.0
+,Isabela City,Busay,All Lots,Inner Lot,A5,6.0
+,Isabela City,Busay,All Lots,Inner Lot,A6,4.0
+,Isabela City,Busay,All Lots,Inner Lot,A7,4.0
+,Isabela City,Busay,All Lots,Inner Lot,A8,4.0
+,Isabela City,Busay,All Lots,Inner Lot,A9,4.0
+,Isabela City,Busay,All Lots,Inner Lot,A10,3.0
+,Isabela City,Busay,All Lots,Inner Lot,A11,3.0
+,Isabela City,Busay,All Lots,Inner Lot,A35,4.0
+,Isabela City,Calvario,All Lots,Outer Lot,RR,280.0
+,Isabela City,Calvario,All Lots,Inner Lot,RR,250.0
+,Isabela City,Calvario,All Lots,Inner Lot,A1,5.0
+,Isabela City,Calvario,All Lots,Inner Lot,A2,5.0
+,Isabela City,Calvario,All Lots,Inner Lot,A3,5.0
+,Isabela City,Calvario,All Lots,Inner Lot,A4,5.0
+,Isabela City,Calvario,All Lots,Inner Lot,A5,6.0
+,Isabela City,Calvario,All Lots,Inner Lot,A6,4.0
+,Isabela City,Calvario,All Lots,Inner Lot,A7,4.0
+,Isabela City,Calvario,All Lots,Inner Lot,A8,4.0
+,Isabela City,Calvario,All Lots,Inner Lot,A9,4.0
+,Isabela City,Calvario,All Lots,Inner Lot,A10,3.0
+,Isabela City,Calvario,All Lots,Inner Lot,A11,3.0
+,Isabela City,Calvario,All Lots,Inner Lot,A35,4.0
+,Isabela City,Carbon Malamawi,All Lots,Outer Lot,RR,280.0
+,Isabela City,Carbon Malamawi,All Lots,Inner Lot,RR,250.0
+,Isabela City,Carbon Malamawi,All Lots,Inner Lot,A1,5.0
+,Isabela City,Carbon Malamawi,All Lots,Inner Lot,A2,5.0
+,Isabela City,Carbon Malamawi,All Lots,Inner Lot,A3,5.0
+,Isabela City,Carbon Malamawi,All Lots,Inner Lot,A4,5.0
+,Isabela City,Carbon Malamawi,All Lots,Inner Lot,A5,6.0
+,Isabela City,Carbon Malamawi,All Lots,Inner Lot,A6,4.0
+,Isabela City,Carbon Malamawi,All Lots,Inner Lot,A7,4.0
+,Isabela City,Carbon Malamawi,All Lots,Inner Lot,A8,4.0
+,Isabela City,Carbon Malamawi,All Lots,Inner Lot,A9,4.0
+,Isabela City,Carbon Malamawi,All Lots,Inner Lot,A10,3.0
+,Isabela City,Carbon Malamawi,All Lots,Inner Lot,A11,3.0
+,Isabela City,Diki,All Lots,Outer Lot,RR,280.0
+,Isabela City,Diki,All Lots,Inner Lot,RR,250.0
+,Isabela City,Diki,All Lots,Inner Lot,A1,5.0
+,Isabela City,Diki,All Lots,Inner Lot,A2,5.0
+,Isabela City,Diki,All Lots,Inner Lot,A3,5.0
+,Isabela City,Diki,All Lots,Inner Lot,A4,5.0
+,Isabela City,Diki,All Lots,Inner Lot,A5,6.0
+,Isabela City,Diki,All Lots,Inner Lot,A6,4.0
+,Isabela City,Diki,All Lots,Inner Lot,A7,4.0
+,Isabela City,Diki,All Lots,Inner Lot,A8,4.0
+,Isabela City,Diki,All Lots,Inner Lot,A9,4.0
+,Isabela City,Diki,All Lots,Inner Lot,A10,3.0
+,Isabela City,Diki,All Lots,Inner Lot,A11,3.0
+,Isabela City,Doña Ramona,All Lots,,CR,700.0
+,Isabela City,Doña Ramona,All Lots,Outer Lot,RR,475.0
+,Isabela City,Doña Ramona,All Lots,Inner Lot,RR,380.0
+,Isabela City,Doña Ramona,All Lots,Inner Lot,A1,5.0
+,Isabela City,Doña Ramona,All Lots,Inner Lot,A2,5.0
+,Isabela City,Doña Ramona,All Lots,Inner Lot,A3,5.0
+,Isabela City,Doña Ramona,All Lots,Inner Lot,A4,5.0
+,Isabela City,Doña Ramona,All Lots,Inner Lot,A5,8.0
+,Isabela City,Doña Ramona,All Lots,Inner Lot,A6,4.0
+,Isabela City,Doña Ramona,All Lots,Inner Lot,A7,4.0
+,Isabela City,Doña Ramona,All Lots,Inner Lot,A8,4.0
+,Isabela City,Doña Ramona,All Lots,Inner Lot,A9,4.0
+,Isabela City,Doña Ramona,All Lots,Inner Lot,A10,3.0
+,Isabela City,Doña Ramona,All Lots,Inner Lot,A11,3.0
+,Isabela City,Isabela Eastside,All Lots,,CR,490.0
+,Isabela City,Isabela Eastside,All Lots,Outer Lot,RR,455.0
+,Isabela City,Isabela Eastside,All Lots,Inner Lot,RR,280.0
+,Isabela City,Isabela Eastside,All Lots,Inner Lot,A1,5.0
+,Isabela City,Isabela Eastside,All Lots,Inner Lot,A2,5.0
+,Isabela City,Isabela Eastside,All Lots,Inner Lot,A3,5.0
+,Isabela City,Isabela Eastside,All Lots,Inner Lot,A4,5.0
+,Isabela City,Isabela Eastside,All Lots,Inner Lot,A5,6.0
+,Isabela City,Isabela Eastside,All Lots,Inner Lot,A6,5.0
+,Isabela City,Isabela Eastside,All Lots,Inner Lot,A7,5.0
+,Isabela City,Isabela Eastside,All Lots,Inner Lot,A8,5.0
+,Isabela City,Isabela Eastside,All Lots,Inner Lot,A9,5.0
+,Isabela City,Isabela Eastside,All Lots,Inner Lot,A10,3.0
+,Isabela City,Isabela Eastside,All Lots,Inner Lot,A11,3.0
+,Isabela City,Isabela Eastside,All Lots,Inner Lot,A35,4.0
+,Isabela City,Isabela Proper,ROXAS AVENUE,,CR,1000.0
+,Isabela City,Isabela Proper,ROXAS AVENUE,,RR,525.0
+,Isabela City,Isabela Proper,CARLOS P. GARCIA,ALONG NCA SITE N. VALDEROSA ST- NCA SITE,CR,1000.0
+,Isabela City,Isabela Proper,CARLOS P. GARCIA,ALONG NCA SITE N. VALDEROSA ST- NCA SITE,RR (Outer),575.0
+,Isabela City,Isabela Proper,DELA  PENA ST,,CR,665.0
+,Isabela City,Isabela Proper,DELA  PENA ST,,RR(Inner),400.0
+,Isabela City,Isabela Proper,GEORGE LARACOCHEA,,CR,1000.0
+,Isabela City,Isabela Proper,GEORGE LARACOCHEA,,RR,575.0
+,Isabela City,Isabela Proper,JUAN S. ALANO ST,,CR,575.0
+,Isabela City,Isabela Proper,JUAN S. ALANO ST,,RR (Inner),500.0
+,Isabela City,Isabela Proper,RIZAL AVENUE,,CR,640.0
+,Isabela City,Isabela Proper,RIZAL AVENUE,,RR (Outer),525.0
+,Isabela City,Isabela Proper,I MAGNO ST,,CR,1000.0
+,Isabela City,Isabela Proper,I MAGNO ST,,RR (Inner),400.0
+,Isabela City,Isabela Proper,KAUM PURNAH ROAD,,CR,1000.0
+,Isabela City,Isabela Proper,KAUM PURNAH ROAD,,RR,400.0
+,Isabela City,Isabela Proper,CLARET COLLEGE OF ISABELA,,CR,825.0
+,Isabela City,Isabela Proper,CLARET COLLEGE OF ISABELA,,X,575.0
+,Isabela City,Isabela Proper,LA PIEDAD ST,,RR,575.0
+,Isabela City,Isabela Proper,OPTACIANO REYES ST,,RR,400.0
+,Isabela City,Isabela Proper,ROMAN CATHOLIC CEMETERY,,X,825.0
+,Isabela City,Isabela Proper,N. VALDEROSA ST,,CR,675.0
+,Isabela City,Isabela Proper,N. VALDEROSA ST,,RR,400.0
+,Isabela City,Isabela Proper,MUNICIPAL AREA,,RR,725.0
+,Isabela City,Isabela Proper,MUNICIPAL AREA,,X,330.0
+,Isabela City,Isabela Proper,ISABELA CENTRAL PILOT SCHOOL,,RR,380.0
+,Isabela City,Isabela Proper,ISABELA CENTRAL PILOT SCHOOL,,X,575.0
+,Isabela City,Isabela Proper,MANATAD ROAD,,RR,525.0
+,Isabela City,Isabela Proper,SOLEDAD ROAD,,RR,400.0
+,Isabela City,Isabela Proper,CALIXTO ST,,RR,330.0
+,Isabela City,Isabela Proper,STRONG BLVD,AGUADA BRIDGE T. MAGNO,CR,825.0
+,Isabela City,Isabela Proper,STRONG BLVD,AGUADA BRIDGE T. MAGNO,RR,525.0
+,Isabela City,Isabela Proper,ALL OTHER STREETS,,CR,825.0
+,Isabela City,Isabela Proper,ALL OTHER STREETS,None,RR,525.0
+,Isabela City,Kabunbata,All Lots,Outer Lot,RR,350.0
+,Isabela City,Kabunbata,All Lots,Inner Lot,RR,275.0
+,Isabela City,Kabunbata,All Lots,Inner Lot,A1,5.0
+,Isabela City,Kabunbata,All Lots,Inner Lot,A2,5.0
+,Isabela City,Kabunbata,All Lots,Inner Lot,A3,5.0
+,Isabela City,Kabunbata,All Lots,Inner Lot,A4,5.0
+,Isabela City,Kabunbata,All Lots,Inner Lot,A5,6.0
+,Isabela City,Kabunbata,All Lots,Inner Lot,A6,4.0
+,Isabela City,Kabunbata,All Lots,Inner Lot,A7,4.0
+,Isabela City,Kabunbata,All Lots,Inner Lot,A8,4.0
+,Isabela City,Kabunbata,All Lots,Inner Lot,A9,4.0
+,Isabela City,Kabunbata,All Lots,Inner Lot,A10,3.0
+,Isabela City,Kabunbata,All Lots,Inner Lot,A11,3.0
+,Isabela City,Kabunbata,All Lots,Inner Lot,A35,4.0
+,Isabela City,Kapatagan Grande,All Lots,Outer Lot,RR,280.0
+,Isabela City,Kapatagan Grande,All Lots,Inner Lot,RR,250.0
+,Isabela City,Kapatagan Grande,All Lots,Inner Lot,A1,5.0
+,Isabela City,Kapatagan Grande,All Lots,Inner Lot,A2,5.0
+,Isabela City,Kapatagan Grande,All Lots,Inner Lot,A3,5.0
+,Isabela City,Kapatagan Grande,All Lots,Inner Lot,A4,5.0
+,Isabela City,Kapatagan Grande,All Lots,Inner Lot,A5,6.0
+,Isabela City,Kapatagan Grande,All Lots,Inner Lot,A6,4.0
+,Isabela City,Kapatagan Grande,All Lots,Inner Lot,A7,4.0
+,Isabela City,Kapatagan Grande,All Lots,Inner Lot,A8,4.0
+,Isabela City,Kapatagan Grande,All Lots,Inner Lot,A9,4.0
+,Isabela City,Kapatagan Grande,All Lots,Inner Lot,A10,3.0
+,Isabela City,Kapatagan Grande,All Lots,Inner Lot,A11,3.0
+,Isabela City,Kapatagan Grande,All Lots,Inner Lot,A35,4.0
+,Isabela City,Kapayawan,All Lots,Outer Lot,RR,280.0
+,Isabela City,Kapayawan,All Lots,Inner Lot,RR,250.0
+,Isabela City,Kapayawan,All Lots,Inner Lot,A1,5.0
+,Isabela City,Kapayawan,All Lots,Inner Lot,A2,5.0
+,Isabela City,Kapayawan,All Lots,Inner Lot,A3,5.0
+,Isabela City,Kapayawan,All Lots,Inner Lot,A4,5.0
+,Isabela City,Kapayawan,All Lots,Inner Lot,A5,6.0
+,Isabela City,Kapayawan,All Lots,Inner Lot,A6,4.0
+,Isabela City,Kapayawan,All Lots,Inner Lot,A7,4.0
+,Isabela City,Kapayawan,All Lots,Inner Lot,A8,4.0
+,Isabela City,Kapayawan,All Lots,Inner Lot,A9,4.0
+,Isabela City,Kapayawan,All Lots,Inner Lot,A10,3.0
+,Isabela City,Kapayawan,All Lots,Inner Lot,A11,3.0
+,Isabela City,Kapayawan,All Lots,Inner Lot,A35,4.0
+,Isabela City,Kaumpurnah Zone I,All Lots,,CR,740.0
+,Isabela City,Kaumpurnah Zone I,All Lots,Outer Lot,RR,425.0
+,Isabela City,Kaumpurnah Zone I,All Lots,Inner Lot,RR,350.0
+,Isabela City,Kaumpurnah Zone I,All Lots,Inner Lot,A1,5.0
+,Isabela City,Kaumpurnah Zone I,All Lots,Inner Lot,A2,5.0
+,Isabela City,Kaumpurnah Zone I,All Lots,Inner Lot,A3,5.0
+,Isabela City,Kaumpurnah Zone I,All Lots,Inner Lot,A4,5.0
+,Isabela City,Kaumpurnah Zone I,All Lots,Inner Lot,A5,6.0
+,Isabela City,Kaumpurnah Zone I,All Lots,Inner Lot,A6,4.0
+,Isabela City,Kaumpurnah Zone I,All Lots,Inner Lot,A7,4.0
+,Isabela City,Kaumpurnah Zone I,All Lots,Inner Lot,A8,4.0
+,Isabela City,Kaumpurnah Zone I,All Lots,Inner Lot,A9,4.0
+,Isabela City,Kaumpurnah Zone I,All Lots,Inner Lot,A10,3.0
+,Isabela City,Kaumpurnah Zone I,All Lots,Inner Lot,A11,3.0
+,Isabela City,Kaumpurnah Zone II,All Lots,,CR,740.0
+,Isabela City,Kaumpurnah Zone II,All Lots,Outer Lot,RR,425.0
+,Isabela City,Kaumpurnah Zone II,All Lots,Inner Lot,RR,350.0
+,Isabela City,Kaumpurnah Zone II,All Lots,Inner Lot,A1,5.0
+,Isabela City,Kaumpurnah Zone II,All Lots,Inner Lot,A2,5.0
+,Isabela City,Kaumpurnah Zone II,All Lots,Inner Lot,A3,5.0
+,Isabela City,Kaumpurnah Zone II,All Lots,Inner Lot,A4,5.0
+,Isabela City,Kaumpurnah Zone II,All Lots,Inner Lot,A5,6.0
+,Isabela City,Kaumpurnah Zone II,All Lots,Inner Lot,A6,4.0
+,Isabela City,Kaumpurnah Zone II,All Lots,Inner Lot,A7,4.0
+,Isabela City,Kaumpurnah Zone II,All Lots,Inner Lot,A8,4.0
+,Isabela City,Kaumpurnah Zone II,All Lots,Inner Lot,A9,4.0
+,Isabela City,Kaumpurnah Zone II,All Lots,Inner Lot,A10,4.0
+,Isabela City,Kaumpurnah Zone II,All Lots,Inner Lot,A11,3.0
+,Isabela City,Kaumpurnah Zone III,All Lots,,CR,740.0
+,Isabela City,Kaumpurnah Zone III,All Lots,Outer Lot,RR,425.0
+,Isabela City,Kaumpurnah Zone III,All Lots,Inner Lot,RR,350.0
+,Isabela City,Kaumpurnah Zone III,All Lots,Inner Lot,A1,5.0
+,Isabela City,Kaumpurnah Zone III,All Lots,Inner Lot,A2,5.0
+,Isabela City,Kaumpurnah Zone III,All Lots,Inner Lot,A3,5.0
+,Isabela City,Kaumpurnah Zone III,All Lots,Inner Lot,A4,5.0
+,Isabela City,Kaumpurnah Zone III,All Lots,Inner Lot,A5,8.0
+,Isabela City,Kaumpurnah Zone III,All Lots,Inner Lot,A6,4.0
+,Isabela City,Kaumpurnah Zone III,All Lots,Inner Lot,A7,4.0
+,Isabela City,Kaumpurnah Zone III,All Lots,Inner Lot,A8,4.0
+,Isabela City,Kaumpurnah Zone III,All Lots,Inner Lot,A9,4.0
+,Isabela City,Kaumpurnah Zone III,All Lots,Inner Lot,A10,4.0
+,Isabela City,Kaumpurnah Zone III,All Lots,Inner Lot,A11,3.0
+,Isabela City,Kumalarang,All Lots,Outer Lot,RR,280.0
+,Isabela City,Kumalarang,All Lots,Inner Lot,RR,250.0
+,Isabela City,Kumalarang,All Lots,Inner Lot,A1,5.0
+,Isabela City,Kumalarang,All Lots,Inner Lot,A2,5.0
+,Isabela City,Kumalarang,All Lots,Inner Lot,A3,5.0
+,Isabela City,Kumalarang,All Lots,Inner Lot,A4,5.0
+,Isabela City,Kumalarang,All Lots,Inner Lot,A5,8.0
+,Isabela City,Kumalarang,All Lots,Inner Lot,A6,4.0
+,Isabela City,Kumalarang,All Lots,Inner Lot,A7,4.0
+,Isabela City,Kumalarang,All Lots,Inner Lot,A8,4.0
+,Isabela City,Kumalarang,All Lots,Inner Lot,A9,4.0
+,Isabela City,Kumalarang,All Lots,Inner Lot,A10,3.0
+,Isabela City,Kumalarang,All Lots,Inner Lot,A11,3.0
+,Isabela City,Kumalarang,All Lots,Inner Lot,A35,4.0
+,Isabela City,La Piedad,All Lots,,CR,740.0
+,Isabela City,La Piedad,All Lots,Outer Lot,RR,505.0
+,Isabela City,La Piedad,All Lots,Inner Lot,RR,400.0
+,Isabela City,La Piedad,All Lots,Inner Lot,A1,5.0
+,Isabela City,La Piedad,All Lots,Inner Lot,A2,5.0
+,Isabela City,La Piedad,All Lots,Inner Lot,A3,5.0
+,Isabela City,La Piedad,All Lots,Inner Lot,A4,5.0
+,Isabela City,La Piedad,All Lots,Inner Lot,A5,8.0
+,Isabela City,La Piedad,All Lots,Inner Lot,A6,4.0
+,Isabela City,La Piedad,All Lots,Inner Lot,A7,4.0
+,Isabela City,La Piedad,All Lots,Inner Lot,A8,4.0
+,Isabela City,La Piedad,All Lots,Inner Lot,A9,4.0
+,Isabela City,La Piedad,All Lots,Inner Lot,A10,3.0
+,Isabela City,La Piedad,All Lots,Inner Lot,A11,3.0
+,Isabela City,Lampinigan,All Lots,Outer Lot,RR,280.0
+,Isabela City,Lampinigan,All Lots,Inner Lot,RR,250.0
+,Isabela City,Lampinigan,All Lots,Inner Lot,A1,5.0
+,Isabela City,Lampinigan,All Lots,Inner Lot,A2,5.0
+,Isabela City,Lampinigan,All Lots,Inner Lot,A3,5.0
+,Isabela City,Lampinigan,All Lots,Inner Lot,A4,5.0
+,Isabela City,Lampinigan,All Lots,Inner Lot,A5,8.0
+,Isabela City,Lampinigan,All Lots,Inner Lot,A6,4.0
+,Isabela City,Lampinigan,All Lots,Inner Lot,A7,4.0
+,Isabela City,Lampinigan,All Lots,Inner Lot,A8,4.0
+,Isabela City,Lampinigan,All Lots,Inner Lot,A9,4.0
+,Isabela City,Lampinigan,All Lots,Inner Lot,A10,3.0
+,Isabela City,Lampinigan,All Lots,Inner Lot,A11,3.0
+,Isabela City,Lanote,All Lots,Outer Lot,RR,375.0
+,Isabela City,Lanote,All Lots,Inner Lot,RR,300.0
+,Isabela City,Lanote,All Lots,Inner Lot,A1,5.0
+,Isabela City,Lanote,All Lots,Inner Lot,A2,5.0
+,Isabela City,Lanote,All Lots,Inner Lot,A3,5.0
+,Isabela City,Lanote,All Lots,Inner Lot,A4,5.0
+,Isabela City,Lanote,All Lots,Inner Lot,A5,8.0
+,Isabela City,Lanote,All Lots,Inner Lot,A6,4.0
+,Isabela City,Lanote,All Lots,Inner Lot,A7,4.0
+,Isabela City,Lanote,All Lots,Inner Lot,A8,4.0
+,Isabela City,Lanote,All Lots,Inner Lot,A9,4.0
+,Isabela City,Lanote,All Lots,Inner Lot,A10,3.0
+,Isabela City,Lanote,All Lots,Inner Lot,A11,3.0
+,Isabela City,Lanote,All Lots,Inner Lot,A35,4.0
+,Isabela City,Lukbuton,All Lots,Outer Lot,RR,310.0
+,Isabela City,Lukbuton,All Lots,Inner Lot,RR,250.0
+,Isabela City,Lukbuton,All Lots,Inner Lot,A1,5.0
+,Isabela City,Lukbuton,All Lots,Inner Lot,A2,5.0
+,Isabela City,Lukbuton,All Lots,Inner Lot,A3,5.0
+,Isabela City,Lukbuton,All Lots,Inner Lot,A4,5.0
+,Isabela City,Lukbuton,All Lots,Inner Lot,A5,8.0
+,Isabela City,Lukbuton,All Lots,Inner Lot,A6,4.0
+,Isabela City,Lukbuton,All Lots,Inner Lot,A7,4.0
+,Isabela City,Lukbuton,All Lots,Inner Lot,A8,4.0
+,Isabela City,Lukbuton,All Lots,Inner Lot,A9,4.0
+,Isabela City,Lukbuton,All Lots,Inner Lot,A10,3.0
+,Isabela City,Lukbuton,All Lots,Inner Lot,A11,3.0
+,Isabela City,Lukbuton,All Lots,Inner Lot,A35,4.0
+,Isabela City,Lumbang,All Lots,Outer Lot,RR,280.0
+,Isabela City,Lumbang,All Lots,Inner Lot,RR,250.0
+,Isabela City,Lumbang,All Lots,Inner Lot,A1,5.0
+,Isabela City,Lumbang,All Lots,Inner Lot,A2,5.0
+,Isabela City,Lumbang,All Lots,Inner Lot,A3,5.0
+,Isabela City,Lumbang,All Lots,Inner Lot,A4,5.0
+,Isabela City,Lumbang,All Lots,Inner Lot,A5,8.0
+,Isabela City,Lumbang,All Lots,Inner Lot,A6,4.0
+,Isabela City,Lumbang,All Lots,Inner Lot,A7,4.0
+,Isabela City,Lumbang,All Lots,Inner Lot,A8,4.0
+,Isabela City,Lumbang,All Lots,Inner Lot,A9,4.0
+,Isabela City,Lumbang,All Lots,Inner Lot,A10,3.0
+,Isabela City,Lumbang,All Lots,Inner Lot,A11,3.0
+,Isabela City,Lumbang,All Lots,Inner Lot,A35,4.0
+,Isabela City,Makiri,All Lots,Outer Lot,RR,280.0
+,Isabela City,Makiri,All Lots,Inner Lot,RR,250.0
+,Isabela City,Makiri,All Lots,Inner Lot,A1,5.0
+,Isabela City,Makiri,All Lots,Inner Lot,A2,5.0
+,Isabela City,Makiri,All Lots,Inner Lot,A3,5.0
+,Isabela City,Makiri,All Lots,Inner Lot,A4,5.0
+,Isabela City,Makiri,All Lots,Inner Lot,A5,8.0
+,Isabela City,Makiri,All Lots,Inner Lot,A6,4.0
+,Isabela City,Makiri,All Lots,Inner Lot,A7,4.0
+,Isabela City,Makiri,All Lots,Inner Lot,A8,4.0
+,Isabela City,Makiri,All Lots,Inner Lot,A9,4.0
+,Isabela City,Makiri,All Lots,Inner Lot,A10,3.0
+,Isabela City,Makiri,All Lots,Inner Lot,A11,3.0
+,Isabela City,Makiri,All Lots,Inner Lot,A35,4.0
+,Isabela City,Maligui,All Lots,Outer Lot,RR,375.0
+,Isabela City,Maligui,All Lots,Inner Lot,RR,300.0
+,Isabela City,Maligui,All Lots,Inner Lot,A1,5.0
+,Isabela City,Maligui,All Lots,Inner Lot,A2,5.0
+,Isabela City,Maligui,All Lots,Inner Lot,A3,5.0
+,Isabela City,Maligui,All Lots,Inner Lot,A4,5.0
+,Isabela City,Maligui,All Lots,Inner Lot,A5,8.0
+,Isabela City,Maligui,All Lots,Inner Lot,A6,4.0
+,Isabela City,Maligui,All Lots,Inner Lot,A7,4.0
+,Isabela City,Maligui,All Lots,Inner Lot,A8,4.0
+,Isabela City,Maligui,All Lots,Inner Lot,A9,4.0
+,Isabela City,Maligui,All Lots,Inner Lot,A10,3.0
+,Isabela City,Maligui,All Lots,Inner Lot,A11,3.0
+,Isabela City,Maligui,All Lots,Inner Lot,A35,4.0
+,Isabela City,Marang Marang,All Lots,Outer Lot,RR,280.0
+,Isabela City,Marang Marang,All Lots,Inner Lot,RR,250.0
+,Isabela City,Marang Marang,All Lots,Inner Lot,A1,5.0
+,Isabela City,Marang Marang,All Lots,Inner Lot,A2,5.0
+,Isabela City,Marang Marang,All Lots,Inner Lot,A3,5.0
+,Isabela City,Marang Marang,All Lots,Inner Lot,A4,5.0
+,Isabela City,Marang Marang,All Lots,Inner Lot,A5,8.0
+,Isabela City,Marang Marang,All Lots,Inner Lot,A6,4.0
+,Isabela City,Marang Marang,All Lots,Inner Lot,A7,4.0
+,Isabela City,Marang Marang,All Lots,Inner Lot,A8,4.0
+,Isabela City,Marang Marang,All Lots,Inner Lot,A9,4.0
+,Isabela City,Marang Marang,All Lots,Inner Lot,A10,3.0
+,Isabela City,Marang Marang,All Lots,Inner Lot,A11,3.0
+,Isabela City,Marketsite ( Poblacion ),All Lots,,CR,765.0
+,Isabela City,Marketsite ( Poblacion ),All Lots,Outer Lot,RR,490.0
+,Isabela City,Marketsite ( Poblacion ),All Lots,Inner Lot,RR,400.0
+,Isabela City,Marketsite ( Poblacion ),All Lots,Inner Lot,A1,5.0
+,Isabela City,Marketsite ( Poblacion ),All Lots,Inner Lot,A2,5.0
+,Isabela City,Marketsite ( Poblacion ),All Lots,Inner Lot,A3,5.0
+,Isabela City,Marketsite ( Poblacion ),All Lots,Inner Lot,A4,5.0
+,Isabela City,Marketsite ( Poblacion ),All Lots,Inner Lot,A5,8.0
+,Isabela City,Marketsite ( Poblacion ),All Lots,Inner Lot,A6,4.0
+,Isabela City,Marketsite ( Poblacion ),All Lots,Inner Lot,A7,4.0
+,Isabela City,Marketsite ( Poblacion ),All Lots,Inner Lot,A8,4.0
+,Isabela City,Marketsite ( Poblacion ),All Lots,Inner Lot,A9,4.0
+,Isabela City,Marketsite ( Poblacion ),All Lots,Inner Lot,A10,3.0
+,Isabela City,Marketsite ( Poblacion ),All Lots,Inner Lot,A11,3.0
+,Isabela City,Masula,All Lots,Outer Lot,RR,280.0
+,Isabela City,Masula,All Lots,Inner Lot,RR,250.0
+,Isabela City,Masula,All Lots,Inner Lot,A1,5.0
+,Isabela City,Masula,All Lots,Inner Lot,A2,5.0
+,Isabela City,Masula,All Lots,Inner Lot,A3,5.0
+,Isabela City,Masula,All Lots,Inner Lot,A4,5.0
+,Isabela City,Masula,All Lots,Inner Lot,A5,8.0
+,Isabela City,Masula,All Lots,Inner Lot,A6,4.0
+,Isabela City,Masula,All Lots,Inner Lot,A7,4.0
+,Isabela City,Masula,All Lots,Inner Lot,A8,4.0
+,Isabela City,Masula,All Lots,Inner Lot,A9,4.0
+,Isabela City,Masula,All Lots,Inner Lot,A10,3.0
+,Isabela City,Masula,All Lots,Inner Lot,A11,3.0
+,Isabela City,Masula,All Lots,Inner Lot,A35,4.0
+,Isabela City,Menzi,ALL LOTS,,CR,690.0
+,Isabela City,Menzi,ALL LOTS,Outer Lot,RR,360.0
+,Isabela City,Menzi,ALL LOTS,Inner Lot,RR,300.0
+,Isabela City,Menzi,ALL LOTS,Inner Lot,A1,5.0
+,Isabela City,Menzi,ALL LOTS,Inner Lot,A2,5.0
+,Isabela City,Menzi,ALL LOTS,Inner Lot,A3,5.0
+,Isabela City,Menzi,ALL LOTS,Inner Lot,A4,5.0
+,Isabela City,Menzi,ALL LOTS,Inner Lot,A5,8.0
+,Isabela City,Menzi,ALL LOTS,Inner Lot,A6,4.0
+,Isabela City,Menzi,ALL LOTS,Inner Lot,A7,4.0
+,Isabela City,Menzi,ALL LOTS,Inner Lot,A8,4.0
+,Isabela City,Menzi,ALL LOTS,Inner Lot,A9,4.0
+,Isabela City,Menzi,ALL LOTS,Inner Lot,A10,3.0
+,Isabela City,Menzi,ALL LOTS,Inner Lot,A11,3.0
+,Isabela City,Menzi,ALL LOTS,Inner Lot,A35,4.0
+,Isabela City,Panigayan,All Lots,Outer Lot,RR,280.0
+,Isabela City,Panigayan,All Lots,Inner Lot,RR,250.0
+,Isabela City,Panigayan,All Lots,Inner Lot,A1,5.0
+,Isabela City,Panigayan,All Lots,Inner Lot,A2,5.0
+,Isabela City,Panigayan,All Lots,Inner Lot,A3,5.0
+,Isabela City,Panigayan,All Lots,Inner Lot,A4,5.0
+,Isabela City,Panigayan,All Lots,Inner Lot,A5,8.0
+,Isabela City,Panigayan,All Lots,Inner Lot,A6,4.0
+,Isabela City,Panigayan,All Lots,Inner Lot,A7,4.0
+,Isabela City,Panigayan,All Lots,Inner Lot,A8,4.0
+,Isabela City,Panigayan,All Lots,Inner Lot,A9,4.0
+,Isabela City,Panigayan,All Lots,Inner Lot,A10,3.0
+,Isabela City,Panigayan,All Lots,Inner Lot,A11,3.0
+,Isabela City,Panunsulan,All Lots,Outer Lot,RR,400.0
+,Isabela City,Panunsulan,All Lots,Inner Lot,RR,350.0
+,Isabela City,Panunsulan,All Lots,Inner Lot,A1,5.0
+,Isabela City,Panunsulan,All Lots,Inner Lot,A2,5.0
+,Isabela City,Panunsulan,All Lots,Inner Lot,A3,5.0
+,Isabela City,Panunsulan,All Lots,Inner Lot,A4,5.0
+,Isabela City,Panunsulan,All Lots,Inner Lot,A5,8.0
+,Isabela City,Panunsulan,All Lots,Inner Lot,A6,4.0
+,Isabela City,Panunsulan,All Lots,Inner Lot,A7,4.0
+,Isabela City,Panunsulan,All Lots,Inner Lot,A8,4.0
+,Isabela City,Panunsulan,All Lots,Inner Lot,A9,4.0
+,Isabela City,Panunsulan,All Lots,Inner Lot,A10,3.0
+,Isabela City,Panunsulan,All Lots,Inner Lot,A11,3.0
+,Isabela City,Panunsulan,All Lots,Inner Lot,A35,4.0
+,Isabela City,Port Area,All Lots,,CR,740.0
+,Isabela City,Port Area,All Lots,Outer Lot,RR,490.0
+,Isabela City,Port Area,All Lots,Inner Lot,RR,400.0
+,Isabela City,Port Area,All Lots,Inner Lot,A1,5.0
+,Isabela City,Port Area,All Lots,Inner Lot,A2,5.0
+,Isabela City,Port Area,All Lots,Inner Lot,A3,5.0
+,Isabela City,Port Area,All Lots,Inner Lot,A4,5.0
+,Isabela City,Port Area,All Lots,Inner Lot,A5,8.0
+,Isabela City,Port Area,All Lots,Inner Lot,A6,4.0
+,Isabela City,Port Area,All Lots,Inner Lot,A7,4.0
+,Isabela City,Port Area,All Lots,Inner Lot,A8,4.0
+,Isabela City,Port Area,All Lots,Inner Lot,A9,4.0
+,Isabela City,Port Area,All Lots,Inner Lot,A10,3.0
+,Isabela City,Port Area,All Lots,Inner Lot,A11,3.0
+,Isabela City,Riverside,All Lots,,CR,700.0
+,Isabela City,Riverside,All Lots,Outer Lot,RR,475.0
+,Isabela City,Riverside,All Lots,Inner Lot,RR,380.0
+,Isabela City,Riverside,All Lots,Inner Lot,A1,5.0
+,Isabela City,Riverside,All Lots,Inner Lot,A2,5.0
+,Isabela City,Riverside,All Lots,Inner Lot,A3,5.0
+,Isabela City,Riverside,All Lots,Inner Lot,A4,5.0
+,Isabela City,Riverside,All Lots,Inner Lot,A5,8.0
+,Isabela City,Riverside,All Lots,Inner Lot,A6,4.0
+,Isabela City,Riverside,All Lots,Inner Lot,A7,4.0
+,Isabela City,Riverside,All Lots,Inner Lot,A8,4.0
+,Isabela City,Riverside,All Lots,Inner Lot,A9,4.0
+,Isabela City,Riverside,All Lots,Inner Lot,A10,3.0
+,Isabela City,Riverside,All Lots,Inner Lot,A11,3.0
+,Isabela City,an Rafael,All Lots,,CR,500.0
+,Isabela City,an Rafael,All Lots,Outer Lot,RR,425.0
+,Isabela City,an Rafael,All Lots,Inner Lot,RR,350.0
+,Isabela City,an Rafael,All Lots,Inner Lot,A1,5.0
+,Isabela City,an Rafael,All Lots,Inner Lot,A2,5.0
+,Isabela City,an Rafael,All Lots,Inner Lot,A3,5.0
+,Isabela City,an Rafael,All Lots,Inner Lot,A4,5.0
+,Isabela City,an Rafael,All Lots,Inner Lot,A5,8.0
+,Isabela City,an Rafael,All Lots,Inner Lot,A6,4.0
+,Isabela City,an Rafael,All Lots,Inner Lot,A7,4.0
+,Isabela City,an Rafael,All Lots,Inner Lot,A8,4.0
+,Isabela City,an Rafael,All Lots,Inner Lot,A9,4.0
+,Isabela City,an Rafael,All Lots,Inner Lot,A10,3.0
+,Isabela City,an Rafael,All Lots,Inner Lot,A11,3.0
+,Isabela City,an Rafael,All Lots,Inner Lot,A35,4.0
+,Isabela City,anta Barbara,All Lots,Outer Lot,RR,350.0
+,Isabela City,anta Barbara,All Lots,Inner Lot,RR,300.0
+,Isabela City,anta Barbara,All Lots,Inner Lot,A1,5.0
+,Isabela City,anta Barbara,All Lots,Inner Lot,A2,5.0
+,Isabela City,anta Barbara,All Lots,Inner Lot,A3,5.0
+,Isabela City,anta Barbara,All Lots,Inner Lot,A4,5.0
+,Isabela City,anta Barbara,All Lots,Inner Lot,A5,8.0
+,Isabela City,anta Barbara,All Lots,Inner Lot,A6,4.0
+,Isabela City,anta Barbara,All Lots,Inner Lot,A7,4.0
+,Isabela City,anta Barbara,All Lots,Inner Lot,A8,4.0
+,Isabela City,anta Barbara,All Lots,Inner Lot,A9,4.0
+,Isabela City,anta Barbara,All Lots,Inner Lot,A10,3.0
+,Isabela City,anta Barbara,All Lots,Inner Lot,A11,3.0
+,Isabela City,anta Barbara,All Lots,Inner Lot,A35,4.0
+,Isabela City,anta Cruz,All Lots,,CR,690.0
+,Isabela City,anta Cruz,All Lots,Outer Lot,RR,490.0
+,Isabela City,anta Cruz,All Lots,Inner Lot,RR,400.0
+,Isabela City,anta Cruz,All Lots,Inner Lot,A1,5.0
+,Isabela City,anta Cruz,All Lots,Inner Lot,A2,5.0
+,Isabela City,anta Cruz,All Lots,Inner Lot,A3,5.0
+,Isabela City,anta Cruz,All Lots,Inner Lot,A4,5.0
+,Isabela City,anta Cruz,All Lots,Inner Lot,A5,8.0
+,Isabela City,anta Cruz,All Lots,Inner Lot,A6,4.0
+,Isabela City,anta Cruz,All Lots,Inner Lot,A7,4.0
+,Isabela City,anta Cruz,All Lots,Inner Lot,A8,4.0
+,Isabela City,anta Cruz,All Lots,Inner Lot,A9,4.0
+,Isabela City,anta Cruz,All Lots,Inner Lot,A10,3.0
+,Isabela City,anta Cruz,All Lots,Inner Lot,A11,3.0
+,Isabela City,easide,All Lots,,CR,740.0
+,Isabela City,easide,All Lots,Outer Lot,RR,600.0
+,Isabela City,easide,All Lots,Inner Lot,RR,350.0
+,Isabela City,easide,All Lots,Inner Lot,A1,5.0
+,Isabela City,easide,All Lots,Inner Lot,A2,5.0
+,Isabela City,easide,All Lots,Inner Lot,A3,5.0
+,Isabela City,easide,All Lots,Inner Lot,A4,5.0
+,Isabela City,easide,All Lots,Inner Lot,A5,8.0
+,Isabela City,easide,All Lots,Inner Lot,A6,4.0
+,Isabela City,easide,All Lots,Inner Lot,A7,4.0
+,Isabela City,easide,All Lots,Inner Lot,A8,4.0
+,Isabela City,easide,All Lots,Inner Lot,A9,4.0
+,Isabela City,easide,All Lots,Inner Lot,A10,3.0
+,Isabela City,easide,All Lots,Inner Lot,A11,3.0
+,Isabela City,mall Kapatagan,All Lots,Outer Lot,RR,430.0
+,Isabela City,mall Kapatagan,All Lots,Inner Lot,RR,400.0
+,Isabela City,mall Kapatagan,All Lots,Inner Lot,A1,5.0
+,Isabela City,mall Kapatagan,All Lots,Inner Lot,A2,5.0
+,Isabela City,mall Kapatagan,All Lots,Inner Lot,A3,5.0
+,Isabela City,mall Kapatagan,All Lots,Inner Lot,A4,5.0
+,Isabela City,mall Kapatagan,All Lots,Inner Lot,A5,8.0
+,Isabela City,mall Kapatagan,All Lots,Inner Lot,A6,4.0
+,Isabela City,mall Kapatagan,All Lots,Inner Lot,A7,4.0
+,Isabela City,mall Kapatagan,All Lots,Inner Lot,A8,4.0
+,Isabela City,mall Kapatagan,All Lots,Inner Lot,A9,4.0
+,Isabela City,mall Kapatagan,All Lots,Inner Lot,A10,3.0
+,Isabela City,mall Kapatagan,All Lots,Inner Lot,A11,3.0
+,Isabela City,mall Kapatagan,All Lots,Inner Lot,A35,4.0
+,Isabela City,unrise Village,All Lots,,CR,690.0
+,Isabela City,unrise Village,All Lots,Outer Lot,RR,475.0
+,Isabela City,unrise Village,All Lots,Inner Lot,RR,380.0
+,Isabela City,unrise Village,All Lots,Inner Lot,A1,5.0
+,Isabela City,unrise Village,All Lots,Inner Lot,A2,5.0
+,Isabela City,unrise Village,All Lots,Inner Lot,A3,5.0
+,Isabela City,unrise Village,All Lots,Inner Lot,A4,5.0
+,Isabela City,unrise Village,All Lots,Inner Lot,A5,6.0
+,Isabela City,unrise Village,All Lots,Inner Lot,A6,4.0
+,Isabela City,unrise Village,All Lots,Inner Lot,A7,4.0
+,Isabela City,unrise Village,All Lots,Inner Lot,A8,4.0
+,Isabela City,unrise Village,All Lots,Inner Lot,A9,4.0
+,Isabela City,unrise Village,All Lots,Inner Lot,A10,3.0
+,Isabela City,unrise Village,All Lots,Inner Lot,A11,3.0
+,Isabela City,unrise Village,All Lots,Inner Lot,A35,4.0
+,Isabela City,Tabiawan,All Lots,Outer Lot,RR,280.0
+,Isabela City,Tabiawan,All Lots,Inner Lot,RR,250.0
+,Isabela City,Tabiawan,All Lots,Inner Lot,A1,5.0
+,Isabela City,Tabiawan,All Lots,Inner Lot,A2,5.0
+,Isabela City,Tabiawan,All Lots,Inner Lot,A3,5.0
+,Isabela City,Tabiawan,All Lots,Inner Lot,A4,5.0
+,Isabela City,Tabiawan,All Lots,Inner Lot,A5,8.0
+,Isabela City,Tabiawan,All Lots,Inner Lot,A6,4.0
+,Isabela City,Tabiawan,All Lots,Inner Lot,A7,4.0
+,Isabela City,Tabiawan,All Lots,Inner Lot,A8,4.0
+,Isabela City,Tabiawan,All Lots,Inner Lot,A9,4.0
+,Isabela City,Tabiawan,All Lots,Inner Lot,A10,3.0
+,Isabela City,Tabiawan,All Lots,Inner Lot,A11,3.0
+,Isabela City,Tabiawan,All Lots,Inner Lot,A35,4.0
+,Isabela City,Tabuk,All Lots,,CR,490.0
+,Isabela City,Tabuk,All Lots,Outer Lot,RR,420.0
+,Isabela City,Tabuk,All Lots,Inner Lot,RR,300.0
+,Isabela City,Tabuk,All Lots,Inner Lot,A1,5.0
+,Isabela City,Tabuk,All Lots,Inner Lot,A2,5.0
+,Isabela City,Tabuk,All Lots,Inner Lot,A3,5.0
+,Isabela City,Tabuk,All Lots,Inner Lot,A4,5.0
+,Isabela City,Tabuk,All Lots,Inner Lot,A5,8.0
+,Isabela City,Tabuk,All Lots,Inner Lot,A6,4.0
+,Isabela City,Tabuk,All Lots,Inner Lot,A7,4.0
+,Isabela City,Tabuk,All Lots,Inner Lot,A8,4.0
+,Isabela City,Tabuk,All Lots,Inner Lot,A9,4.0
+,Isabela City,Tabuk,All Lots,Inner Lot,A10,3.0
+,Isabela City,Tabuk,All Lots,Inner Lot,A11,3.0
+,Isabela City,Timpul,All Lots,,CR,640.0
+,Isabela City,Timpul,All Lots,Outer Lot,RR,425.0
+,Isabela City,Timpul,All Lots,Inner Lot,RR,375.0
+,Isabela City,Timpul,All Lots,Inner Lot,A1,5.0
+,Isabela City,Timpul,All Lots,Inner Lot,A2,5.0
+,Isabela City,Timpul,All Lots,Inner Lot,A3,5.0
+,Isabela City,Timpul,All Lots,Inner Lot,A4,5.0
+,Isabela City,Timpul,All Lots,Inner Lot,A5,8.0
+,Isabela City,Timpul,All Lots,Inner Lot,A6,4.0
+,Isabela City,Timpul,All Lots,Inner Lot,A7,4.0
+,Isabela City,Timpul,All Lots,Inner Lot,A8,4.0
+,Isabela City,Timpul,All Lots,Inner Lot,A9,4.0
+,Isabela City,Timpul,All Lots,Inner Lot,A10,3.0
+,Isabela City,Timpul,All Lots,Inner Lot,A11,3.0
+,Isabela City,Tampalan,All Lots,,CR,425.0
+,Isabela City,Tampalan,All Lots,Outer Lot,RR,350.0
+,Isabela City,Tampalan,All Lots,Inner Lot,RR,300.0
+,Isabela City,Tampalan,All Lots,Inner Lot,A1,5.0
+,Isabela City,Tampalan,All Lots,Inner Lot,A2,5.0
+,Isabela City,Tampalan,All Lots,Inner Lot,A3,5.0
+,Isabela City,Tampalan,All Lots,Inner Lot,A4,5.0
+,Isabela City,Tampalan,All Lots,Inner Lot,A5,8.0
+,Isabela City,Tampalan,All Lots,Inner Lot,A6,4.0
+,Isabela City,Tampalan,All Lots,Inner Lot,A7,4.0
+,Isabela City,Tampalan,All Lots,Inner Lot,A8,4.0
+,Isabela City,Tampalan,All Lots,Inner Lot,A9,4.0
+,Isabela City,Tampalan,All Lots,Inner Lot,A10,3.0
+,Isabela City,Tampalan,All Lots,Inner Lot,A11,3.0
+,Lamitan City,Arco,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Arco,All Lots,Inner Lot,RR,175.0
+,Lamitan City,Arco,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Arco,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Arco,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Arco,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Arco,All Lots,Inner Lot,A5,4.0
+,Lamitan City,Arco,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Arco,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Arco,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Arco,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Arco,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Arco,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Ba-as,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Ba-as,All Lots,Inner Lot,RR,175.0
+,Lamitan City,Ba-as,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Ba-as,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Ba-as,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Ba-as,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Ba-as,All Lots,Inner Lot,A5,4.0
+,Lamitan City,Ba-as,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Ba-as,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Ba-as,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Ba-as,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Ba-as,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Ba-as,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Baimbing,All Lots,,CR,350.0
+,Lamitan City,Baimbing,All Lots,Outer Lot,RR,300.0
+,Lamitan City,Baimbing,All Lots,Inner Lot,RR,175.0
+,Lamitan City,Baimbing,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Baimbing,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Baimbing,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Baimbing,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Baimbing,All Lots,Inner Lot,A5,4.0
+,Lamitan City,Baimbing,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Baimbing,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Baimbing,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Baimbing,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Baimbing,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Baimbing,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Balagtasan,All Lots,,CR,295.0
+,Lamitan City,Balagtasan,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Balagtasan,All Lots,Inner Lot,RR,175.0
+,Lamitan City,Balagtasan,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Balagtasan,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Balagtasan,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Balagtasan,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Balagtasan,All Lots,Inner Lot,A5,4.0
+,Lamitan City,Balagtasan,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Balagtasan,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Balagtasan,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Balagtasan,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Balagtasan,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Balagtasan,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Balas,All Lots,,CR,295.0
+,Lamitan City,Balas,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Balas,All Lots,Inner Lot,RR,175.0
+,Lamitan City,Balas,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Balas,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Balas,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Balas,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Balas,All Lots,Inner Lot,A5,4.0
+,Lamitan City,Balas,All Lots,Inner Lot,A6,5.0
+,Lamitan City,Balas,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Balas,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Balas,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Balas,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Balobo,All Lots,,CR,295.0
+,Lamitan City,Balobo,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Balobo,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Balobo,All Lots,Inner Lot,A1,5.0
+,Lamitan City,Balobo,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Balobo,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Balobo,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Balobo,All Lots,Inner Lot,A5,4.0
+,Lamitan City,Balobo,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Balobo,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Balobo,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Balobo,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Balobo,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Balobo,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Bato,All Lots,,CR,295.0
+,Lamitan City,Bato,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Bato,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Bato,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Bato,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Bato,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Bato,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Bato,All Lots,Inner Lot,A5,4.0
+,Lamitan City,Bato,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Bato,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Bato,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Bato,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Bato,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Baungos,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Baungos,All Lots,Inner Lot,RR,175.0
+,Lamitan City,Baungos,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Baungos,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Baungos,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Baungos,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Baungos,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Baungos,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Baungos,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Baungos,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Baungos,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Baungos,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Baungos,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Bohe Bessey,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Bohe Bessey,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Bohe Bessey,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Bohe Bessey,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Bohe Bessey,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Bohe Bessey,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Bohe Bessey,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Bohe Bessey,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Bohe Bessey,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Bohe Bessey,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Bohe Bessey,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Bohe Bessey,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Bohe Bessey,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Bohe Ibu,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Bohe Ibu,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Bohe Ibu,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Bohe Ibu,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Bohe Ibu,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Bohe Ibu,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Bohe Ibu,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Bohe Ibu,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Bohe Ibu,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Bohe Ibu,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Bohe Ibu,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Bohe Ibu,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Bohe Ibu,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Bohe Nange,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Bohe Nange,All Lots,Inner Lot,RR,175.0
+,Lamitan City,Bohe Nange,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Bohe Nange,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Bohe Nange,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Bohe Nange,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Bohe Nange,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Bohe Nange,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Bohe Nange,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Bohe Nange,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Bohe Nange,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Bohe Nange,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Bohe Nange,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Bohesapa,All Lots,Outer Lot,RR,300.0
+,Lamitan City,Bohesapa,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Bohesapa,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Bohesapa,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Bohesapa,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Bohesapa,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Bohesapa,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Bohesapa,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Bohesapa,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Bohesapa,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Bohesapa,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Bohesapa,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Bohesapa,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Bohe Yakan,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Bohe Yakan,All Lots,Inner Lot,RR,175.0
+,Lamitan City,Bohe Yakan,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Bohe Yakan,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Bohe Yakan,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Bohe Yakan,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Bohe Yakan,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Bohe Yakan,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Bohe Yakan,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Bohe Yakan,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Bohe Yakan,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Bohe Yakan,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Bohe Yakan,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Bohe Yawas,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Bohe Yawas,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Bohe Yawas,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Bohe Yawas,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Bohe Yawas,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Bohe Yawas,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Bohe Yawas,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Bohe Yawas,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Bohe Yawas,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Bohe Yawas,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Bohe Yawas,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Bohe Yawas,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Bohe Yawas,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Buahan,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Buahan,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Buahan,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Buahan,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Buahan,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Buahan,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Buahan,All Lots,Inner Lot,A5,4.0
+,Lamitan City,Buahan,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Buahan,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Buahan,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Buahan,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Buahan,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Buahan,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Bulanting,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Bulanting,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Bulanting,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Bulanting,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Bulanting,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Bulanting,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Bulanting,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Bulanting,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Bulanting,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Bulanting,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Bulanting,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Bulanting,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Bulanting,All Lots,Inner Lot,A35,3.0
+,Lamitan Municipality,Bulingan,All Lots,Outer Lot,RR,250.0
+,Lamitan Municipality,Bulingan,All Lots,Inner Lot,RR,160.0
+,Lamitan Municipality,Bulingan,All Lots,Inner Lot,A1,4.0
+,Lamitan Municipality,Bulingan,All Lots,Inner Lot,A2,4.0
+,Lamitan Municipality,Bulingan,All Lots,Inner Lot,A3,4.0
+,Lamitan Municipality,Bulingan,All Lots,Inner Lot,A4,4.0
+,Lamitan Municipality,Bulingan,All Lots,Inner Lot,A5,7.0
+,Lamitan Municipality,Bulingan,All Lots,Inner Lot,A6,4.0
+,Lamitan Municipality,Bulingan,All Lots,Inner Lot,A7,4.0
+,Lamitan Municipality,Bulingan,All Lots,Inner Lot,A8,4.0
+,Lamitan Municipality,Bulingan,All Lots,Inner Lot,A9,4.0
+,Lamitan Municipality,Bulingan,All Lots,Inner Lot,A10,3.0
+,Lamitan Municipality,Bulingan,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Cabobo,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Cabobo,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Cabobo,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Cabobo,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Cabobo,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Cabobo,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Cabobo,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Cabobo,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Cabobo,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Cabobo,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Cabobo,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Cabobo,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Cabobo,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Campo Uno,All Lots,,CR,345.0
+,Lamitan City,Campo Uno,All Lots,Outer Lot,RR,300.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A5,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Colonia,All Lots,,CR,295.0
+,Lamitan City,Colonia,All Lots,Outer Lot,RR,240.0
+,Lamitan City,Colonia,All Lots,Inner Lot,RR,175.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A1,5.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A5,4.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Calugusan,All Lots,,CR,295.0
+,Lamitan City,Calugusan,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A6,5.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Campo Uno,All Lots,,CR,345.0
+,Lamitan City,Campo Uno,All Lots,Outer Lot,RR,300.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A5,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Campo Uno,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Colonia,All Lots,,CR,295.0
+,Lamitan City,Colonia,All Lots,Outer Lot,RR,240.0
+,Lamitan City,Colonia,All Lots,Inner Lot,RR,175.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A1,5.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A5,4.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Colonia,All Lots,Inner Lot,A35,3.0
+,Lamitan Municipality,Danit Puntocan,All Lots,Outer Lot,RR,250.0
+,Lamitan Municipality,Danit Puntocan,All Lots,Inner Lot,RR,175.0
+,Lamitan Municipality,Danit Puntocan,All Lots,Inner Lot,A1,4.0
+,Lamitan Municipality,Danit Puntocan,All Lots,Inner Lot,A2,4.0
+,Lamitan Municipality,Danit Puntocan,All Lots,Inner Lot,A3,4.0
+,Lamitan Municipality,Danit Puntocan,All Lots,Inner Lot,A4,4.0
+,Lamitan Municipality,Danit Puntocan,All Lots,Inner Lot,A5,7.0
+,Lamitan Municipality,Danit Puntocan,All Lots,Inner Lot,A6,4.0
+,Lamitan Municipality,Danit Puntocan,All Lots,Inner Lot,A7,4.0
+,Lamitan Municipality,Danit Puntocan,All Lots,Inner Lot,A8,4.0
+,Lamitan Municipality,Danit Puntocan,All Lots,Inner Lot,A9,4.0
+,Lamitan Municipality,Danit Puntocan,All Lots,Inner Lot,A10,3.0
+,Lamitan Municipality,Danit Puntocan,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Kulay Bato,All lots,Outer Lot,RR,300.0
+,Lamitan City,Kulay Bato,All lots,Inner lot,RR,200.0
+,Lamitan City,Kulay Bato,All lots,Inner lot,A1,4.0
+,Lamitan City,Kulay Bato,All lots,Inner lot,A2,4.0
+,Lamitan City,Kulay Bato,All lots,Inner lot,A3,4.0
+,Lamitan City,Kulay Bato,All lots,Inner lot,A4,4.0
+,Lamitan City,Kulay Bato,All lots,Inner lot,A5,7.0
+,Lamitan City,Kulay Bato,All lots,Inner lot,A6,4.0
+,Lamitan City,Kulay Bato,All lots,Inner lot,A7,4.0
+,Lamitan City,Kulay Bato,All lots,Inner lot,A8,4.0
+,Lamitan City,Kulay Bato,All lots,Inner lot,A9,4.0
+,Lamitan City,Kulay Bato,All lots,Inner lot,A10,3.0
+,Lamitan City,Lebbuh,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Lebbuh,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Lebbuh,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Lebbuh,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Lebbuh,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Lebbuh,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Lebbuh,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Lebbuh,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Lebbuh,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Lebbuh,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Lebbuh,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Lebbuh,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Lebbuh,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Limo-ok,All Lots,Outer Lot,RR,300.0
+,Lamitan City,Limo-ok,All Lots,Inner Lot,RR,200.0
+,Lamitan City,Limo-ok,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Limo-ok,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Limo-ok,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Limo-ok,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Limo-ok,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Limo-ok,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Limo-ok,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Limo-ok,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Limo-ok,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Limo-ok,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Lo-ok,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Lo-ok,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Lo-ok,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Lo-ok,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Lo-ok,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Lo-ok,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Lo-ok,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Lo-ok,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Lo-ok,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Lo-ok,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Lo-ok,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Lo-ok,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Lo-ok,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Luksumbang,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Luksumbang,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Luksumbang,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Luksumbang,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Luksumbang,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Luksumbang,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Luksumbang,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Luksumbang,All Lots,Inner Lot,A6,5.0
+,Lamitan City,Luksumbang,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Luksumbang,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Luksumbang,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Luksumbang,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Luksumbang,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Lumuton,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Lumuton,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Lumuton,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Lumuton,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Lumuton,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Lumuton,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Lumuton,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Lumuton,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Lumuton,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Lumuton,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Lumuton,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Lumuton,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Lumuton,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Maganda,All Lots,,CR,675.0
+,Lamitan City,Maganda,All Lots,Outer Lot,RR,550.0
+,Lamitan City,Maganda,All Lots,Inner Lot,RR,425.0
+,Lamitan City,Maganda,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Maganda,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Maganda,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Maganda,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Maganda,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Maganda,All Lots,Inner Lot,A6,5.0
+,Lamitan City,Maganda,All Lots,Inner Lot,A7,3.0
+,Lamitan City,Maganda,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Maganda,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Maganda,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Maganda,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Malakas,All Lots,,CR,775.0
+,Lamitan City,Malakas,All Lots,Outer Lot,RR,575.0
+,Lamitan City,Malakas,All Lots,Inner Lot,RR,425.0
+,Lamitan City,Malakas,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Malakas,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Malakas,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Malakas,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Malakas,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Malakas,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Malakas,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Malakas,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Malakas,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Malakas,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Maligaya,All Lots,,CR,775.0
+,Lamitan City,Maligaya,All Lots,Outer Lot,RR,575.0
+,Lamitan City,Maligaya,All Lots,Inner Lot,RR,425.0
+,Lamitan City,Maligaya,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Maligaya,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Maligaya,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Maligaya,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Maligaya,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Maligaya,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Maligaya,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Maligaya,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Maligaya,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Maligaya,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Malinis (Pob),All Lots,,CR,875.0
+,Lamitan City,Malinis (Pob),All Lots,Outer Lot,RR,625.0
+,Lamitan City,Malinis (Pob),All Lots,Inner Lot,RR,525.0
+,Lamitan City,Malinis (Pob),All Lots,Inner Lot,A1,4.0
+,Lamitan City,Malinis (Pob),All Lots,Inner Lot,A2,4.0
+,Lamitan City,Malinis (Pob),All Lots,Inner Lot,A3,4.0
+,Lamitan City,Malinis (Pob),All Lots,Inner Lot,A4,4.0
+,Lamitan City,Malinis (Pob),All Lots,Inner Lot,A5,7.0
+,Lamitan City,Malinis (Pob),All Lots,Inner Lot,A6,4.0
+,Lamitan City,Malinis (Pob),All Lots,Inner Lot,A7,4.0
+,Lamitan City,Malinis (Pob),All Lots,Inner Lot,A8,4.0
+,Lamitan City,Malinis (Pob),All Lots,Inner Lot,A9,4.0
+,Lamitan City,Malinis (Pob),All Lots,Inner Lot,A10,3.0
+,Lamitan City,Malo-ong Canal,All Lots,,CR,340.0
+,Lamitan City,Malo-ong Canal,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Malo-ong Canal,All Lots,Inner Lot,RR,150.0
+,Lamitan City,Malo-ong Canal,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Malo-ong Canal,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Malo-ong Canal,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Malo-ong Canal,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Malo-ong Canal,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Malo-ong Canal,All Lots,Inner Lot,A6,5.0
+,Lamitan City,Malo-ong Canal,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Malo-ong Canal,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Malo-ong Canal,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Malo-ong Canal,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Malo-ong Canal,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Malo-ong San Jose,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Malo-ong San Jose,All Lots,Inner Lot,RR,200.0
+,Lamitan City,Malo-ong San Jose,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Malo-ong San Jose,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Malo-ong San Jose,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Malo-ong San Jose,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Malo-ong San Jose,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Malo-ong San Jose,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Malo-ong San Jose,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Malo-ong San Jose,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Malo-ong San Jose,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Malo-ong San Jose,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Malo-ong San Jose,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Matatag,All Lots,,CR,875.0
+,Lamitan City,Matatag,All Lots,Outer Lot,RR,625.0
+,Lamitan City,Matatag,All Lots,Inner Lot,RR,425.0
+,Lamitan City,Matatag,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Matatag,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Matatag,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Matatag,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Matatag,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Matatag,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Matatag,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Matatag,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Matatag,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Matatag,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Matibay,All Lots,,CR,825.0
+,Lamitan City,Matibay,All Lots,Outer Lot,RR,625.0
+,Lamitan City,Matibay,All Lots,Inner Lot,RR,425.0
+,Lamitan City,Matibay,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Matibay,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Matibay,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Matibay,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Matibay,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Matibay,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Matibay,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Matibay,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Matibay,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Matibay,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Parang Basak,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Parang Basak,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Parang Basak,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Parang Basak,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Parang Basak,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Parang Basak,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Parang Basak,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Parang Basak,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Parang Basak,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Parang Basak,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Parang Basak,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Parang Basak,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Parang Basak,All Lots,Inner Lot,A35,3.0
+,Lamitan City,abong,All Lots,Outer Lot,RR,250.0
+,Lamitan City,abong,All Lots,Inner Lot,RR,175.0
+,Lamitan City,abong,All Lots,Inner Lot,A1,4.0
+,Lamitan City,abong,All Lots,Inner Lot,A2,4.0
+,Lamitan City,abong,All Lots,Inner Lot,A3,4.0
+,Lamitan City,abong,All Lots,Inner Lot,A4,4.0
+,Lamitan City,abong,All Lots,Inner Lot,A5,7.0
+,Lamitan City,abong,All Lots,Inner Lot,A6,4.0
+,Lamitan City,abong,All Lots,Inner Lot,A7,4.0
+,Lamitan City,abong,All Lots,Inner Lot,A8,4.0
+,Lamitan City,abong,All Lots,Inner Lot,A9,4.0
+,Lamitan City,abong,All Lots,Inner Lot,A10,3.0
+,Lamitan City,abong,All Lots,Inner Lot,A35,3.0
+,Lamitan City,anta Clara,All Lots,,CR,575.0
+,Lamitan City,anta Clara,All Lots,Outer Lot,RR,450.0
+,Lamitan City,anta Clara,All Lots,Inner Lot,RR,350.0
+,Lamitan City,anta Clara,All Lots,Inner Lot,A1,4.0
+,Lamitan City,anta Clara,All Lots,Inner Lot,A2,4.0
+,Lamitan City,anta Clara,All Lots,Inner Lot,A3,4.0
+,Lamitan City,anta Clara,All Lots,Inner Lot,A4,4.0
+,Lamitan City,anta Clara,All Lots,Inner Lot,A5,7.0
+,Lamitan City,anta Clara,All Lots,Inner Lot,A6,4.0
+,Lamitan City,anta Clara,All Lots,Inner Lot,A7,4.0
+,Lamitan City,anta Clara,All Lots,Inner Lot,A8,4.0
+,Lamitan City,anta Clara,All Lots,Inner Lot,A9,4.0
+,Lamitan City,anta Clara,All Lots,Inner Lot,A10,3.0
+,Lamitan City,anta Clara,All Lots,Inner Lot,A35,3.0
+,Lamitan City,engal,All Lots,Outer Lot,RR,250.0
+,Lamitan City,engal,All Lots,Inner Lot,RR,175.0
+,Lamitan City,engal,All Lots,Inner Lot,A1,5.0
+,Lamitan City,engal,All Lots,Inner Lot,A2,4.0
+,Lamitan City,engal,All Lots,Inner Lot,A3,4.0
+,Lamitan City,engal,All Lots,Inner Lot,A4,4.0
+,Lamitan City,engal,All Lots,Inner Lot,A5,7.0
+,Lamitan City,engal,All Lots,Inner Lot,A6,4.0
+,Lamitan City,engal,All Lots,Inner Lot,A7,4.0
+,Lamitan City,engal,All Lots,Inner Lot,A8,4.0
+,Lamitan City,engal,All Lots,Inner Lot,A9,4.0
+,Lamitan City,engal,All Lots,Inner Lot,A10,3.0
+,Lamitan City,engal,All Lots,Inner Lot,A35,3.0
+,Lamitan City,imbangon,All Lots,Outer Lot,RR,250.0
+,Lamitan City,imbangon,All Lots,Inner Lot,RR,160.0
+,Lamitan City,imbangon,All Lots,Inner Lot,A1,4.0
+,Lamitan City,imbangon,All Lots,Inner Lot,A2,4.0
+,Lamitan City,imbangon,All Lots,Inner Lot,A3,4.0
+,Lamitan City,imbangon,All Lots,Inner Lot,A4,4.0
+,Lamitan City,imbangon,All Lots,Inner Lot,A5,7.0
+,Lamitan City,imbangon,All Lots,Inner Lot,A6,4.0
+,Lamitan City,imbangon,All Lots,Inner Lot,A7,4.0
+,Lamitan City,imbangon,All Lots,Inner Lot,A8,4.0
+,Lamitan City,imbangon,All Lots,Inner Lot,A9,4.0
+,Lamitan City,imbangon,All Lots,Inner Lot,A10,3.0
+,Lamitan City,imbangon,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Tandung Ahas,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Tandung Ahas,All Lots,Inner Lot,RR,175.0
+,Lamitan City,Tandung Ahas,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Tandung Ahas,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Tandung Ahas,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Tandung Ahas,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Tandung Ahas,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Tandung Ahas,All Lots,Inner Lot,A6,5.0
+,Lamitan City,Tandung Ahas,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Tandung Ahas,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Tandung Ahas,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Tandung Ahas,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Tandung Ahas,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Tumakid,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Tumakid,All Lots,Inner Lot,RR,175.0
+,Lamitan City,Tumakid,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Tumakid,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Tumakid,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Tumakid,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Tumakid,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Tumakid,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Tumakid,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Tumakid,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Tumakid,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Tumakid,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Tumakid,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Ubit,All Lots,Outer Lot,RR,275.0
+,Lamitan City,Ubit,All Lots,Inner Lot,RR,175.0
+,Lamitan City,Ubit,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Ubit,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Ubit,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Ubit,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Ubit,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Ubit,All Lots,Inner Lot,A6,4.0
+,Lamitan City,Ubit,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Ubit,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Ubit,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Ubit,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Ubit,All Lots,Inner Lot,A35,3.0
+,Lamitan City,Ulame,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Ulame,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Ulame,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Ulame,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Ulame,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Ulame,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Ulame,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Ulame,All Lots,Inner Lot,A6,4.1
+,Lamitan City,Ulame,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Ulame,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Ulame,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Ulame,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Ulame,All Lots,Inner Lot,A35,3.0
+,Akbar Municipality,Caddayan,All Lots,Outer Lot,RR,635.0
+,Akbar Municipality,Caddayan,All Lots,Inner Lot,RR,320.0
+,Akbar Municipality,Caddayan,All Lots,Inner Lot,A2,4.0
+,Akbar Municipality,Caddayan,All Lots,Inner Lot,A4,4.0
+,Akbar Municipality,Caddayan,All Lots,Inner Lot,A5,4.0
+,Akbar Municipality,Caddayan,All Lots,Inner Lot,A12,4.0
+,Akbar Municipality,Caddayan,All Lots,Inner Lot,A35,6.0
+,Akbar Municipality,Caddayan,All Lots,Inner Lot,A50,3.0
+,Akbar Municipality,Linongan,All Lots,Outer Lot,RR,635.0
+,Akbar Municipality,Linongan,All Lots,Inner Lot,RR,320.0
+,Akbar Municipality,Linongan,All Lots,Inner Lot,A2,3.0
+,Akbar Municipality,Linongan,All Lots,Inner Lot,A4,4.0
+,Akbar Municipality,Linongan,All Lots,Inner Lot,A5,4.0
+,Akbar Municipality,Linongan,All Lots,Inner Lot,A12,4.0
+,Akbar Municipality,Linongan,All Lots,Inner Lot,A35,6.0
+,Akbar Municipality,Linongan,All Lots,Inner Lot,A50,3.0
+,Akbar Municipality,Lower Bato-Bato,All Lots,Outer Lot,RR,635.0
+,Akbar Municipality,Lower Bato-Bato,All Lots,Inner Lot,RR,320.0
+,Akbar Municipality,Lower Bato-Bato,All Lots,Inner Lot,A2,3.0
+,Akbar Municipality,Lower Bato-Bato,All Lots,Inner Lot,A4,4.0
+,Akbar Municipality,Lower Bato-Bato,All Lots,Inner Lot,A5,4.0
+,Akbar Municipality,Lower Bato-Bato,All Lots,Inner Lot,A12,4.0
+,Akbar Municipality,Lower Bato-Bato,All Lots,Inner Lot,A35,6.0
+,Akbar Municipality,Lower Bato-Bato,All Lots,Inner Lot,A50,3.0
+,Akbar Municipality,Managalut,All Lots,Outer Lot,RR,635.0
+,Akbar Municipality,Managalut,All Lots,Inner Lot,RR,320.0
+,Akbar Municipality,Managalut,All Lots,Inner Lot,A2,3.0
+,Akbar Municipality,Managalut,All Lots,Inner Lot,A4,4.0
+,Akbar Municipality,Managalut,All Lots,Inner Lot,A5,4.0
+,Akbar Municipality,Managalut,All Lots,Inner Lot,A12,4.0
+,Akbar Municipality,Managalut,All Lots,Inner Lot,A35,6.0
+,Akbar Municipality,Managalut,All Lots,Inner Lot,A50,3.0
+,Akbar Municipality,Manguso,All Lots,Outer Lot,RR,635.0
+,Akbar Municipality,Manguso,All Lots,Inner Lot,RR,320.0
+,Akbar Municipality,Manguso,All Lots,Inner Lot,A2,3.0
+,Akbar Municipality,Manguso,All Lots,Inner Lot,A4,4.0
+,Akbar Municipality,Manguso,All Lots,Inner Lot,A5,4.0
+,Akbar Municipality,Manguso,All Lots,Inner Lot,A12,4.0
+,Akbar Municipality,Manguso,All Lots,Inner Lot,A35,6.0
+,Akbar Municipality,Manguso,All Lots,Inner Lot,A50,3.0
+,Akbar Municipality,Paguengan,All Lots,Outer Lot,RR,635.0
+,Akbar Municipality,Paguengan,All Lots,Inner Lot,RR,320.0
+,Akbar Municipality,Paguengan,All Lots,Inner Lot,A2,3.0
+,Akbar Municipality,Paguengan,All Lots,Inner Lot,A4,4.0
+,Akbar Municipality,Paguengan,All Lots,Inner Lot,A5,4.0
+,Akbar Municipality,Paguengan,All Lots,Inner Lot,A12,4.0
+,Akbar Municipality,Paguengan,All Lots,Inner Lot,A35,6.0
+,Akbar Municipality,Paguengan,All Lots,Inner Lot,A50,3.0
+,Akbar Municipality,emut,All Lots,Outer Lot,RR,635.0
+,Akbar Municipality,emut,All Lots,Inner Lot,RR,320.0
+,Akbar Municipality,emut,All Lots,Inner Lot,A2,3.0
+,Akbar Municipality,emut,All Lots,Inner Lot,A4,4.0
+,Akbar Municipality,emut,All Lots,Inner Lot,A5,4.0
+,Akbar Municipality,emut,All Lots,Inner Lot,A12,4.0
+,Akbar Municipality,emut,All Lots,Inner Lot,A35,6.0
+,Akbar Municipality,emut,All Lots,Inner Lot,A50,3.0
+,Akbar Municipality,Upper Bato- Bato,All Lots,Outer Lot,RR,635.0
+,Akbar Municipality,Upper Bato- Bato,All Lots,Inner Lot,RR,320.0
+,Akbar Municipality,Upper Bato- Bato,All Lots,Inner Lot,A2,3.0
+,Akbar Municipality,Upper Bato- Bato,All Lots,Inner Lot,A4,4.0
+,Akbar Municipality,Upper Bato- Bato,All Lots,Inner Lot,A5,4.0
+,Akbar Municipality,Upper Bato- Bato,All Lots,Inner Lot,A12,4.0
+,Akbar Municipality,Upper Bato- Bato,All Lots,Inner Lot,A35,6.0
+,Akbar Municipality,Upper Bato- Bato,All Lots,Inner Lot,A50,3.0
+,Akbar Municipality,Upper Sinangkapan,All Lots,Outer Lot,RR,635.0
+,Akbar Municipality,Upper Sinangkapan,All Lots,Inner Lot,RR,320.0
+,Akbar Municipality,Upper Sinangkapan,All Lots,Inner Lot,A2,3.0
+,Akbar Municipality,Upper Sinangkapan,All Lots,Inner Lot,A4,4.0
+,Akbar Municipality,Upper Sinangkapan,All Lots,Inner Lot,A5,4.0
+,Akbar Municipality,Upper Sinangkapan,All Lots,Inner Lot,A12,4.0
+,Akbar Municipality,Upper Sinangkapan,All Lots,Inner Lot,A35,6.0
+,Akbar Municipality,Upper Sinangkapan,All Lots,Inner Lot,A50,3.0
+,Al-Barka Municipality,Apil- Apil,All Lots,Outer Lot,RR,635.0
+,Al-Barka Municipality,Apil- Apil,All Lots,Inner Lot,RR,320.0
+,Al-Barka Municipality,Apil- Apil,All Lots,Inner Lot,A2,3.0
+,Al-Barka Municipality,Apil- Apil,All Lots,Inner Lot,A4,4.0
+,Al-Barka Municipality,Apil- Apil,All Lots,Inner Lot,A5,4.0
+,Al-Barka Municipality,Apil- Apil,All Lots,Inner Lot,A35,6.0
+,Al-Barka Municipality,Apil- Apil,All Lots,Inner Lot,A50,3.0
+,Al-Barka Municipality,Apil- Apil,All Lots,Inner Lot,A12,4.0
+,Al-Barka Municipality,Bato-Bato,All Lots,Outer Lot,RR,635.0
+,Al-Barka Municipality,Bato-Bato,All Lots,Inner Lot,RR,320.0
+,Al-Barka Municipality,Bato-Bato,All Lots,Inner Lot,A2,3.0
+,Al-Barka Municipality,Bato-Bato,All Lots,Inner Lot,A4,4.0
+,Al-Barka Municipality,Bato-Bato,All Lots,Inner Lot,A5,4.0
+,Al-Barka Municipality,Bato-Bato,All Lots,Inner Lot,A12,4.0
+,Al-Barka Municipality,Bato-Bato,All Lots,Inner Lot,A35,6.0
+,Al-Barka Municipality,Bato-Bato,All Lots,Inner Lot,A50,3.0
+,Al-Barka Municipality,Bohe-Piang,All Lots,Outer Lot,RR,635.0
+,Al-Barka Municipality,Bohe-Piang,All Lots,Inner Lot,RR,320.0
+,Al-Barka Municipality,Bohe-Piang,All Lots,Inner Lot,A2,3.0
+,Al-Barka Municipality,Bohe-Piang,All Lots,Inner Lot,A4,4.0
+,Al-Barka Municipality,Bohe-Piang,All Lots,Inner Lot,A5,4.0
+,Al-Barka Municipality,Bohe-Piang,All Lots,Inner Lot,A12,4.0
+,Al-Barka Municipality,Bohe-Piang,All Lots,Inner Lot,A35,6.0
+,Al-Barka Municipality,Bohe-Piang,All Lots,Inner Lot,A50,3.0
+,Al-Barka Municipality,Bucalao,All Lots,Outer Lot,RR,635.0
+,Al-Barka Municipality,Bucalao,All Lots,Inner Lot,RR,320.0
+,Al-Barka Municipality,Bucalao,All Lots,Inner Lot,A2,3.0
+,Al-Barka Municipality,Bucalao,All Lots,Inner Lot,A4,4.0
+,Al-Barka Municipality,Bucalao,All Lots,Inner Lot,A5,4.0
+,Al-Barka Municipality,Bucalao,All Lots,Inner Lot,A12,4.0
+,Al-Barka Municipality,Bucalao,All Lots,Inner Lot,A35,6.0
+,Al-Barka Municipality,Bucalao,All Lots,Inner Lot,A50,3.0
+,Al-Barka Municipality,Cambug,All Lots,Outer Lot,RR,635.0
+,Al-Barka Municipality,Cambug,All Lots,Inner Lot,RR,320.0
+,Al-Barka Municipality,Cambug,All Lots,Inner Lot,A2,3.0
+,Al-Barka Municipality,Cambug,All Lots,Inner Lot,A4,4.0
+,Al-Barka Municipality,Cambug,All Lots,Inner Lot,A5,4.0
+,Al-Barka Municipality,Cambug,All Lots,Inner Lot,A12,4.0
+,Al-Barka Municipality,Cambug,All Lots,Inner Lot,A35,6.0
+,Al-Barka Municipality,Cambug,All Lots,Inner Lot,A50,3.0
+,Al-Barka Municipality,Danapah,All Lots,Outer Lot,RR,635.0
+,Al-Barka Municipality,Danapah,All Lots,Inner Lot,RR,320.0
+,Al-Barka Municipality,Danapah,All Lots,Inner Lot,A2,3.0
+,Al-Barka Municipality,Danapah,All Lots,Inner Lot,A4,4.0
+,Al-Barka Municipality,Danapah,All Lots,Inner Lot,A5,4.0
+,Al-Barka Municipality,Danapah,All Lots,Inner Lot,A12,4.0
+,Al-Barka Municipality,Danapah,All Lots,Inner Lot,A35,6.0
+,Al-Barka Municipality,Danapah,All Lots,Inner Lot,A50,3.0
+,Al-Barka Municipality,Guinanta,All Lots,Outer Lot,RR,635.0
+,Al-Barka Municipality,Guinanta,All Lots,Inner Lot,RR,320.0
+,Al-Barka Municipality,Guinanta,All Lots,Inner Lot,A2,3.0
+,Al-Barka Municipality,Guinanta,All Lots,Inner Lot,A4,4.0
+,Al-Barka Municipality,Guinanta,All Lots,Inner Lot,A5,4.0
+,Al-Barka Municipality,Guinanta,All Lots,Inner Lot,A12,4.0
+,Al-Barka Municipality,Guinanta,All Lots,Inner Lot,A35,6.0
+,Al-Barka Municipality,Guinanta,All Lots,Inner Lot,A50,3.0
+,Al-Barka Municipality,Kailih,All Lots,Outer Lot,RR,635.0
+,Al-Barka Municipality,Kailih,All Lots,Inner Lot,RR,320.0
+,Al-Barka Municipality,Kailih,All Lots,Inner Lot,A2,3.0
+,Al-Barka Municipality,Kailih,All Lots,Inner Lot,A4,4.0
+,Al-Barka Municipality,Kailih,All Lots,Inner Lot,A5,4.0
+,Al-Barka Municipality,Kailih,All Lots,Inner Lot,A12,4.0
+,Al-Barka Municipality,Kailih,All Lots,Inner Lot,A35,6.0
+,Al-Barka Municipality,Kailih,All Lots,Inner Lot,A50,3.0
+,Al-Barka Municipality,Kinukutan,All Lots,Outer Lot,RR,635.0
+,Al-Barka Municipality,Kinukutan,All Lots,Inner Lot,RR,320.0
+,Al-Barka Municipality,Kinukutan,All Lots,Inner Lot,A2,3.0
+,Al-Barka Municipality,Kinukutan,All Lots,Inner Lot,A4,4.0
+,Al-Barka Municipality,Kinukutan,All Lots,Inner Lot,A5,4.0
+,Al-Barka Municipality,Kinukutan,All Lots,Inner Lot,A12,4.0
+,Al-Barka Municipality,Kinukutan,All Lots,Inner Lot,A35,6.0
+,Al-Barka Municipality,Kinukutan,All Lots,Inner Lot,A50,3.0
+,Al-Barka Municipality,Kuhon,All Lots,Outer Lot,RR,635.0
+,Al-Barka Municipality,Kuhon,All Lots,Inner Lot,RR,320.0
+,Al-Barka Municipality,Kuhon,All Lots,Inner Lot,A2,3.0
+,Al-Barka Municipality,Kuhon,All Lots,Inner Lot,A4,4.0
+,Al-Barka Municipality,Kuhon,All Lots,Inner Lot,A5,4.0
+,Al-Barka Municipality,Kuhon,All Lots,Inner Lot,A12,4.0
+,Al-Barka Municipality,Kuhon,All Lots,Inner Lot,A35,6.0
+,Al-Barka Municipality,Kuhon,All Lots,Inner Lot,A50,3.0
+,Al-Barka Municipality,Kuhon Lennuh,All Lots,Outer Lot,RR,635.0
+,Al-Barka Municipality,Kuhon Lennuh,All Lots,Inner Lot,RR,320.0
+,Al-Barka Municipality,Kuhon Lennuh,All Lots,Inner Lot,A2,3.0
+,Al-Barka Municipality,Kuhon Lennuh,All Lots,Inner Lot,A4,4.0
+,Al-Barka Municipality,Kuhon Lennuh,All Lots,Inner Lot,A5,4.0
+,Al-Barka Municipality,Kuhon Lennuh,All Lots,Inner Lot,A12,4.0
+,Al-Barka Municipality,Kuhon Lennuh,All Lots,Inner Lot,A35,6.0
+,Al-Barka Municipality,Kuhon Lennuh,All Lots,Inner Lot,A50,3.0
+,Al-Barka Municipality,Linuan,All Lots,Outer Lot,RR,635.0
+,Al-Barka Municipality,Linuan,All Lots,Inner Lot,RR,320.0
+,Al-Barka Municipality,Linuan,All Lots,Inner Lot,A2,3.0
+,Al-Barka Municipality,Linuan,All Lots,Inner Lot,A4,4.0
+,Al-Barka Municipality,Linuan,All Lots,Inner Lot,A5,4.0
+,Al-Barka Municipality,Linuan,All Lots,Inner Lot,A12,4.0
+,Al-Barka Municipality,Linuan,All Lots,Inner Lot,A35,6.0
+,Al-Barka Municipality,Linuan,All Lots,Inner Lot,A50,3.0
+,Al-Barka Municipality,Look Bisaya,All Lots,Outer Lot,RR,650.0
+,Al-Barka Municipality,Look Bisaya,All Lots,Inner Lot,RR,350.0
+,Al-Barka Municipality,Look Bisaya,All Lots,Inner Lot,A2,3.0
+,Al-Barka Municipality,Look Bisaya,All Lots,Inner Lot,A4,4.0
+,Al-Barka Municipality,Look Bisaya,All Lots,Inner Lot,A12,4.0
+,Al-Barka Municipality,Look Bisaya,All Lots,Inner Lot,A5,4.0
+,Al-Barka Municipality,Look Bisaya,All Lots,Inner Lot,A35,6.0
+,Al-Barka Municipality,Look Bisaya,All Lots,Inner Lot,A50,3.0
+,Al-Barka Municipality,Macalang,All Lots,Outer Lot,RR,635.0
+,Al-Barka Municipality,Macalang,All Lots,Inner Lot,RR,320.0
+,Al-Barka Municipality,Macalang,All Lots,Inner Lot,A2,3.0
+,Al-Barka Municipality,Macalang,All Lots,Inner Lot,A4,4.0
+,Al-Barka Municipality,Macalang,All Lots,Inner Lot,A5,4.0
+,Al-Barka Municipality,Macalang,All Lots,Inner Lot,A12,4.0
+,Al-Barka Municipality,Macalang,All Lots,Inner Lot,A35,6.0
+,Al-Barka Municipality,Macalang,All Lots,Inner Lot,A50,3.0
+,Al-Barka Municipality,Magcawa,All Lots,Outer Lot,RR,635.0
+,Al-Barka Municipality,Magcawa,All Lots,Inner Lot,RR,320.0
+,Al-Barka Municipality,Magcawa,All Lots,Inner Lot,A2,3.0
+,Al-Barka Municipality,Magcawa,All Lots,Inner Lot,A4,4.0
+,Al-Barka Municipality,Magcawa,All Lots,Inner Lot,A5,4.0
+,Al-Barka Municipality,Magcawa,All Lots,Inner Lot,A12,4.0
+,Al-Barka Municipality,Magcawa,All Lots,Inner Lot,A35,6.0
+,Al-Barka Municipality,Magcawa,All Lots,Inner Lot,A50,3.0
+,Al-Barka Municipality,angkahan,All Lots,Outer Lot,RR,635.0
+,Al-Barka Municipality,angkahan,All Lots,Inner Lot,RR,320.0
+,Al-Barka Municipality,angkahan,All Lots,Inner Lot,A2,4.0
+,Al-Barka Municipality,angkahan,All Lots,Inner Lot,A4,4.0
+,Al-Barka Municipality,angkahan,All Lots,Inner Lot,A5,4.0
+,Al-Barka Municipality,angkahan,All Lots,Inner Lot,A12,4.0
+,Al-Barka Municipality,angkahan,All Lots,Inner Lot,A35,6.0
+,Al-Barka Municipality,angkahan,All Lots,Inner Lot,A50,3.0
+,Hadji Mohammad Ajul Municipality,Basakan,All Lots,Outer Lot,RR,635.0
+,Hadji Mohammad Ajul Municipality,Basakan,All Lots,Inner Lot,RR,320.0
+,Hadji Mohammad Ajul Municipality,Basakan,All Lots,Inner Lot,A2,4.0
+,Hadji Mohammad Ajul Municipality,Basakan,All Lots,Inner Lot,A4,4.0
+,Hadji Mohammad Ajul Municipality,Basakan,All Lots,Inner Lot,A5,4.0
+,Hadji Mohammad Ajul Municipality,Basakan,All Lots,Inner Lot,A12,4.0
+,Hadji Mohammad Ajul Municipality,Basakan,All Lots,Inner Lot,A35,6.0
+,Hadji Mohammad Ajul Municipality,Basakan,All Lots,Inner Lot,A50,3.0
+,Hadji Mohammad Ajul Municipality,Buton,All Lots,Outer Lot,RR,635.0
+,Hadji Mohammad Ajul Municipality,Buton,All Lots,Inner Lot,RR,320.0
+,Hadji Mohammad Ajul Municipality,Buton,All Lots,Inner Lot,A2,4.0
+,Hadji Mohammad Ajul Municipality,Buton,All Lots,Inner Lot,A4,4.0
+,Hadji Mohammad Ajul Municipality,Buton,All Lots,Inner Lot,A5,4.0
+,Hadji Mohammad Ajul Municipality,Buton,All Lots,Inner Lot,A12,4.0
+,Hadji Mohammad Ajul Municipality,Buton,All Lots,Inner Lot,A35,6.0
+,Hadji Mohammad Ajul Municipality,Buton,All Lots,Inner Lot,A50,3.0
+,Hadji Mohammad Ajul Municipality,Candiis,All Lots,Outer Lot,RR,635.0
+,Hadji Mohammad Ajul Municipality,Candiis,All Lots,Inner Lot,RR,320.0
+,Hadji Mohammad Ajul Municipality,Candiis,All Lots,Inner Lot,A2,4.0
+,Hadji Mohammad Ajul Municipality,Candiis,All Lots,Inner Lot,A4,4.0
+,Hadji Mohammad Ajul Municipality,Candiis,All Lots,Inner Lot,A5,4.0
+,Hadji Mohammad Ajul Municipality,Candiis,All Lots,Inner Lot,A12,4.0
+,Hadji Mohammad Ajul Municipality,Candiis,All Lots,Inner Lot,A35,6.0
+,Hadji Mohammad Ajul Municipality,Candiis,All Lots,Inner Lot,A50,3.0
+,Hadji Mohammad Ajul Municipality,Langil,All Lots,Outer Lot,RR,635.0
+,Hadji Mohammad Ajul Municipality,Langil,All Lots,Inner Lot,RR,320.0
+,Hadji Mohammad Ajul Municipality,Langil,All Lots,Inner Lot,A2,4.0
+,Hadji Mohammad Ajul Municipality,Langil,All Lots,Inner Lot,A4,4.0
+,Hadji Mohammad Ajul Municipality,Langil,All Lots,Inner Lot,A5,4.0
+,Hadji Mohammad Ajul Municipality,Langil,All Lots,Inner Lot,A12,4.0
+,Hadji Mohammad Ajul Municipality,Langil,All Lots,Inner Lot,A35,6.0
+,Hadji Mohammad Ajul Municipality,Langil,All Lots,Inner Lot,A50,3.0
+,Hadji Mohammad Ajul Municipality,Langong,All Lots,Outer Lot,RR,635.0
+,Hadji Mohammad Ajul Municipality,Langong,All Lots,Inner Lot,RR,320.0
+,Hadji Mohammad Ajul Municipality,Langong,All Lots,Inner Lot,A2,4.0
+,Hadji Mohammad Ajul Municipality,Langong,All Lots,Inner Lot,A4,4.0
+,Hadji Mohammad Ajul Municipality,Langong,All Lots,Inner Lot,A5,4.0
+,Hadji Mohammad Ajul Municipality,Langong,All Lots,Inner Lot,A12,4.0
+,Hadji Mohammad Ajul Municipality,Langong,All Lots,Inner Lot,A35,6.0
+,Hadji Mohammad Ajul Municipality,Langong,All Lots,Inner Lot,A50,3.0
+,Hadji Mohammad Ajul Municipality,Languyan,All Lots,Outer Lot,RR,635.0
+,Hadji Mohammad Ajul Municipality,Languyan,All Lots,Inner Lot,RR,320.0
+,Hadji Mohammad Ajul Municipality,Languyan,All Lots,Inner Lot,A2,4.0
+,Hadji Mohammad Ajul Municipality,Languyan,All Lots,Inner Lot,A4,4.0
+,Hadji Mohammad Ajul Municipality,Languyan,All Lots,Inner Lot,A5,4.0
+,Hadji Mohammad Ajul Municipality,Languyan,All Lots,Inner Lot,A12,4.0
+,Hadji Mohammad Ajul Municipality,Languyan,All Lots,Inner Lot,A35,6.0
+,Hadji Mohammad Ajul Municipality,Languyan,All Lots,Inner Lot,A50,3.0
+,Hadji Mohammad Ajul Municipality,Pintasan,All Lots,Outer Lot,RR,635.0
+,Hadji Mohammad Ajul Municipality,Pintasan,All Lots,Inner Lot,RR,320.0
+,Hadji Mohammad Ajul Municipality,Pintasan,All Lots,Inner Lot,A2,4.0
+,Hadji Mohammad Ajul Municipality,Pintasan,All Lots,Inner Lot,A4,4.0
+,Hadji Mohammad Ajul Municipality,Pintasan,All Lots,Inner Lot,A5,4.0
+,Hadji Mohammad Ajul Municipality,Pintasan,All Lots,Inner Lot,A12,4.0
+,Hadji Mohammad Ajul Municipality,Pintasan,All Lots,Inner Lot,A35,6.0
+,Hadji Mohammad Ajul Municipality,Pintasan,All Lots,Inner Lot,A50,3.0
+,Hadji Mohammad Ajul Municipality,erongon,All Lots,Outer Lot,RR,635.0
+,Hadji Mohammad Ajul Municipality,erongon,All Lots,Inner Lot,RR,320.0
+,Hadji Mohammad Ajul Municipality,erongon,All Lots,Inner Lot,A2,4.0
+,Hadji Mohammad Ajul Municipality,erongon,All Lots,Inner Lot,A4,4.0
+,Hadji Mohammad Ajul Municipality,erongon,All Lots,Inner Lot,A5,4.0
+,Hadji Mohammad Ajul Municipality,erongon,All Lots,Inner Lot,A12,4.0
+,Hadji Mohammad Ajul Municipality,erongon,All Lots,Inner Lot,A35,6.0
+,Hadji Mohammad Ajul Municipality,erongon,All Lots,Inner Lot,A50,3.0
+,Hadji Mohammad Ajul Municipality,ibago,All Lots,Outer Lot,RR,635.0
+,Hadji Mohammad Ajul Municipality,ibago,All Lots,Inner Lot,RR,320.0
+,Hadji Mohammad Ajul Municipality,ibago,All Lots,Inner Lot,A2,4.0
+,Hadji Mohammad Ajul Municipality,ibago,All Lots,Inner Lot,A4,4.0
+,Hadji Mohammad Ajul Municipality,ibago,All Lots,Inner Lot,A5,4.0
+,Hadji Mohammad Ajul Municipality,ibago,All Lots,Inner Lot,A12,4.0
+,Hadji Mohammad Ajul Municipality,ibago,All Lots,Inner Lot,A35,6.0
+,Hadji Mohammad Ajul Municipality,ibago,All Lots,Inner Lot,A50,3.0
+,Hadji Mohammad Ajul Municipality,ulutan,All Lots,Outer Lot,RR,635.0
+,Hadji Mohammad Ajul Municipality,ulutan,All Lots,Inner Lot,RR,320.0
+,Hadji Mohammad Ajul Municipality,ulutan,All Lots,Inner Lot,A2,4.0
+,Hadji Mohammad Ajul Municipality,ulutan,All Lots,Inner Lot,A4,4.0
+,Hadji Mohammad Ajul Municipality,ulutan,All Lots,Inner Lot,A5,4.0
+,Hadji Mohammad Ajul Municipality,ulutan,All Lots,Inner Lot,A12,4.0
+,Hadji Mohammad Ajul Municipality,ulutan,All Lots,Inner Lot,A35,6.0
+,Hadji Mohammad Ajul Municipality,ulutan,All Lots,Inner Lot,A50,3.0
+,Hadji Mohammad Ajul Municipality,Tuburan Proper,All Lots,Outer Lot,RR,635.0
+,Hadji Mohammad Ajul Municipality,Tuburan Proper,All Lots,Inner Lot,RR,320.0
+,Hadji Mohammad Ajul Municipality,Tuburan Proper,All Lots,Inner Lot,A2,4.0
+,Hadji Mohammad Ajul Municipality,Tuburan Proper,All Lots,Inner Lot,A4,4.0
+,Hadji Mohammad Ajul Municipality,Tuburan Proper,All Lots,Inner Lot,A5,4.0
+,Hadji Mohammad Ajul Municipality,Tuburan Proper,All Lots,Inner Lot,A12,4.0
+,Hadji Mohammad Ajul Municipality,Tuburan Proper,All Lots,Inner Lot,A35,6.0
+,Hadji Mohammad Ajul Municipality,Tuburan Proper,All Lots,Inner Lot,A50,3.0
+,Hadji Muhtamad Municipality,Baluk-Baluk,All Lots,Outer Lot,RR,635.0
+,Hadji Muhtamad Municipality,Baluk-Baluk,All Lots,Inner Lot,RR,320.0
+,Hadji Muhtamad Municipality,Baluk-Baluk,All Lots,Inner Lot,A1,7.0
+,Hadji Muhtamad Municipality,Baluk-Baluk,All Lots,Inner Lot,A4,4.0
+,Hadji Muhtamad Municipality,Baluk-Baluk,All Lots,Inner Lot,A5,4.0
+,Hadji Muhtamad Municipality,Baluk-Baluk,All Lots,Inner Lot,A8,3.0
+,Hadji Muhtamad Municipality,Baluk-Baluk,All Lots,Inner Lot,A12,4.0
+,Hadji Muhtamad Municipality,Baluk-Baluk,All Lots,Inner Lot,A35,4.0
+,Hadji Muhtamad Municipality,Baluk-Baluk,All Lots,Inner Lot,A50,3.0
+,Hadji Muhtamad Municipality,Dasalan,All Lots,Outer Lot,RR,635.0
+,Hadji Muhtamad Municipality,Dasalan,All Lots,Inner Lot,RR,320.0
+,Hadji Muhtamad Municipality,Dasalan,All Lots,Inner Lot,A1,7.0
+,Hadji Muhtamad Municipality,Dasalan,All Lots,Inner Lot,A4,4.0
+,Hadji Muhtamad Municipality,Dasalan,All Lots,Inner Lot,A5,4.0
+,Hadji Muhtamad Municipality,Dasalan,All Lots,Inner Lot,A8,3.0
+,Hadji Muhtamad Municipality,Dasalan,All Lots,Inner Lot,A12,4.0
+,Hadji Muhtamad Municipality,Dasalan,All Lots,Inner Lot,A35,4.0
+,Hadji Muhtamad Municipality,Dasalan,All Lots,Inner Lot,A50,3.0
+,Hadji Muhtamad Municipality,Lubukan,All Lots,Outer Lot,RR,635.0
+,Hadji Muhtamad Municipality,Lubukan,All Lots,Inner Lot,RR,320.0
+,Hadji Muhtamad Municipality,Lubukan,All Lots,Inner Lot,A1,7.0
+,Hadji Muhtamad Municipality,Lubukan,All Lots,Inner Lot,A4,4.0
+,Hadji Muhtamad Municipality,Lubukan,All Lots,Inner Lot,A5,4.0
+,Hadji Muhtamad Municipality,Lubukan,All Lots,Inner Lot,A8,3.0
+,Hadji Muhtamad Municipality,Lubukan,All Lots,Inner Lot,A12,4.0
+,Hadji Muhtamad Municipality,Lubukan,All Lots,Inner Lot,A35,4.0
+,Hadji Muhtamad Municipality,Lubukan,All Lots,Inner Lot,A50,3.0
+,Hadji Muhtamad Municipality,Luukbongsod,All Lots,Outer Lot,RR,635.0
+,Hadji Muhtamad Municipality,Luukbongsod,All Lots,Inner Lot,RR,320.0
+,Hadji Muhtamad Municipality,Luukbongsod,All Lots,Inner Lot,A1,7.0
+,Hadji Muhtamad Municipality,Luukbongsod,All Lots,Inner Lot,A4,4.0
+,Hadji Muhtamad Municipality,Luukbongsod,All Lots,Inner Lot,A5,4.0
+,Hadji Muhtamad Municipality,Luukbongsod,All Lots,Inner Lot,A8,3.0
+,Hadji Muhtamad Municipality,Luukbongsod,All Lots,Inner Lot,A12,4.0
+,Hadji Muhtamad Municipality,Luukbongsod,All Lots,Inner Lot,A35,4.0
+,Hadji Muhtamad Municipality,Luukbongsod,All Lots,Inner Lot,A50,3.0
+,Hadji Muhtamad Municipality,Mananggal,All Lots,Outer Lot,RR,635.0
+,Hadji Muhtamad Municipality,Mananggal,All Lots,Inner Lot,RR,320.0
+,Hadji Muhtamad Municipality,Mananggal,All Lots,Inner Lot,A1,7.0
+,Hadji Muhtamad Municipality,Mananggal,All Lots,Inner Lot,A4,4.0
+,Hadji Muhtamad Municipality,Mananggal,All Lots,Inner Lot,A5,4.0
+,Hadji Muhtamad Municipality,Mananggal,All Lots,Inner Lot,A8,3.0
+,Hadji Muhtamad Municipality,Mananggal,All Lots,Inner Lot,A12,4.0
+,Hadji Muhtamad Municipality,Mananggal,All Lots,Inner Lot,A35,4.0
+,Hadji Muhtamad Municipality,Mananggal,All Lots,Inner Lot,A50,3.0
+,Hadji Muhtamad Municipality,Palahangan,All Lots,Outer Lot,RR,635.0
+,Hadji Muhtamad Municipality,Palahangan,All Lots,Inner Lot,RR,320.0
+,Hadji Muhtamad Municipality,Palahangan,All Lots,Inner Lot,A1,7.0
+,Hadji Muhtamad Municipality,Palahangan,All Lots,Inner Lot,A4,4.0
+,Hadji Muhtamad Municipality,Palahangan,All Lots,Inner Lot,A5,4.0
+,Hadji Muhtamad Municipality,Palahangan,All Lots,Inner Lot,A8,3.0
+,Hadji Muhtamad Municipality,Palahangan,All Lots,Inner Lot,A12,4.0
+,Hadji Muhtamad Municipality,Palahangan,All Lots,Inner Lot,A35,4.0
+,Hadji Muhtamad Municipality,Palahangan,All Lots,Inner Lot,A50,3.0
+,Hadji Muhtamad Municipality,Panducan,All Lots,Outer Lot,RR,635.0
+,Hadji Muhtamad Municipality,Panducan,All Lots,Inner Lot,RR,320.0
+,Hadji Muhtamad Municipality,Panducan,All Lots,Inner Lot,A1,7.0
+,Hadji Muhtamad Municipality,Panducan,All Lots,Inner Lot,A4,4.0
+,Hadji Muhtamad Municipality,Panducan,All Lots,Inner Lot,A5,4.0
+,Hadji Muhtamad Municipality,Panducan,All Lots,Inner Lot,A8,3.0
+,Hadji Muhtamad Municipality,Panducan,All Lots,Inner Lot,A12,4.0
+,Hadji Muhtamad Municipality,Panducan,All Lots,Inner Lot,A35,4.0
+,Hadji Muhtamad Municipality,Panducan,All Lots,Inner Lot,A50,3.0
+,Hadji Muhtamad Municipality,angbay Big,All Lots,Outer Lot,RR,635.0
+,Hadji Muhtamad Municipality,angbay Big,All Lots,Inner Lot,RR,320.0
+,Hadji Muhtamad Municipality,angbay Big,All Lots,Inner Lot,A1,7.0
+,Hadji Muhtamad Municipality,angbay Big,All Lots,Inner Lot,A4,4.0
+,Hadji Muhtamad Municipality,angbay Big,All Lots,Inner Lot,A5,4.0
+,Hadji Muhtamad Municipality,angbay Big,All Lots,Inner Lot,A8,3.0
+,Hadji Muhtamad Municipality,angbay Big,All Lots,Inner Lot,A12,4.0
+,Hadji Muhtamad Municipality,angbay Big,All Lots,Inner Lot,A35,4.0
+,Hadji Muhtamad Municipality,angbay Big,All Lots,Inner Lot,A50,3.0
+,Hadji Muhtamad Municipality,angbay Small,All Lots,Outer Lot,RR,635.0
+,Hadji Muhtamad Municipality,angbay Small,All Lots,Inner Lot,RR,320.0
+,Hadji Muhtamad Municipality,angbay Small,All Lots,Inner Lot,A1,7.0
+,Hadji Muhtamad Municipality,angbay Small,All Lots,Inner Lot,A4,4.0
+,Hadji Muhtamad Municipality,angbay Small,All Lots,Inner Lot,A5,4.0
+,Hadji Muhtamad Municipality,angbay Small,All Lots,Inner Lot,A8,3.0
+,Hadji Muhtamad Municipality,angbay Small,All Lots,Inner Lot,A12,4.0
+,Hadji Muhtamad Municipality,angbay Small,All Lots,Inner Lot,A35,4.0
+,Hadji Muhtamad Municipality,angbay Small,All Lots,Inner Lot,A50,3.0
+,Hadji Muhtamad Municipality,Tausan,All Lots,Outer Lot,RR,650.0
+,Hadji Muhtamad Municipality,Tausan,All Lots,Inner Lot,RR,350.0
+,Hadji Muhtamad Municipality,Tausan,All Lots,Inner Lot,A1,7.0
+,Hadji Muhtamad Municipality,Tausan,All Lots,Inner Lot,A4,4.0
+,Hadji Muhtamad Municipality,Tausan,All Lots,Inner Lot,A5,4.0
+,Hadji Muhtamad Municipality,Tausan,All Lots,Inner Lot,A8,3.0
+,Hadji Muhtamad Municipality,Tausan,All Lots,Inner Lot,A12,4.0
+,Hadji Muhtamad Municipality,Tausan,All Lots,Inner Lot,A35,4.0
+,Hadji Muhtamad Municipality,Tausan,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Atong-Atong,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Atong-Atong,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Atong-Atong,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Atong-Atong,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Atong-Atong,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Atong-Atong,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Atong-Atong,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Atong-Atong,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Atong-Atong,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Bagbaon,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Bagbaon,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Bagbaon,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Bagbaon,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Bagbaon,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Bagbaon,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Bagbaon,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Bagbaon,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Bagbaon,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Baungis,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Baungis,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Baungis,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Baungis,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Baungis,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Baungis,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Baungis,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Baungis,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Baungis,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Bulan-Bulan,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Bulan-Bulan,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Bulan-Bulan,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Bulan-Bulan,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Bulan-Bulan,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Bulan-Bulan,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Bulan-Bulan,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Bulan-Bulan,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Bulan-Bulan,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Bulanza,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Bulanza,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Bulanza,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Bulanza,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Bulanza,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Bulanza,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Bulanza,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Bulanza,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Bulanza,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Calayan,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Calayan,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Calayan,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Calayan,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Calayan,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Calayan,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Calayan,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Calayan,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Calayan,All Lots,Inner Lot,A50,3.0
+,Lamitan City,Calugusan,All Lots,,CR,295.0
+,Lamitan City,Calugusan,All Lots,Outer Lot,RR,250.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,RR,160.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A1,4.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A2,4.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A3,4.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A4,4.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A5,7.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A6,5.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A7,4.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A8,4.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A9,4.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A10,3.0
+,Lamitan City,Calugusan,All Lots,Inner Lot,A35,3.0
+,Lantawan Municipality,Canibungan,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Canibungan,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Canibungan,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Canibungan,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Canibungan,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Canibungan,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Canibungan,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Canibungan,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Canibungan,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Landugan,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Landugan,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Landugan,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Landugan,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Landugan,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Landugan,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Landugan,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Landugan,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Landugan,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Lantawan Proper,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Lantawan Proper,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Lantawan Proper,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Lantawan Proper,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Lantawan Proper,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Lantawan Proper,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Lantawan Proper,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Lantawan Proper,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Lantawan Proper,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Lawila,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Lawila,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Lawila,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Lawila,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Lawila,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Lawila,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Lawila,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Lawila,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Lawila,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Lawi-Lawi,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Lower Manggas,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Lower Manggas,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Lower Manggas,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Lower Manggas,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Lower Manggas,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Lower Manggas,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Lower Manggas,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Lower Manggas,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Lower Manggas,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Luuk-Maluha,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Luuk-Maluha,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Luuk-Maluha,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Luuk-Maluha,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Luuk-Maluha,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Luuk-Maluha,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Luuk-Maluha,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Luuk-Maluha,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Luuk-Maluha,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Matarling,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Matarling,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Matarling,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Matarling,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Matarling,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Matarling,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Matarling,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Matarling,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Matarling,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Matikang,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Matikang,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Matikang,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Matikang,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Matikang,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Matikang,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Matikang,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Matikang,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Matikang,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Paniongan,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Paniongan,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Paniongan,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Paniongan,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Paniongan,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Paniongan,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Paniongan,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Paniongan,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Paniongan,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Pamucalin,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Pamucalin,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Pamucalin,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Pamucalin,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Pamucalin,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Pamucalin,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Pamucalin,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Pamucalin,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Pamucalin,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Parian-Baunoh,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Parian-Baunoh,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Parian-Baunoh,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Parian-Baunoh,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Parian-Baunoh,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Parian-Baunoh,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Parian-Baunoh,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Parian-Baunoh,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Parian-Baunoh,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,uba-an (Pangasahan),All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,uba-an (Pangasahan),All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,uba-an (Pangasahan),All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,uba-an (Pangasahan),All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,uba-an (Pangasahan),All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,uba-an (Pangasahan),All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,uba-an (Pangasahan),All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,uba-an (Pangasahan),All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,uba-an (Pangasahan),All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,witch Yakal,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,witch Yakal,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,witch Yakal,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,witch Yakal,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,witch Yakal,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,witch Yakal,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,witch Yakal,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,witch Yakal,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,witch Yakal,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Tairan,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Tairan,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Tairan,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Tairan,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Tairan,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Tairan,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Tairan,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Tairan,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Tairan,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Upper Bañas,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Upper Bañas,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Upper Bañas,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Upper Bañas,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Upper Bañas,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Upper Bañas,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Upper Bañas,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Upper Bañas,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Upper Bañas,All Lots,Inner Lot,A50,3.0
+,Lantawan Municipality,Upper Manggas,All Lots,Outer Lot,RR,635.0
+,Lantawan Municipality,Upper Manggas,All Lots,Inner Lot,RR,320.0
+,Lantawan Municipality,Upper Manggas,All Lots,Inner Lot,A1,7.0
+,Lantawan Municipality,Upper Manggas,All Lots,Inner Lot,A4,4.0
+,Lantawan Municipality,Upper Manggas,All Lots,Inner Lot,A5,4.0
+,Lantawan Municipality,Upper Manggas,All Lots,Inner Lot,A8,3.0
+,Lantawan Municipality,Upper Manggas,All Lots,Inner Lot,A12,4.0
+,Lantawan Municipality,Upper Manggas,All Lots,Inner Lot,A35,6.0
+,Lantawan Municipality,Upper Manggas,All Lots,Inner Lot,A50,3.0
+,Maluso Municipality,Abong- Abong,All Lots,Outer Lot,RR,320.0
+,Maluso Municipality,Abong- Abong,All Lots,Inner Lot,RR,215.0
+,Maluso Municipality,Abong- Abong,All Lots,Inner Lot,A4,4.0
+,Maluso Municipality,Abong- Abong,All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Abong- Abong,All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Abong- Abong,All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Abong- Abong,All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Abong- Abong,All Lots,Inner Lot,A35,7.0
+,Maluso Municipality,Butangal,All Lots,Outer Lot,RR,320.0
+,Maluso Municipality,Butangal,All Lots,Inner Lot,RR,215.0
+,Maluso Municipality,Butangal,All Lots,Inner Lot,A4,4.0
+,Maluso Municipality,Butangal,All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Butangal,All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Butangal,All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Butangal,All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Butangal,All Lots,Inner Lot,A35,7.0
+,Maluso Municipality,Calang Canas,All Lots,Outer Lot,RR,320.0
+,Maluso Municipality,Calang Canas,All Lots,Inner Lot,RR,215.0
+,Maluso Municipality,Calang Canas,All Lots,Inner Lot,A4,4.0
+,Maluso Municipality,Calang Canas,All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Calang Canas,All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Calang Canas,All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Calang Canas,All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Calang Canas,All Lots,Inner Lot,A35,8.0
+,Maluso Municipality,Fuente Maluso,All Lots,Outer Lot,RR,320.0
+,Maluso Municipality,Fuente Maluso,All Lots,Inner Lot,RR,215.0
+,Maluso Municipality,Fuente Maluso,All Lots,Inner Lot,A4,4.0
+,Maluso Municipality,Fuente Maluso,All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Fuente Maluso,All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Fuente Maluso,All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Fuente Maluso,All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Fuente Maluso,All Lots,Inner Lot,A35,7.0
+,Maluso Municipality,Guanan North (Zone I),All Lots,Outer Lot,RR,320.0
+,Maluso Municipality,Guanan North (Zone I),All Lots,Inner Lot,RR,215.0
+,Maluso Municipality,Guanan North (Zone I),All Lots,Inner Lot,A4,4.0
+,Maluso Municipality,Guanan North (Zone I),All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Guanan North (Zone I),All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Guanan North (Zone I),All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Guanan North (Zone I),All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Guanan North (Zone I),All Lots,Inner Lot,A35,7.0
+,Maluso Municipality,Guanan South (Zone II),All Lots,Outer Lot,RR,320.0
+,Maluso Municipality,Guanan South (Zone II),All Lots,Inner Lot,RR,215.0
+,Maluso Municipality,Guanan South (Zone II),All Lots,Inner Lot,A4,4.0
+,Maluso Municipality,Guanan South (Zone II),All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Guanan South (Zone II),All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Guanan South (Zone II),All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Guanan South (Zone II),All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Guanan South (Zone II),All Lots,Inner Lot,A35,6.0
+,Maluso Municipality,Limbubong,All Lots,Outer Lot,RR,320.0
+,Maluso Municipality,Limbubong,All Lots,Inner Lot,RR,215.0
+,Maluso Municipality,Limbubong,All Lots,Inner Lot,A4,4.0
+,Maluso Municipality,Limbubong,All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Limbubong,All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Limbubong,All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Limbubong,All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Limbubong,All Lots,Inner Lot,A35,8.0
+,Maluso Municipality,Mahayahay Lower (Zone I),All Lots,Outer Lot,RR,320.0
+,Maluso Municipality,Mahayahay Lower (Zone I),All Lots,Inner Lot,RR,215.0
+,Maluso Municipality,Mahayahay Lower (Zone I),All Lots,Inner Lot,A4,4.0
+,Maluso Municipality,Mahayahay Lower (Zone I),All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Mahayahay Lower (Zone I),All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Mahayahay Lower (Zone I),All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Mahayahay Lower (Zone I),All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Mahayahay Lower (Zone I),All Lots,Inner Lot,A35,7.0
+,Maluso Municipality,Mahayahay Upper (Zone III),All Lots,Outer Lot,RR,320.0
+,Maluso Municipality,Mahayahay Upper (Zone III),All Lots,Inner Lot,RR,215.0
+,Maluso Municipality,Mahayahay Upper (Zone III),All Lots,Inner Lot,A4,4.0
+,Maluso Municipality,Mahayahay Upper (Zone III),All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Mahayahay Upper (Zone III),All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Mahayahay Upper (Zone III),All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Mahayahay Upper (Zone III),All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Mahayahay Upper (Zone III),All Lots,Inner Lot,A35,7.0
+,Maluso Municipality,Muslim Area,All Lots,Outer Lot,RR,385.0
+,Maluso Municipality,Muslim Area,All Lots,Inner Lot,RR,270.0
+,Maluso Municipality,Muslim Area,All Lots,Inner Lot,A4,4.0
+,Maluso Municipality,Muslim Area,All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Muslim Area,All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Muslim Area,All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Muslim Area,All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Port Holland Zone I Pob (Upper ),All Lots,,CR,775.0
+,Maluso Municipality,Port Holland Zone I Pob (Upper ),All Lots,Outer Lot,RR,385.0
+,Maluso Municipality,Port Holland Zone I Pob (Upper ),All Lots,Inner Lot,RR,270.0
+,Maluso Municipality,Port Holland Zone I Pob (Upper ),All Lots,Inner Lot,A4,3.0
+,Maluso Municipality,Port Holland Zone I Pob (Upper ),All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Port Holland Zone I Pob (Upper ),All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Port Holland Zone I Pob (Upper ),All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Port Holland Zone I Pob (Upper ),All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Port Holland Zone II Pob (Upper ),All Lots,,CR,775.0
+,Maluso Municipality,Port Holland Zone II Pob (Upper ),All Lots,Outer Lot,RR,385.0
+,Maluso Municipality,Port Holland Zone II Pob (Upper ),All Lots,Inner Lot,RR,270.0
+,Maluso Municipality,Port Holland Zone II Pob (Upper ),All Lots,Inner Lot,A4,3.0
+,Maluso Municipality,Port Holland Zone II Pob (Upper ),All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Port Holland Zone II Pob (Upper ),All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Port Holland Zone II Pob (Upper ),All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Port Holland Zone II Pob (Upper ),All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Port Holland Zone III Pob (Upper),All Lots,,CR,775.0
+,Maluso Municipality,Port Holland Zone III Pob (Upper),All Lots,Outer Lot,RR,385.0
+,Maluso Municipality,Port Holland Zone III Pob (Upper),All Lots,Inner Lot,RR,270.0
+,Maluso Municipality,Port Holland Zone III Pob (Upper),All Lots,Inner Lot,A4,3.0
+,Maluso Municipality,Port Holland Zone III Pob (Upper),All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Port Holland Zone III Pob (Upper),All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Port Holland Zone III Pob (Upper),All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Port Holland Zone III Pob (Upper),All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Port Holland Zone IV Pob (Lower),All Lots,,CR,775.0
+,Maluso Municipality,Port Holland Zone IV Pob (Lower),All Lots,Outer Lot,RR,385.0
+,Maluso Municipality,Port Holland Zone IV Pob (Lower),All Lots,Inner Lot,RR,270.0
+,Maluso Municipality,Port Holland Zone IV Pob (Lower),All Lots,Inner Lot,A4,3.0
+,Maluso Municipality,Port Holland Zone IV Pob (Lower),All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Port Holland Zone IV Pob (Lower),All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Port Holland Zone IV Pob (Lower),All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Port Holland Zone IV Pob (Lower),All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,PORT HOLLAND ZONE V,All Lots,,CR,775.0
+,Maluso Municipality,PORT HOLLAND ZONE V,All Lots,Outer Lot,RR,385.0
+,Maluso Municipality,PORT HOLLAND ZONE V,All Lots,Inner Lot,RR,270.0
+,Maluso Municipality,PORT HOLLAND ZONE V,All Lots,Inner Lot,A4,3.0
+,Maluso Municipality,PORT HOLLAND ZONE V,All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,PORT HOLLAND ZONE V,All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,PORT HOLLAND ZONE V,All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,PORT HOLLAND ZONE V,All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Taberlongan,All Lots,Outer Lot,RR,320.0
+,Maluso Municipality,Taberlongan,All Lots,Inner Lot,RR,215.0
+,Maluso Municipality,Taberlongan,All Lots,Inner Lot,A4,4.0
+,Maluso Municipality,Taberlongan,All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Taberlongan,All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Taberlongan,All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Taberlongan,All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Taberlongan,All Lots,Inner Lot,A35,7.0
+,Maluso Municipality,Tamuk,All Lots,Outer Lot,RR,320.0
+,Maluso Municipality,Tamuk,All Lots,Inner Lot,RR,215.0
+,Maluso Municipality,Tamuk,All Lots,Inner Lot,A4,4.0
+,Maluso Municipality,Tamuk,All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Tamuk,All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Tamuk,All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Tamuk,All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Tamuk,All Lots,Inner Lot,A35,7.0
+,Maluso Municipality,Townsite Poblacion,All Lots,,CR,550.0
+,Maluso Municipality,Townsite Poblacion,All Lots,Outer Lot,RR,385.0
+,Maluso Municipality,Townsite Poblacion,All Lots,Inner Lot,RR,270.0
+,Maluso Municipality,Townsite Poblacion,All Lots,Inner Lot,A4,4.0
+,Maluso Municipality,Townsite Poblacion,All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Townsite Poblacion,All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Townsite Poblacion,All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Townsite Poblacion,All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Tubigan,All Lots,Outer Lot,RR,320.0
+,Maluso Municipality,Tubigan,All Lots,Inner Lot,RR,215.0
+,Maluso Municipality,Tubigan,All Lots,Inner Lot,A4,4.0
+,Maluso Municipality,Tubigan,All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Tubigan,All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Tubigan,All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Tubigan,All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Tubigan,All Lots,Inner Lot,A35,7.0
+,Maluso Municipality,Upper Garlayan,All Lots,Outer Lot,RR,320.0
+,Maluso Municipality,Upper Garlayan,All Lots,Inner Lot,RR,215.0
+,Maluso Municipality,Upper Garlayan,All Lots,Inner Lot,A4,4.0
+,Maluso Municipality,Upper Garlayan,All Lots,Inner Lot,A5,4.0
+,Maluso Municipality,Upper Garlayan,All Lots,Inner Lot,A7,4.0
+,Maluso Municipality,Upper Garlayan,All Lots,Inner Lot,A9,4.0
+,Maluso Municipality,Upper Garlayan,All Lots,Inner Lot,A11,3.0
+,Maluso Municipality,Upper Garlayan,All Lots,Inner Lot,A35,7.0
+,Sumisip Municipality,Bacung,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Bacung,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Bacung,All Lots,Inner Lot,A2,3.0
+,Sumisip Municipality,Bacung,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Bacung,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Bacung,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Bacung,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Bacung,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Baiwas,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Baiwas,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Baiwas,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Baiwas,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Baiwas,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Baiwas,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Baiwas,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Baiwas,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Basak,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Basak,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Basak,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Basak,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Basak,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Basak,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Basak,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Basak,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Bohe-Languyan,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Bohe-Languyan,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Bohe-Languyan,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Bohe-Languyan,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Bohe-Languyan,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Bohe-Languyan,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Bohe-Languyan,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Bohe-Languyan,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Buli-Buli,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Buli-Buli,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Buli-Buli,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Buli-Buli,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Buli-Buli,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Buli-Buli,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Buli-Buli,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Buli-Buli,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Cabcaban,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Cabcaban,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Cabcaban,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Cabcaban,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Cabcaban,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Cabcaban,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Cabcaban,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Cabcaban,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Ettub-Ettub,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Ettub-Ettub,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Ettub-Ettub,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Ettub-Ettub,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Ettub-Ettub,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Ettub-Ettub,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Ettub-Ettub,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Ettub-Ettub,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Guiong,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Guiong,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Guiong,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Guiong,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Guiong,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Guiong,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Guiong,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Guiong,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Kaum-air,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Kaum-air,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Kaum-air,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Kaum-air,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Kaum-air,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Kaum-air,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Kaum-air,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Kaum-air,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Kaumpamatsaken,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Kaumpamatsaken,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Kaumpamatsaken,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Kaumpamatsaken,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Kaumpamatsaken,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Kaumpamatsaken,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Kaumpamatsaken,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Kaumpamatsaken,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,L. Beinembengan,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,L. Beinembengan,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,L. Beinembengan,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,L. Beinembengan,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,L. Beinembengan,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,L. Beinembengan,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,L. Beinembengan,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,L. Beinembengan,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,L. Cabengbeng,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,L. Cabengbeng,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,L. Cabengbeng,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,L. Cabengbeng,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,L. Cabengbeng,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,L. Cabengbeng,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,L. Cabengbeng,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,L. Cabengbeng,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Libug,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Libug,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Libug,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Libug,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Libug,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Libug,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Libug,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Libug,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Limbocandis,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Limbocandis,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Limbocandis,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Limbocandis,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Limbocandis,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Limbocandis,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Limbocandis,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Limbocandis,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Look- Bait,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Look- Bait,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Look- Bait,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Look- Bait,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Look- Bait,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Look- Bait,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Look- Bait,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Look- Bait,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Lukketon,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Lukketon,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Lukketon,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Lukketon,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Lukketon,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Lukketon,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Lukketon,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Lukketon,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Mahatalang,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Mahatalang,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Mahatalang,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Mahatalang,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Mahatalang,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Mahatalang,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Mahatalang,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Mahatalang,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Manaul,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Manaul,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Manaul,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Manaul,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Manaul,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Manaul,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Manaul,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Manaul,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Mangal (Pob),All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Mangal (Pob),All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Mangal (Pob),All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Mangal (Pob),All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Mangal (Pob),All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Mangal (Pob),All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Mangal (Pob),All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Mangal (Pob),All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Marang,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Marang,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Marang,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Marang,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Marang,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Marang,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Marang,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Marang,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Mebak,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Mebak,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Mebak,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Mebak,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Mebak,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Mebak,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Mebak,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Mebak,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,ahaya Bohe Bato,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,ahaya Bohe Bato,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,ahaya Bohe Bato,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,ahaya Bohe Bato,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,ahaya Bohe Bato,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,ahaya Bohe Bato,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,ahaya Bohe Bato,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,ahaya Bohe Bato,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,apah Bulak,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,apah Bulak,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,apah Bulak,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,apah Bulak,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,apah Bulak,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,apah Bulak,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,apah Bulak,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,apah Bulak,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,umisip Central,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,umisip Central,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,umisip Central,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,umisip Central,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,umisip Central,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,umisip Central,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,umisip Central,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,umisip Central,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Tikus,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Tikus,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Tikus,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Tikus,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Tikus,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Tikus,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Tikus,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Tikus,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Tongsengal,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Tongsengal,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Tongsengal,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Tongsengal,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Tongsengal,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Tongsengal,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Tongsengal,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Tongsengal,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,Tumahubong,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,Tumahubong,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,Tumahubong,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,Tumahubong,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,Tumahubong,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,Tumahubong,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,Tumahubong,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,Tumahubong,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,U. Benembengan,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,U. Benembengan,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,U. Benembengan,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,U. Benembengan,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,U. Benembengan,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,U. Benembengan,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,U. Benembengan,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,U. Benembengan,All Lots,Inner Lot,A50,3.0
+,Sumisip Municipality,U. Cabengbeng,All Lots,Outer Lot,RR,635.0
+,Sumisip Municipality,U. Cabengbeng,All Lots,Inner Lot,RR,320.0
+,Sumisip Municipality,U. Cabengbeng,All Lots,Inner Lot,A2,4.0
+,Sumisip Municipality,U. Cabengbeng,All Lots,Inner Lot,A4,4.0
+,Sumisip Municipality,U. Cabengbeng,All Lots,Inner Lot,A5,4.0
+,Sumisip Municipality,U. Cabengbeng,All Lots,Inner Lot,A12,4.0
+,Sumisip Municipality,U. Cabengbeng,All Lots,Inner Lot,A35,6.0
+,Sumisip Municipality,U. Cabengbeng,All Lots,Inner Lot,A50,3.0
+,Tabuan Lasa Municipality,Babag,All Lots,Outer Lot,RR,635.0
+,Tabuan Lasa Municipality,Babag,All Lots,Inner Lot,RR,320.0
+,Tabuan Lasa Municipality,Babag,All Lots,Inner Lot,A2,4.0
+,Tabuan Lasa Municipality,Babag,All Lots,Inner Lot,A4,4.0
+,Tabuan Lasa Municipality,Babag,All Lots,Inner Lot,A5,4.0
+,Tabuan Lasa Municipality,Babag,All Lots,Inner Lot,A12,4.0
+,Tabuan Lasa Municipality,Babag,All Lots,Inner Lot,A50,3.0
+,Tabuan Lasa Municipality,Balanting,All Lots,Outer Lot,RR,635.0
+,Tabuan Lasa Municipality,Balanting,All Lots,Inner Lot,RR,320.0
+,Tabuan Lasa Municipality,Balanting,All Lots,Inner Lot,A2,4.0
+,Tabuan Lasa Municipality,Balanting,All Lots,Inner Lot,A4,4.0
+,Tabuan Lasa Municipality,Balanting,All Lots,Inner Lot,A5,4.0
+,Tabuan Lasa Municipality,Balanting,All Lots,Inner Lot,A12,4.0
+,Tabuan Lasa Municipality,Balanting,All Lots,Inner Lot,A50,3.0
+,Tabuan Lasa Municipality,Boloh Boloh,All Lots,Outer Lot,RR,635.0
+,Tabuan Lasa Municipality,Boloh Boloh,All Lots,Inner Lot,RR,320.0
+,Tabuan Lasa Municipality,Boloh Boloh,All Lots,Inner Lot,A2,4.0
+,Tabuan Lasa Municipality,Boloh Boloh,All Lots,Inner Lot,A4,4.0
+,Tabuan Lasa Municipality,Boloh Boloh,All Lots,Inner Lot,A5,4.0
+,Tabuan Lasa Municipality,Boloh Boloh,All Lots,Inner Lot,A12,4.0
+,Tabuan Lasa Municipality,Boloh Boloh,All Lots,Inner Lot,A50,3.0
+,Tabuan Lasa Municipality,Bukut-Umos,All Lots,Outer Lot,RR,635.0
+,Tabuan Lasa Municipality,Bukut-Umos,All Lots,Inner Lot,RR,320.0
+,Tabuan Lasa Municipality,Bukut-Umos,All Lots,Inner Lot,A2,4.0
+,Tabuan Lasa Municipality,Bukut-Umos,All Lots,Inner Lot,A4,4.0
+,Tabuan Lasa Municipality,Bukut-Umos,All Lots,Inner Lot,A5,4.0
+,Tabuan Lasa Municipality,Bukut-Umos,All Lots,Inner Lot,A12,4.0
+,Tabuan Lasa Municipality,Bukut-Umos,All Lots,Inner Lot,A50,3.0
+,Tabuan Lasa Municipality,Kaumpurnah,All Lots,Outer Lot,RR,635.0
+,Tabuan Lasa Municipality,Kaumpurnah,All Lots,Inner Lot,RR,320.0
+,Tabuan Lasa Municipality,Kaumpurnah,All Lots,Inner Lot,A2,4.0
+,Tabuan Lasa Municipality,Kaumpurnah,All Lots,Inner Lot,A4,4.0
+,Tabuan Lasa Municipality,Kaumpurnah,All Lots,Inner Lot,A5,4.0
+,Tabuan Lasa Municipality,Kaumpurnah,All Lots,Inner Lot,A12,4.0
+,Tabuan Lasa Municipality,Kaumpurnah,All Lots,Inner Lot,A50,4.0
+,Tabuan Lasa Municipality,Lanawan,All Lots,Outer Lot,RR,635.0
+,Tabuan Lasa Municipality,Lanawan,All Lots,Inner Lot,RR,320.0
+,Tabuan Lasa Municipality,Lanawan,All Lots,Inner Lot,A2,4.0
+,Tabuan Lasa Municipality,Lanawan,All Lots,Inner Lot,A4,4.0
+,Tabuan Lasa Municipality,Lanawan,All Lots,Inner Lot,A5,4.0
+,Tabuan Lasa Municipality,Lanawan,All Lots,Inner Lot,A12,4.0
+,Tabuan Lasa Municipality,Lanawan,All Lots,Inner Lot,A50,3.0
+,Tabuan Lasa Municipality,Pisak-Pisak,All Lots,Outer Lot,RR,635.0
+,Tabuan Lasa Municipality,Pisak-Pisak,All Lots,Inner Lot,RR,320.0
+,Tabuan Lasa Municipality,Pisak-Pisak,All Lots,Inner Lot,A2,4.0
+,Tabuan Lasa Municipality,Pisak-Pisak,All Lots,Inner Lot,A4,4.0
+,Tabuan Lasa Municipality,Pisak-Pisak,All Lots,Inner Lot,A5,4.0
+,Tabuan Lasa Municipality,Pisak-Pisak,All Lots,Inner Lot,A12,4.0
+,Tabuan Lasa Municipality,Pisak-Pisak,All Lots,Inner Lot,A50,3.0
+,Tabuan Lasa Municipality,aluping,All Lots,Outer Lot,RR,635.0
+,Tabuan Lasa Municipality,aluping,All Lots,Inner Lot,RR,320.0
+,Tabuan Lasa Municipality,aluping,All Lots,Inner Lot,A2,4.0
+,Tabuan Lasa Municipality,aluping,All Lots,Inner Lot,A4,4.0
+,Tabuan Lasa Municipality,aluping,All Lots,Inner Lot,A5,4.0
+,Tabuan Lasa Municipality,aluping,All Lots,Inner Lot,A12,4.0
+,Tabuan Lasa Municipality,aluping,All Lots,Inner Lot,A50,3.0
+,Tabuan Lasa Municipality,uligan,All Lots,Outer Lot,RR,635.0
+,Tabuan Lasa Municipality,uligan,All Lots,Inner Lot,RR,320.0
+,Tabuan Lasa Municipality,uligan,All Lots,Inner Lot,A2,4.0
+,Tabuan Lasa Municipality,uligan,All Lots,Inner Lot,A4,4.0
+,Tabuan Lasa Municipality,uligan,All Lots,Inner Lot,A5,4.0
+,Tabuan Lasa Municipality,uligan,All Lots,Inner Lot,A12,4.0
+,Tabuan Lasa Municipality,uligan,All Lots,Inner Lot,A50,3.0
+,Tabuan Lasa Municipality,ulloh,All Lots,Outer Lot,RR,635.0
+,Tabuan Lasa Municipality,ulloh,All Lots,Inner Lot,RR,320.0
+,Tabuan Lasa Municipality,ulloh,All Lots,Inner Lot,A2,3.0
+,Tabuan Lasa Municipality,ulloh,All Lots,Inner Lot,A4,4.0
+,Tabuan Lasa Municipality,ulloh,All Lots,Inner Lot,A5,4.0
+,Tabuan Lasa Municipality,ulloh,All Lots,Inner Lot,A12,4.0
+,Tabuan Lasa Municipality,ulloh,All Lots,Inner Lot,A50,3.0
+,Tabuan Lasa Municipality,Tambulig Boton,All Lots,Outer Lot,RR,635.0
+,Tabuan Lasa Municipality,Tambulig Boton,All Lots,Inner Lot,RR,320.0
+,Tabuan Lasa Municipality,Tambulig Boton,All Lots,Inner Lot,A2,3.0
+,Tabuan Lasa Municipality,Tambulig Boton,All Lots,Inner Lot,A4,4.0
+,Tabuan Lasa Municipality,Tambulig Boton,All Lots,Inner Lot,A5,4.0
+,Tabuan Lasa Municipality,Tambulig Boton,All Lots,Inner Lot,A12,4.0
+,Tabuan Lasa Municipality,Tambulig Boton,All Lots,Inner Lot,A50,3.0
+,Tabuan Lasa Municipality,Tong Umus,All Lots,Outer Lot,RR,635.0
+,Tabuan Lasa Municipality,Tong Umus,All Lots,Inner Lot,RR,320.0
+,Tabuan Lasa Municipality,Tong Umus,All Lots,Inner Lot,A2,3.0
+,Tabuan Lasa Municipality,Tong Umus,All Lots,Inner Lot,A4,4.0
+,Tabuan Lasa Municipality,Tong Umus,All Lots,Inner Lot,A5,4.0
+,Tabuan Lasa Municipality,Tong Umus,All Lots,Inner Lot,A12,4.0
+,Tabuan Lasa Municipality,Tong Umus,All Lots,Inner Lot,A50,3.0
+,Tipo-Tipo Municipality,BADJA,All Lots,Outer Lot,RR,635.0
+,Tipo-Tipo Municipality,BADJA,All Lots,Inner Lot,RR,320.0
+,Tipo-Tipo Municipality,BADJA,All Lots,Inner Lot,A2,4.0
+,Tipo-Tipo Municipality,BADJA,All Lots,Inner Lot,A4,4.0
+,Tipo-Tipo Municipality,BADJA,All Lots,Inner Lot,A5,4.0
+,Tipo-Tipo Municipality,BADJA,All Lots,Inner Lot,A12,4.0
+,Tipo-Tipo Municipality,BADJA,All Lots,Inner Lot,A35,6.0
+,Tipo-Tipo Municipality,BADJA,All Lots,Inner Lot,A50,3.0
+,Tipo-Tipo Municipality,Baguindan,All Lots,Outer Lot,RR,635.0
+,Tipo-Tipo Municipality,Baguindan,All Lots,Inner Lot,RR,320.0
+,Tipo-Tipo Municipality,Baguindan,All Lots,Inner Lot,A2,4.0
+,Tipo-Tipo Municipality,Baguindan,All Lots,Inner Lot,A4,4.0
+,Tipo-Tipo Municipality,Baguindan,All Lots,Inner Lot,A5,4.0
+,Tipo-Tipo Municipality,Baguindan,All Lots,Inner Lot,A12,4.0
+,Tipo-Tipo Municipality,Baguindan,All Lots,Inner Lot,A35,6.0
+,Tipo-Tipo Municipality,Baguindan,All Lots,Inner Lot,A50,3.0
+,Tipo-Tipo Municipality,Banah,All Lots,Outer Lot,RR,635.0
+,Tipo-Tipo Municipality,Banah,All Lots,Inner Lot,RR,320.0
+,Tipo-Tipo Municipality,Banah,All Lots,Inner Lot,A2,4.0
+,Tipo-Tipo Municipality,Banah,All Lots,Inner Lot,A4,4.0
+,Tipo-Tipo Municipality,Banah,All Lots,Inner Lot,A5,4.0
+,Tipo-Tipo Municipality,Banah,All Lots,Inner Lot,A12,4.0
+,Tipo-Tipo Municipality,Banah,All Lots,Inner Lot,A35,6.0
+,Tipo-Tipo Municipality,Banah,All Lots,Inner Lot,A50,3.0
+,Tipo-Tipo Municipality,Bangcoang,All Lots,Outer Lot,RR,635.0
+,Tipo-Tipo Municipality,Bangcoang,All Lots,Inner Lot,RR,320.0
+,Tipo-Tipo Municipality,Bangcoang,All Lots,Inner Lot,A2,4.0
+,Tipo-Tipo Municipality,Bangcoang,All Lots,Inner Lot,A4,4.0
+,Tipo-Tipo Municipality,Bangcoang,All Lots,Inner Lot,A5,4.0
+,Tipo-Tipo Municipality,Bangcoang,All Lots,Inner Lot,A12,4.0
+,Tipo-Tipo Municipality,Bangcoang,All Lots,Inner Lot,A35,6.0
+,Tipo-Tipo Municipality,Bangcoang,All Lots,Inner Lot,A50,3.0
+,Tipo-Tipo Municipality,Bohebaca,All Lots,Outer Lot,RR,635.0
+,Tipo-Tipo Municipality,Bohebaca,All Lots,Inner Lot,RR,320.0
+,Tipo-Tipo Municipality,Bohebaca,All Lots,Inner Lot,A2,4.0
+,Tipo-Tipo Municipality,Bohebaca,All Lots,Inner Lot,A4,4.0
+,Tipo-Tipo Municipality,Bohebaca,All Lots,Inner Lot,A5,4.0
+,Tipo-Tipo Municipality,Bohebaca,All Lots,Inner Lot,A12,4.0
+,Tipo-Tipo Municipality,Bohebaca,All Lots,Inner Lot,A35,6.0
+,Tipo-Tipo Municipality,Bohebaca,All Lots,Inner Lot,A50,3.0
+,Tipo-Tipo Municipality,Bohelebong,All Lots,Outer Lot,RR,635.0
+,Tipo-Tipo Municipality,Bohelebong,All Lots,Inner Lot,RR,320.0
+,Tipo-Tipo Municipality,Bohelebong,All Lots,Inner Lot,A2,4.0
+,Tipo-Tipo Municipality,Bohelebong,All Lots,Inner Lot,A4,4.0
+,Tipo-Tipo Municipality,Bohelebong,All Lots,Inner Lot,A5,4.0
+,Tipo-Tipo Municipality,Bohelebong,All Lots,Inner Lot,A12,4.0
+,Tipo-Tipo Municipality,Bohelebong,All Lots,Inner Lot,A35,6.0
+,Tipo-Tipo Municipality,Bohelebong,All Lots,Inner Lot,A50,3.0
+,Tipo-Tipo Municipality,Bohetambak,All Lots,Outer Lot,RR,635.0
+,Tipo-Tipo Municipality,Bohetambak,All Lots,Inner Lot,RR,320.0
+,Tipo-Tipo Municipality,Bohetambak,All Lots,Inner Lot,A2,4.0
+,Tipo-Tipo Municipality,Bohetambak,All Lots,Inner Lot,A4,4.0
+,Tipo-Tipo Municipality,Bohetambak,All Lots,Inner Lot,A5,4.0
+,Tipo-Tipo Municipality,Bohetambak,All Lots,Inner Lot,A12,4.0
+,Tipo-Tipo Municipality,Bohetambak,All Lots,Inner Lot,A35,6.0
+,Tipo-Tipo Municipality,Bohetambak,All Lots,Inner Lot,A50,3.0
+,Tipo-Tipo Municipality,Lagayas,All Lots,Outer Lot,RR,635.0
+,Tipo-Tipo Municipality,Lagayas,All Lots,Inner Lot,RR,320.0
+,Tipo-Tipo Municipality,Lagayas,All Lots,Inner Lot,A2,4.0
+,Tipo-Tipo Municipality,Lagayas,All Lots,Inner Lot,A4,4.0
+,Tipo-Tipo Municipality,Lagayas,All Lots,Inner Lot,A5,4.0
+,Tipo-Tipo Municipality,Lagayas,All Lots,Inner Lot,A12,4.0
+,Tipo-Tipo Municipality,Lagayas,All Lots,Inner Lot,A35,6.0
+,Tipo-Tipo Municipality,Lagayas,All Lots,Inner Lot,A50,3.0
+,Tipo-Tipo Municipality,Limbo-Umpas,All Lots,Outer Lot,RR,635.0
+,Tipo-Tipo Municipality,Limbo-Umpas,All Lots,Inner Lot,RR,320.0
+,Tipo-Tipo Municipality,Limbo-Umpas,All Lots,Inner Lot,A2,4.0
+,Tipo-Tipo Municipality,Limbo-Umpas,All Lots,Inner Lot,A4,4.0
+,Tipo-Tipo Municipality,Limbo-Umpas,All Lots,Inner Lot,A5,4.0
+,Tipo-Tipo Municipality,Limbo-Umpas,All Lots,Inner Lot,A12,4.0
+,Tipo-Tipo Municipality,Limbo-Umpas,All Lots,Inner Lot,A35,6.0
+,Tipo-Tipo Municipality,Limbo-Umpas,All Lots,Inner Lot,A50,3.0
+,Tipo-Tipo Municipality,ilangkum,All Lots,Outer Lot,RR,635.0
+,Tipo-Tipo Municipality,ilangkum,All Lots,Inner Lot,RR,320.0
+,Tipo-Tipo Municipality,ilangkum,All Lots,Inner Lot,A2,4.0
+,Tipo-Tipo Municipality,ilangkum,All Lots,Inner Lot,A4,4.0
+,Tipo-Tipo Municipality,ilangkum,All Lots,Inner Lot,A5,4.0
+,Tipo-Tipo Municipality,ilangkum,All Lots,Inner Lot,A12,4.0
+,Tipo-Tipo Municipality,ilangkum,All Lots,Inner Lot,A35,6.0
+,Tipo-Tipo Municipality,ilangkum,All Lots,Inner Lot,A50,3.0
+,Tipo-Tipo Municipality,Tipo-Tipo Proper,All Lots,Outer Lot,RR,635.0
+,Tipo-Tipo Municipality,Tipo-Tipo Proper,All Lots,Inner Lot,RR,320.0
+,Tipo-Tipo Municipality,Tipo-Tipo Proper,All Lots,Inner Lot,A2,4.0
+,Tipo-Tipo Municipality,Tipo-Tipo Proper,All Lots,Inner Lot,A4,4.0
+,Tipo-Tipo Municipality,Tipo-Tipo Proper,All Lots,Inner Lot,A5,4.0
+,Tipo-Tipo Municipality,Tipo-Tipo Proper,All Lots,Inner Lot,A12,4.0
+,Tipo-Tipo Municipality,Tipo-Tipo Proper,All Lots,Inner Lot,A35,6.0
+,Tipo-Tipo Municipality,Tipo-Tipo Proper,All Lots,Inner Lot,A50,3.0
+,Tuburan Municipalty,Lahi-Lahi,All Lots,Outer Lot,RR,635.0
+,Tuburan Municipalty,Lahi-Lahi,All Lots,Inner Lot,RR,320.0
+,Tuburan Municipalty,Lahi-Lahi,All Lots,Inner Lot,A2,4.0
+,Tuburan Municipalty,Lahi-Lahi,All Lots,Inner Lot,A4,4.0
+,Tuburan Municipalty,Lahi-Lahi,All Lots,Inner Lot,A5,4.0
+,Tuburan Municipalty,Lahi-Lahi,All Lots,Inner Lot,A12,4.0
+,Tuburan Municipalty,Lahi-Lahi,All Lots,Inner Lot,A35,6.0
+,Tuburan Municipalty,Lahi-Lahi,All Lots,Inner Lot,A50,3.0
+,Tuburan Municipalty,inulatan,All Lots,Outer Lot,RR,635.0
+,Tuburan Municipalty,inulatan,All Lots,Inner Lot,RR,320.0
+,Tuburan Municipalty,inulatan,All Lots,Inner Lot,A2,4.0
+,Tuburan Municipalty,inulatan,All Lots,Inner Lot,A4,4.0
+,Tuburan Municipalty,inulatan,All Lots,Inner Lot,A5,4.0
+,Tuburan Municipalty,inulatan,All Lots,Inner Lot,A12,4.0
+,Tuburan Municipalty,inulatan,All Lots,Inner Lot,A35,6.0
+,Tuburan Municipalty,inulatan,All Lots,Inner Lot,A50,3.0
+,Tuburan Municipalty,Bohetambis,All Lots,Outer Lot,RR,635.0
+,Tuburan Municipalty,Bohetambis,All Lots,Inner Lot,RR,320.0
+,Tuburan Municipalty,Bohetambis,All Lots,Inner Lot,A2,4.0
+,Tuburan Municipalty,Bohetambis,All Lots,Inner Lot,A4,4.0
+,Tuburan Municipalty,Bohetambis,All Lots,Inner Lot,A5,4.0
+,Tuburan Municipalty,Bohetambis,All Lots,Inner Lot,A12,4.0
+,Tuburan Municipalty,Bohetambis,All Lots,Inner Lot,A35,6.0
+,Tuburan Municipalty,Bohetambis,All Lots,Inner Lot,A50,3.0
+,Tuburan Municipalty,Duga-a,All Lots,Outer Lot,RR,635.0
+,Tuburan Municipalty,Duga-a,All Lots,Inner Lot,RR,320.0
+,Tuburan Municipalty,Duga-a,All Lots,Inner Lot,A2,4.0
+,Tuburan Municipalty,Duga-a,All Lots,Inner Lot,A4,4.0
+,Tuburan Municipalty,Duga-a,All Lots,Inner Lot,A5,4.0
+,Tuburan Municipalty,Duga-a,All Lots,Inner Lot,A12,4.0
+,Tuburan Municipalty,Duga-a,All Lots,Inner Lot,A35,6.0
+,Tuburan Municipalty,Duga-a,All Lots,Inner Lot,A50,3.0
+,Tuburan Municipalty,Mahawid,All Lots,Outer Lot,RR,635.0
+,Tuburan Municipalty,Mahawid,All Lots,Inner Lot,RR,320.0
+,Tuburan Municipalty,Mahawid,All Lots,Inner Lot,A2,4.0
+,Tuburan Municipalty,Mahawid,All Lots,Inner Lot,A4,4.0
+,Tuburan Municipalty,Mahawid,All Lots,Inner Lot,A5,4.0
+,Tuburan Municipalty,Mahawid,All Lots,Inner Lot,A12,4.0
+,Tuburan Municipalty,Mahawid,All Lots,Inner Lot,A35,6.0
+,Tuburan Municipalty,Mahawid,All Lots,Inner Lot,A50,3.0
+,Tuburan Municipalty,Lower Sinangkapan,All Lots,Outer Lot,RR,635.0
+,Tuburan Municipalty,Lower Sinangkapan,All Lots,Inner Lot,RR,320.0
+,Tuburan Municipalty,Lower Sinangkapan,All Lots,Inner Lot,A2,4.0
+,Tuburan Municipalty,Lower Sinangkapan,All Lots,Inner Lot,A4,4.0
+,Tuburan Municipalty,Lower Sinangkapan,All Lots,Inner Lot,A5,4.0
+,Tuburan Municipalty,Lower Sinangkapan,All Lots,Inner Lot,A12,4.0
+,Tuburan Municipalty,Lower Sinangkapan,All Lots,Inner Lot,A35,6.0
+,Tuburan Municipalty,Lower Sinangkapan,All Lots,Inner Lot,A50,3.0
+,Tuburan Municipalty,Tablas Usew,All Lots,Outer Lot,RR,635.0
+,Tuburan Municipalty,Tablas Usew,All Lots,Inner Lot,RR,320.0
+,Tuburan Municipalty,Tablas Usew,All Lots,Inner Lot,A2,4.0
+,Tuburan Municipalty,Tablas Usew,All Lots,Inner Lot,A4,4.0
+,Tuburan Municipalty,Tablas Usew,All Lots,Inner Lot,A5,4.0
+,Tuburan Municipalty,Tablas Usew,All Lots,Inner Lot,A12,4.0
+,Tuburan Municipalty,Tablas Usew,All Lots,Inner Lot,A35,6.0
+,Tuburan Municipalty,Tablas Usew,All Lots,Inner Lot,A50,3.0
+,Tuburan Municipalty,Calut,All Lots,Outer Lot,RR,635.0
+,Tuburan Municipalty,Calut,All Lots,Inner Lot,RR,320.0
+,Tuburan Municipalty,Calut,All Lots,Inner Lot,A2,4.0
+,Tuburan Municipalty,Calut,All Lots,Inner Lot,A4,4.0
+,Tuburan Municipalty,Calut,All Lots,Inner Lot,A5,4.0
+,Tuburan Municipalty,Calut,All Lots,Inner Lot,A12,4.0
+,Tuburan Municipalty,Calut,All Lots,Inner Lot,A35,6.0
+,Tuburan Municipalty,Calut,All Lots,Inner Lot,A50,3.0
+,Tuburan Municipalty,Katipunan,All Lots,Outer Lot,RR,635.0
+,Tuburan Municipalty,Katipunan,All Lots,Inner Lot,RR,320.0
+,Tuburan Municipalty,Katipunan,All Lots,Inner Lot,A2,4.0
+,Tuburan Municipalty,Katipunan,All Lots,Inner Lot,A4,4.0
+,Tuburan Municipalty,Katipunan,All Lots,Inner Lot,A5,4.0
+,Tuburan Municipalty,Katipunan,All Lots,Inner Lot,A12,4.0
+,Tuburan Municipalty,Katipunan,All Lots,Inner Lot,A35,6.0
+,Tuburan Municipalty,Katipunan,All Lots,Inner Lot,A50,3.0
+,Tuburan Municipalty,Lower Tablas,All Lots,Outer Lot,RR,635.0
+,Tuburan Municipalty,Lower Tablas,All Lots,Inner Lot,RR,320.0
+,Tuburan Municipalty,Lower Tablas,All Lots,Inner Lot,A2,4.0
+,Tuburan Municipalty,Lower Tablas,All Lots,Inner Lot,A4,4.0
+,Tuburan Municipalty,Lower Tablas,All Lots,Inner Lot,A5,4.0
+,Tuburan Municipalty,Lower Tablas,All Lots,Inner Lot,A12,4.0
+,Tuburan Municipalty,Lower Tablas,All Lots,Inner Lot,A35,6.0
+,Tuburan Municipalty,Lower Tablas,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan Municipality,Amaloy,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan Municipality,Amaloy,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan Municipality,Amaloy,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan Municipality,Amaloy,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan Municipality,Amaloy,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan Municipality,Amaloy,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan Municipality,Amaloy,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan Municipality,Amaloy,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan Municipality,Bohe-Pahuh,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan Municipality,Bohe-Pahuh,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan Municipality,Bohe-Pahuh,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan Municipality,Bohe-Pahuh,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan Municipality,Bohe-Pahuh,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan Municipality,Bohe-Pahuh,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan Municipality,Bohe-Pahuh,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan Municipality,Bohe-Pahuh,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan Municipality,Bohe-Suyak,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan Municipality,Bohe-Suyak,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan Municipality,Bohe-Suyak,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan Municipality,Bohe-Suyak,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan Municipality,Bohe-Suyak,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan Municipality,Bohe-Suyak,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan Municipality,Bohe-Suyak,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan Municipality,Bohe-Suyak,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan Municipality,Cabangalan,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan Municipality,Cabangalan,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan Municipality,Cabangalan,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan Municipality,Cabangalan,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan Municipality,Cabangalan,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan Municipality,Cabangalan,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan Municipality,Cabangalan,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan Municipality,Cabangalan,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan Municipality,Danit,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan Municipality,Danit,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan Municipality,Danit,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan Municipality,Danit,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan Municipality,Danit,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan Municipality,Danit,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan Municipality,Danit,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan Municipality,Danit,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan Municipality,Kamamburingan,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan Municipality,Kamamburingan,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan Municipality,Kamamburingan,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan Municipality,Kamamburingan,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan Municipality,Kamamburingan,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan Municipality,Kamamburingan,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan Municipality,Kamamburingan,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan Municipality,Kamamburingan,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan Municipality,Matata,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan Municipality,Matata,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan Municipality,Matata,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan Municipality,Matata,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan Municipality,Matata,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan Municipality,Matata,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan Municipality,Matata,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan Municipality,Matata,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan Municipality,Materling,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan Municipality,Materling,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan Municipality,Materling,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan Municipality,Materling,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan Municipality,Materling,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan Municipality,Materling,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan Municipality,Materling,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan Municipality,Materling,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan Municipality,Pipil,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan Municipality,Pipil,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan Municipality,Pipil,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan Municipality,Pipil,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan Municipality,Pipil,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan Municipality,Pipil,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan Municipality,Pipil,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan Municipality,Pipil,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan,ungkayut,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan,ungkayut,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan,ungkayut,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan,ungkayut,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan,ungkayut,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan,ungkayut,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan,ungkayut,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan,ungkayut,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan,Tongbato,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan,Tongbato,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan,Tongbato,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan,Tongbato,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan,Tongbato,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan,Tongbato,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan,Tongbato,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan,Tongbato,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan,Ulitan,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan,Ulitan,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan,Ulitan,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan,Ulitan,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan,Ulitan,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan,Ulitan,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan,Ulitan,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan,Ulitan,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan Municipality,Kamamburingan,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan Municipality,Kamamburingan,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan Municipality,Kamamburingan,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan Municipality,Kamamburingan,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan Municipality,Kamamburingan,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan Municipality,Kamamburingan,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan Municipality,Kamamburingan,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan Municipality,Kamamburingan,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan Municipality,Matata,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan Municipality,Matata,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan Municipality,Matata,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan Municipality,Matata,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan Municipality,Matata,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan Municipality,Matata,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan Municipality,Matata,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan Municipality,Matata,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan Municipality,Materling,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan Municipality,Materling,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan Municipality,Materling,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan Municipality,Materling,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan Municipality,Materling,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan Municipality,Materling,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan Municipality,Materling,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan Municipality,Materling,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan Municipality,Pipil,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan Municipality,Pipil,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan Municipality,Pipil,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan Municipality,Pipil,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan Municipality,Pipil,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan Municipality,Pipil,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan Municipality,Pipil,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan Municipality,Pipil,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan,ungkayut,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan,ungkayut,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan,ungkayut,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan,ungkayut,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan,ungkayut,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan,ungkayut,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan,ungkayut,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan,ungkayut,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan,Tongbato,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan,Tongbato,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan,Tongbato,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan,Tongbato,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan,Tongbato,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan,Tongbato,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan,Tongbato,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan,Tongbato,All Lots,Inner Lot,A50,3.0
+,Ungkaya Pukan,Ulitan,All Lots,Outer Lot,RR,635.0
+,Ungkaya Pukan,Ulitan,All Lots,Inner Lot,RR,320.0
+,Ungkaya Pukan,Ulitan,All Lots,Inner Lot,A2,4.0
+,Ungkaya Pukan,Ulitan,All Lots,Inner Lot,A4,4.0
+,Ungkaya Pukan,Ulitan,All Lots,Inner Lot,A5,4.0
+,Ungkaya Pukan,Ulitan,All Lots,Inner Lot,A12,4.0
+,Ungkaya Pukan,Ulitan,All Lots,Inner Lot,A35,6.0
+,Ungkaya Pukan,Ulitan,All Lots,Inner Lot,A50,3.0

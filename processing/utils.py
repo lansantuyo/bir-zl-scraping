@@ -11,13 +11,13 @@ from processing.functions_v2 import mainv2
 
 
 def extract_rdo_number(filename):
-    """Extract the RDO number from the filename for sorting"""
+    """Extract the RDO number (and optional letter) from the filename for sorting."""
     try:
-        match = re.search(r'RDO No\. (\d+)\w? - (.+)\.?(?:xls|xlsx)?', filename, re.IGNORECASE)
-        return int(match.group(1)) if match else float('inf')
+        match = re.search(r'RDO No\. (\d+\w?)\s*-\s*.+\.(?:xls|xlsx)?', filename, re.IGNORECASE)
+        return match.group(1) if match else None
     except (ValueError, IndexError) as e:
         print(f"Error processing filename: {filename} - {e}")
-        return float('inf')
+        return None
 
 
 def process_excel_files(input_dir="data/", base_output_dir="output_files", use_alternate=False, debug=False,
@@ -54,7 +54,7 @@ def process_excel_files(input_dir="data/", base_output_dir="output_files", use_a
 
         if df is not None and sheet_name is not None:
             rdo_number = extract_rdo_number(file)
-            sheet_id = f"RDO_{rdo_number}" if rdo_number != float('inf') else "RDO_UNKNOWN"
+            sheet_id = f"RDO_{rdo_number}" if rdo_number else "RDO_UNKNOWN"
             clean_sheet_name = re.sub(r'[^a-zA-Z0-9]', '_', sheet_name) if sheet_name else "Unknown"
 
             current_sheet_annotations_cache = {}
@@ -139,8 +139,6 @@ def compare_excel_files(file1, file2, num_rows=3, verbose=False, full_diff=False
         full_diff (bool, optional): Whether to continue checking after first difference. Default is False.
         output_path (str, optional): Path to save the comparison results. Default is None.
     """
-    import pandas as pd
-
     # Function to clean values if needed
     def clean_value(value):
         # Add your cleaning logic here if needed
