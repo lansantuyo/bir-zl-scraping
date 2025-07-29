@@ -1,0 +1,65 @@
+{
+  "profile_name": "Test Profile for Manual Mode",
+  "file_settings": {
+    "sheet_identifier": 0
+  },
+  "general_rules": {
+    "data_start_marker": {
+      "enabled": true,
+      "text": "SCHEDULE OF ZONAL VALUES"
+    },
+    "on_index_error": "halt",
+    "carry_down_columns": [
+      2
+    ]
+  },
+  "location_strategy": {
+    "mode": "manual",
+    "manual_definitions": [
+      {
+        "match_pattern": "PROVINCE/CITY",
+        "value_source": {
+          "method": "regex_from_next_row",
+          "pattern": "(?<province>METRO MANILA):(?<city>VALENZUELA CITY)"
+        }
+      },
+      {
+        "match_pattern": "BARANGAY/S",
+        "value_source": {
+          "method": "value_after_colon",
+          "pattern": ":\\s*(?<barangay>.*)"
+        }
+      }
+    ]
+  },
+  "data_extraction_strategy": {
+    "column_mapping": {
+      "province": null,
+      "city": null,
+      "barangay": null,
+      "street": 2,
+      "vicinity": 3,
+      "classification": 4,
+      "zv_sqm": 5
+    },
+    "row_validators": [
+      {
+        "type": "column_not_empty",
+        "index": 5
+      },
+      {
+        "type": "column_not_empty",
+        "index": 4
+      }
+    ],
+    "column_cleaners": [
+      {
+        "index": 5,
+        "apply": [
+          "remove_commas",
+          "to_float"
+        ]
+      }
+    ]
+  }
+}

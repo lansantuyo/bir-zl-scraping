@@ -8,6 +8,7 @@ import argparse
 
 from processing.functions import xls_to_df, main, clean_value
 from processing.functions_v2 import mainv2
+from processing.functions_v3 import mainv3
 
 
 def extract_rdo_number(filename):
@@ -20,7 +21,7 @@ def extract_rdo_number(filename):
         return None
 
 
-def process_excel_files(input_dir="data/", base_output_dir="output_files", use_alternate=False, debug=False,
+def process_excel_files(input_dir="../data/", base_output_dir="output_files", use_alternate="v1", debug=False,
                         initial_version=1):
     """Process Excel files and save results with versioned output"""
     global_annotations_list = []
@@ -59,7 +60,18 @@ def process_excel_files(input_dir="data/", base_output_dir="output_files", use_a
 
             current_sheet_annotations_cache = {}
 
-            if use_alternate:
+            if use_alternate=="v3":
+                # Process the data
+                structured_data = mainv3(
+                    df,
+                    filename_for_ann=file,
+                    sheetname_for_ann=sheet_id,
+                    annotations_cache=current_sheet_annotations_cache,
+                    debug=debug,
+                    debug_location=debug,
+                    debug_header=debug
+                )
+            elif use_alternate=="v2":
                 # Process the data
                 structured_data = mainv2(
                     df,
@@ -70,7 +82,7 @@ def process_excel_files(input_dir="data/", base_output_dir="output_files", use_a
                     debug_location=debug,
                     debug_header=debug
                 )
-            else:
+            elif use_alternate=="v1":
                 structured_data = main(df)
 
             if current_sheet_annotations_cache:
