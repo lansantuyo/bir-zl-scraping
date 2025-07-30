@@ -36,7 +36,7 @@ location:
 #      group: 1
       clean: true
       fuzzy:
-        enabled: false
+        enabled: true
         threshold: 90
 
   city_rules:
@@ -48,7 +48,7 @@ location:
       take: next_cell
       clean: true
       fuzzy:
-        enabled: false
+        enabled: true
         threshold: 90
 #    - regex: "(?i)\\b(?:City|Municipality)\\b\\s*[:\\-]?\\s*(.+)"
 #      group: 1
@@ -57,10 +57,13 @@ location:
     - mode: plain
       texts:
         - "Barangay / Zone :"
+        - "BARANGAY  BAGBAG"
+        - "Zone/Barangay:"
+        - "BARANGAY AGUITAP"
       take: next_cell
       clean: true
       fuzzy:
-        enabled: false
+        enabled: true
         threshold: 90
 #    - mode: regex
 #      regex: "(?i)\\b(?:Barangays?|Zone)\\b\\s*[:\\-]?\\s*(.+)"
@@ -70,16 +73,21 @@ location:
 # Row filters — tell the parser what not to treat as data
 row_filters:
   headers:
-    regex_any:
+    mode: all                # ← “all” means every entry must be present
+    regex_any:               # every one of these patterns must hit at least one cell
       - "(?i)S\\s*T\\s*R\\s*E\\s*E\\s*T"
       - "(?i)V\\s*I\\s*C\\s*I\\s*N\\s*I\\s*T\\s*Y"
       - "(?i)CLASS(?:IFICATION)?"
       - "(?i)Z\\.?V\\.?\\s*/?\\s*SQ\\.?\\s*M\\.?"
-    plain_any:
-      - "FINAL"                         # exact cell content
+    plain_any:               # every one of these exact strings must appear in some cell
+      - "STREET NAME / SUBDIVISION / CONDOMINIUM"
+      - "VICINITY"
+      - "CLASSIFI\nCATION"
+      - "5TH REV\nZV / SQM"
+
   drop_if_row_contains_regex:
-    - "(?i)Effectivity Date"            # skip rows mentioning effectivity dates
-    - "(?i)D\\.?\\s*O\\s*\\.?\\s*No"    # skip “D.O. No …” rows
+    - "(?i)Effectivity Date"
+    - "(?i)D\\.?\\s*O\\s*\\.?\\s*No"
     - "(?i)^\\s*District\\b"
 
 
@@ -120,7 +128,7 @@ validation:
 
   classification:
     whitelist:
-      enabled: true
+      enabled: false
       values:
         - "RESIDENTIAL"
         - "COMMERCIAL"
