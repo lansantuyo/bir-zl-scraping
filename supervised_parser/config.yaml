@@ -1,0 +1,152 @@
+version: 1
+
+# Which sheet to parse
+sheet:
+  select: -1            # -1 ⇒ highest Sheet<number>
+  engine: auto          # xlrd for .xls, openpyxl for .xlsx; auto = let pandas pick
+
+# Fixed column positions (0‑based)
+columns:
+  street: 0
+  vicinity: 1
+  classification: 2
+  zv_sqm: 3
+
+# Location extraction rules
+location:
+  overwrite_policy: overwrite           # every hit replaces the previous value
+
+  # --- combined “PROVINCE/CITY/…” descriptor line ---
+  combined:
+    enabled: false
+    label_row_regex: "(?i)PROVINCE\\s*/\\s*CITY\\s*/\\s*MUNICIPALITY\\s*/\\s*BARANGAYS"
+    value_row_mode: "prefixed_colons"   # next row, cells like ": NUEVA ECIJA"
+    value_order: ["province", "city", "barangay"]
+    split_delimiters: ["/", ";", "|"]   # only used if mode = same_row_split
+    strip_prefix_colon: true
+
+  # --- separate Province / City / Barangay rows ---
+  # note: can be multiple labels per file
+  # Todo: how its located in the row
+  province_rules:
+    - mode: plain
+      text: "Province :"
+      take: after_delim
+#    - regex: "(?i)\\bprovince\\b\\s*[:\\-]?\\s*(.+)"
+#      group: 1
+      clean: true
+      fuzzy:
+        enabled: true
+        threshold: 90
+
+  city_rules:
+    - mode: plain
+      text: "City / Municipality :"
+      take: after_delim
+      clean: true
+      fuzzy:
+        enabled: true
+        threshold: 90
+#    - regex: "(?i)\\b(?:City|Municipality)\\b\\s*[:\\-]?\\s*(.+)"
+#      group: 1
+#      clean: true
+  barangay_rules:
+    - mode: plain
+      text: "Barangay / Zone :"
+      take: after_delim
+      clean: true
+      fuzzy:
+        enabled: true
+        threshold: 90
+#    - mode: regex
+#      regex: "(?i)\\b(?:Barangays?|Zone)\\b\\s*[:\\-]?\\s*(.+)"
+#      group: 1
+#      clean: true
+
+# Row filters — tell the parser what not to treat as data
+row_filters:
+  headers:
+    regex_any:
+      - "(?i)S\\s*T\\s*R\\s*E\\s*E\\s*T"
+      - "(?i)V\\s*I\\s*C\\s*I\\s*N\\s*I\\s*T\\s*Y"
+      - "(?i)CLASS(?:IFICATION)?"
+      - "(?i)Z\\.?V\\.?\\s*/?\\s*SQ\\.?\\s*M\\.?"
+    plain_any:
+      - "FINAL"                         # exact cell content
+  drop_if_row_contains_regex:
+    - "(?i)Effectivity Date"            # skip rows mentioning effectivity dates
+    - "(?i)D\\.?\\s*O\\s*\\.?\\s*No"    # skip “D.O. No …” rows
+    - "(?i)^\\s*District\\b"
+
+
+# Carry‑forward logic
+carry_forward:
+  street: true
+  vicinity: true
+  all_other:
+    enabled: true
+    triggers: ["ALL OTHER", "ALL LOTS"]
+    retain_last_vicinity: true
+
+# Cleaning rules (reuse of your old regexes)
+cleaning:
+  strip_patterns:
+    - "(?i)^no\\.\\s*\\d+\\s*-\\s*"
+    - "(?i)\\(cont\\.?\\)|\\bcontinued\\b|\\brevised\\b.*"
+  trim_trailing_chars: ["_", " "]
+  effectivity_date_regex: "(?i)(D\\.?\\s*O\\s*\\.?\\s*No|Effectivity Date).*"
+
+  numeric_fields: ["zv_sqm"]
+  coerce_numeric:
+    zv_sqm:
+      allow: ["*", "N/A", ""]
+      thousands: [","]
+      decimal: "."
+      round: 3
+
+
+# Validation & whitelist checks
+validation:
+  row_is_data_if_any_present: ["classification", "zv_sqm"]
+
+  zv_sqm:
+    must_be_numeric: false
+    min: 0
+    max: 100000
+
+  classification:
+    whitelist:
+      enabled: true
+      values:
+        - "RESIDENTIAL"
+        - "COMMERCIAL"
+        - "AGRICULTURAL"
+        - "INDUSTRIAL"
+        - "SPECIAL"
+      fuzzy:
+        enabled: true
+        threshold: 88        # ≥88 → auto‑canonicalize; below → just warn
+        canonicalize: true
+    warn_on_unknown: true
+
+
+# Fuzzy header safeguard (disabled by default)
+fuzzy_assist:
+  headers:
+    enabled: false
+    expected:              # fill only if you enable; otherwise leave empty
+      street: ["STREET NAME", "STREET/SUBDIVISION"]
+      vicinity: ["VICINITY"]
+      classification: ["CLASSIFICATION"]
+      zv_sqm: ["ZV/SQM", "ZV SQM"]
+    threshold: 90
+  locations:
+    enabled: false
+    threshold: 90
+    city_canonical_map: {}
+
+
+# Output paths
+output:
+  csv_path: "out.csv"           # where parse_file() will write the final CSV
+  audit_log: null               # fill with "audit.jsonl" when you want an audit
