@@ -143,6 +143,53 @@ class DirectoryDataFrameComparator:
 
     def _match_directory_files(self, directory_files: dict):
         """
+        Matches files from two directories based on a normalized RDO pattern.
+
+        Args:
+            directory_files (dict): Dictionary containing lists of files from both directories.
+
+        Returns:
+            list: List of matched file pairs.
+        """
+        if not directory_files['input_dir_1'] or not directory_files['input_dir_2']:
+            raise ValueError("One or both directories are empty. No comparisons can be made.")
+
+        try:
+            # Pattern to capture RDO number with optional NO./No./underscore
+            rdo_pattern = re.compile(r"RDO\s*(?:NO\.?|No\.?|_)?\s*(\d+[A-Z]?)", re.IGNORECASE)
+
+            def extract_rdo_key(filename):
+                """Extract and normalize RDO key from filename."""
+                match = rdo_pattern.search(filename)
+                if match:
+                    return f"RDO_{match.group(1).upper()}"
+                return None
+
+            dir1_files = {}
+            dir2_files = {}
+
+            for filepath in directory_files.get('input_dir_1', []):
+                rdo_key = extract_rdo_key(filepath.name)
+                if rdo_key:
+                    dir1_files[rdo_key] = filepath
+
+            for filepath in directory_files.get('input_dir_2', []):
+                rdo_key = extract_rdo_key(filepath.name)
+                if rdo_key:
+                    dir2_files[rdo_key] = filepath
+
+            matched_filepairs = [
+                (dir1_files[rdo_key], dir2_files[rdo_key])
+                for rdo_key in dir1_files.keys() & dir2_files.keys()
+            ]
+
+            return matched_filepairs
+
+        except Exception as e:
+            raise e
+
+    def _old_match_directory_files(self, directory_files: dict):
+        """
         Matches files from two directories based on a common pattern.
 
         Args:
@@ -244,6 +291,7 @@ class DirectoryDataFrameComparator:
         Returns:
             pd.DataFrame: The cumulative differences found.
         """
+        print("HELLO")
         cumulative_diff_df = pd.DataFrame(columns=['idx', 'df1_value', 'df2_value', 'column',
                                                   'remarks', 'df1_filename', 'df2_filename'])
         matched_filepairs = self._match_directory_files(self.directory_files)
