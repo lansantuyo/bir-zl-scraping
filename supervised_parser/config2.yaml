@@ -124,7 +124,7 @@ validation:
   zv_sqm:
     must_be_numeric: false
     min: 0
-    max: 100000
+    max: 1000000
 
   classification:
     whitelist:
@@ -140,6 +140,14 @@ validation:
         threshold: 88        # ≥88 → auto‑canonicalize; below → just warn
         canonicalize: true
     warn_on_unknown: true
+
+  invalid_values:
+    classification:
+      exact: [ "DO No.", "Effectivity Date" ]   # any of these exact strings (case‑insensitive)
+#      regex: [ "^EXEMPTED$", "^-$" ]      # additional patterns
+    zv_sqm:
+      exact: [ "047 - 2023", "Oct. 6, 2023" ]           # treat these as “no value”
+#      regex: [ "^\\*$" ]                  # e.g. a single asterisk
 
 
 # Fuzzy header safeguard (disabled by default)
